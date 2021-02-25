@@ -1,0 +1,83 @@
+# Resources
+- **Panel Data Econometrics:** http://people.stern.nyu.edu/wgreene/Econometrics/PanelDataEconometrics.htm
+- **stats:** https://online.stat.psu.edu/statprogram/
+- **Computational Statistics:** https://people.duke.edu/~ccc14/sta-663/index.html
+- **Some Practical Stats:** https://ocw.mit.edu/courses/mathematics/18-650-statistics-for-applications-fall-2016/
+- **Some Statistical Theory:** https://ocw.mit.edu/courses/economics/14-381-statistical-method-in-economics-fall-2018/
+- **Probability:** https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/
+- **Mathematical Stats:** https://ocw.mit.edu/courses/mathematics/18-655-mathematical-statistics-spring-2016/
+- **Matrix Methods:** https://ocw.mit.edu/courses/mathematics/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/index.htm
+- **Data Analysis:** http://www.stat.cmu.edu/~cshalizi/uADA/
+- **Advanced Data Analysis:** http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/
+- **Regression:** http://www.stat.cmu.edu/~cshalizi/mreg/15/
+
+- https://en.wikipedia.org/wiki/Category:History_of_economic_thought
+- https://en.wikipedia.org/wiki/Category:Schools_of_economic_thought
+- https://en.wikipedia.org/wiki/Management_science
+- https://en.wikipedia.org/wiki/Category:Business_process
+- https://en.wikipedia.org/wiki/Category:Bayesian_statistics
+- https://en.wikipedia.org/wiki/Category:Research
+- https://en.wikipedia.org/wiki/Category:Methodology
+- https://en.wikipedia.org/wiki/Category:Evaluation_methods
+- https://en.wikipedia.org/wiki/Category:Strategy
+
+
+- http://www.changingsociety.org/syllabus.html
+
+### People
+- **Cosma Shalizi:** 	  http://www.stat.cmu.edu/~cshalizi/
+- **J Doyne Farmer:** http://www.doynefarmer.com/about-me
+- **Victor Yakovenko**: http://physics.umd.edu/~yakovenk/econophysics/
+- **Judea Pearl:** http://bayes.cs.ucla.edu/jp_home.html
+- **Matheus Grasselli:** https://ms.mcmaster.ca/~grasselli/
+- **Karl Polanyi:** https://en.wikipedia.org/wiki/Karl_Polanyi
+- **Amartya Sen:** https://www.econlib.org/library/Enc/bios/Sen.html
+- **Robert Solow:** https://en.wikipedia.org/wiki/Robert_Solow
+- **Paul Samuelson:** https://en.wikipedia.org/wiki/Paul_Samuelson
+- **Yanis Varoufakis:** https://www.yanisvaroufakis.eu/
+- **Nicholas Economides:** http://neconomides.stern.nyu.edu/networks/
+- **Dan Friedman:** https://leeps.ucsc.edu/people/details/dan-friedman
+- **Hal Varian:** http://people.ischool.berkeley.edu/~hal/people/hal/papers.html
+- **Dimitris Korobilis:** https://sites.google.com/site/dimitriskorobilis/matlab
+- **Omer Tamu:** http://tamuz.caltech.edu/
+- **Adam Wierman:** http://users.cms.caltech.edu/~adamw/
+- **Elchanan Mossel:** http://math.mit.edu/~elmos/
+- **Raj Chetty:** http://www.rajchetty.com/
+- **Susan Athey:** https://athey.people.stanford.edu/research
+- **Matthew O. Jackson:** https://web.stanford.edu/~jacksonm/papersarticles.html
+- **Angus Deaton:** https://scholar.princeton.edu/deaton/publications
+- **Joseph Stiglitz:** https://www8.gsb.columbia.edu/faculty/jstiglitz/
+- **Steven Pressman:** https://en.wikipedia.org/wiki/Steven_Pressman_(economist)
+- **Matthew Baron:** https://www.johnson.cornell.edu/faculty-research/faculty/mdb327/
+- **Thomas Sargent:** http://www.tomsargent.com/
+- **Sanjeev Goyal:** http://www.econ.cam.ac.uk/people/faculty/sg472
+- **Paul Romer:** https://paulromer.net/
+- **James Heckman:** https://heckmanequation.org/
+- **Christopher Sims:** http://www.princeton.edu/~sims/
+- **Kenneth Arrow:** https://fsi.stanford.edu/people/kenneth_j_arrow/
+- **Mark Blyth:** http://markblyth.com/
+- **Bill Mitchell:** http://www.billmitchell.org/
+- **Christopher Knittle:** http://knittel.world/
+- **Jonas Peters:** http://web.math.ku.dk/~peters/
+- **Markus K. Bunnermeier:** https://scholar.princeton.edu/markus/classes
+- **Owen Zidar:** https://scholar.princeton.edu/zidar/classes/
+- **Wei Kang:** https://weikang9009.github.io/
+- **Leigh Tesfatsion:** http://www2.econ.iastate.edu/tesfatsi/
+- **Oliver Hart:** https://scholar.harvard.edu/hart/home
+- **Paul Milgrom:** https://milgrom.people.stanford.edu/
+- **Steven Keen:** https://en.wikipedia.org/wiki/Steve_Keen
+- **Art Owen:** http://statweb.stanford.edu/~owen/
+- **Benjamin Golub:** http://bengolub.net/
+- **Lars Vilhuber:** https://www.vilhuber.com/lars/
+- **Reihnard Selten:** https://en.wikipedia.org/wiki/Reinhard_Selten
+- **Hyman Minsky:** https://en.wikipedia.org/wiki/Hyman_Minsky
+- **Talcott Parsons:** https://en.wikipedia.org/wiki/Talcott_Parsons
+
+### Computational Economics
+- http://www2.econ.iastate.edu/tesfatsi/ace.htm
+- https://www2.cs.duke.edu/courses/fall07/cps196.2/
+- https://quantecon.org/lectures/
+- https://www.cis.upenn.edu/~aaroth/courses/agtS20.html
+- http://timroughgarden.org/f13/f13.html
+- http://people.csail.mit.edu/costis/6853fa2011/
+- https://eml.berkeley.edu/books/choice2.html

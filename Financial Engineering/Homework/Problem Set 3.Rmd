@@ -1,0 +1,82 @@
+---
+title: "Problem Set 3"
+author: "Anthony Fontana"
+output:
+  html_document: default
+---
+
+
+# Question 1 (20 points)
+Assume that the term structure of interest rates in both the United Kingdom and the United States is currently flat and all interest rates are quoted with annual compounding. 
+
+A currency swap has a remaining life of 15 months. It involves exchanging interest at 5% on 20 million GBP for interest at 3% on 30 million USD once a year. If the swap were negotiated today the interest rates exchanged would be 4% in
+dollars and 6% in sterling. The current exchange rate (dollars per pound sterling) is 1.500. What is the value of the swap to the party paying dollars?
+
+# Question 2 (20 points)
+Consider a put option with price $P_t$ and strike price $X$. Denote by $S$ the price of the underlying stock.
+
+### a. (10 points)
+Write the **NET** payoffs (including the cost of the put) to the seller.
+
+### b. (10 points)
+Draw the **NET** payoff to the seller in a diagram with net payoff on the vertical axis and the stock price on the horizontal axis.
+
+# Question 3 (30 points)
+A stock price is currently $50. Over each of the next two 3-month periods it is expected to go up by 7% or down by 6%. The risk-free interest rate is 5% per annum with continuous compounding. What is the value of a 6-month American put option with a
+strike price of $\$51$?
+
+# Question 4 (30 points)
+Assume that the current value of an asset is $S_0 = 100$ and that the mean and volatility of 1-minute returns are $\mu = 0.000000082$ and $\sigma = 0.00048$. Use a binomial model to simulate 100 price paths for a year, assuming 6.5 hours per day and 252 days per year. Compute the annual return for each price path. Plot a histogram (with 20 bins) of the 100 annual returns and report the standard deviation of annual returns. How does the standard deviation of the returns relate to $\sigma$?
+
+### solution
+
+```{r, include=T}
+
+s = 100
+mu = 0.000000082
+sig = 0.00048
+t=252*6.5*60
+u=exp(sig)
+d=1/u
+
+p<-(exp(mu)-d)/(u-d)
+ret<-rep(NA,length=100)
+s<-rep(NA,length=t+1)
+
+s[1]<-100
+
+for(i in 1:100){
+  
+  path<-runif(t)
+  
+  for(j in 1:t){
+    
+    ifelse(path[j]<p,s[j+1]<-s[j]*u,s[j+1]<-s[j]*d)
+    
+  }
+  
+  ret[i]<-(s[length(s)]-100)/100
+  
+}
+
+
+ret<-data.frame(ret)
+
+hist(ret$ret, breaks=20)
+
+sdret<-sd(ret$ret)
+
+sdret
+
+```
+
+
+Standard deviations of returns relates to sigma such that the standard deviation of returns is the annualized version of sigma, or sigma divided by root n. 
+
+
+
+
+
+
+
+

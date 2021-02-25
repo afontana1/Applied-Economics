@@ -1,0 +1,131 @@
+---
+title: "Problem Set 3 Solutions"
+output:
+  pdf_document: default
+  html_notebook: default
+header-includes: \usepackage{tikz}
+---
+
+# Question 1 (20 points)
+Assume that the term structure of interest rates in both the United Kingdom and the United States is currently flat and all interest rates are quoted with annual compounding. 
+
+A currency swap has a remaining life of 15 months. It involves exchanging interest at 5% on 20 million GBP for interest at 3% on 30 million USD once a year. If the swap were negotiated today the interest rates exchanged would be 4% in
+dollars and 6% in sterling. The current exchange rate (dollars per pound sterling) is 1.500. What is the value of the swap to the party paying dollars?
+
+#### Solution:
+Payments exchanged will be $0.05 \times 20m = 1$ million GBP and $0.03\% \times 30m = 0.9$ million USD in 3 months and 15 months. The principal amounts are also exchanged at the end of the life of the swap.
+
+Using the familiar conversion formula ($n=1$ due to annual compounding), continuously compounded interest rates are 3.9\% in dollars and 5.8\% in sterling. 
+
+The present value of sterling payments in sterling is 
+\begin{align}
+V_{s} = 1 \times e^{-0.058\frac{1}{4}} + 21 \times e^{-0.058\frac{5}{4}}
+= 20.52.
+\end{align}
+The present value of dollar payments in dollar is 
+\begin{align}
+V_{d} = 0.9 \times e^{-0.039\frac{1}{4}} + 30.9 \times e^{-0.039\frac{5}{4}}
+= 30.32.
+\end{align}
+
+Therefore, the value of the swap in dollar is
+$20.52 \times 1.5-30.32 = 0.46$ million dollars.
+
+# Question 2 (20 points)
+Consider a put option with price $P_t$ and strike price $X$. Denote by $S$ the price of the underlying stock.
+
+### a. (10 points)
+Write the **NET** payoffs (including the cost of the put) to the seller.
+
+#### Solution:
+A put option is only valuable if the price of the underlying asset closes below the strike price: $S_T < X$. In this case, the seller of the put will lose $X - S_T$, which is the payout to the holder of the put option (i.e. the seller must buy the asset from the holder of the put for $X$, despite the fact that it is only worth $S_T$ on the market). If $S_T > X$ the option goes unexercised and neither the seller nor buyer of the put gain or lose. The resulting gross payoffs are expressed as
+\begin{align*}
+  P_T & = \begin{cases} 0 & \text{if  } S_T > X
+    \\ -(X-S_T) & \text{if  } S_T \leq X. \end{cases}
+\end{align*}
+Taking into account the premium, $P_t$, paid to the seller up front (regardless of the final asset price, $S_T$), the net payoffs are
+\begin{align*}
+  P_T & = \begin{cases} P_t & \text{if  } S_T > X
+    \\ -(X-S_T) + P_t & \text{if  } S_T \leq X. \end{cases}
+\end{align*}
+
+### b. (10 points)
+Draw the **NET** payoff to the seller in a diagram with net payoff on the vertical axis and the stock price on the horizontal axis.
+
+#### Solution:
+\begin{tikzpicture}[scale=0.5]
+\draw [->] (0,0) -- (14,0);
+\node [below right] at (14,0) {$S_T$};
+\node [below] at (6,0) {$X$};
+\node [left] at (0,0) {$0$};
+\draw [->] (0,-6) -- (0,6);
+\node [left] at (0,-4) {$P_t-X$};
+\node [left] at (0,2) {$P_t$};
+\draw (0,-4)--(6,2) -- (12,2);
+\draw [dashed] (0,2) -- (6,2);
+\draw [dashed] (6,0) -- (6,2);
+\end{tikzpicture}
+
+# Question 3 (30 points)
+A stock price is currently $50. Over each of the next two 3-month periods it is expected to go up by 7% or down by 6%. The risk-free interest rate is 5% per annum with continuous compounding. What is the value of a 6-month American put option with a
+strike price of $\$51$?
+
+#### Solution:
+The value of the stock at the end periods is $S_{uu} = \$50 \times (1.07)^2 = \$57.245$, $S_{ud} = S_{du} = \$50.29$ and $S_{dd} = \$44.18$, with associated put values $f_{uu} = 0$, $f_{ud} = f_{du} = \$0.71$, $f_{dd} = \$4.92$. The value of $p$ is 
+\begin{align}
+p = \frac{e^{0.05*\frac{1}{4}}-0.94}{1.07-0.94} = 0.54,
+\end{align}
+and the value of the option at the intermediate nodes is
+\begin{align}
+f_{u} &= e^{-0.05\frac{1}{4}}(0.54\times 0+0.46\times 0.71)=\$0.33, \\
+f_{d} &= e^{-0.05\frac{1}{4}}(0.54\times 0.71+0.46\times 4.92)=\$3.49.
+\end{align}
+At node $ud$, the buyer has an incentive to excercise the option because the resulting payoff is $\$51-\$47 = \$4$ instead of present value of $\$3.49$. Therefore, the value of the American option is 
+\begin{align}
+f = e^{-0.05\frac{1}{4}}(0.54\times 0.33+0.46\times 4) = \$2.00.
+\end{align}
+
+# Question 4 (30 points)
+Assume that the current value of an asset is $S_0 = 100$ and that the mean and volatility of 1-minute returns are $\mu = 0.000000082$ and $\sigma = 0.00048$. Use a binomial model to simulate 100 price paths for a year, assuming 6.5 hours per day and 252 days per year. Compute the annual return for each price path. Plot a histogram (with 20 bins) of the 100 annual returns and report the standard deviation of annual returns. How does the standard deviation of the returns relate to $\sigma$?
+
+#### Solution:
+Given 6.5 hours per day and 252 days per year, each price path should consists of $6.5*60*252 = 98,280$ 1-minute prices. Using a binomial model for price changes, we calibrate the size of upward and downward movements as
+\begin{align}
+  u & = e^{\sigma \sqrt{\Delta t}} = 1.00048 \\
+  d & = e^{-\sigma \sqrt{\Delta t}} = 0.99952, \\
+\end{align}
+where we take $\Delta t = 1$ minute to be the unit of time. As a result, the probability of an up move is
+\begin{align}
+  p^* & = \frac{e^{\mu \Delta t}-d}{u-d} = 0.49979. \\
+\end{align}
+Note that $p^*$ is the actual probability of an upward movement, using the expected return on the asset, $\mu$, to summarize information about future asset values rather than the risk-neutral probability $p  = \frac{e^{r_f \Delta t}-d}{u-d}$, which summarizes future price movements under the assumption that agents are risk neutral and expect only risk-free compensation for holding risky assets. The following code computes 100 price paths of length $98,280$, under distribution $p^*$, and computes the annual return (percentage return of the final price in each trajectory relative to the starting price $S_0 = 100$) for each path. The histogram and standard deviation of annual returns are reported below.
+```{r}
+mu = 0.000000082
+sigma = 0.00048
+u = exp(sigma)
+d = exp(-sigma)
+n = 6.5*60*252
+nSim = 100
+p = (exp(-mu) - d)/(u-d)
+returns = rep(NA,nSim)
+for(i in 1:nSim){
+  price = 100
+  unif = runif(n)
+  for(j in 2:n){
+    if(unif[j]<p){
+      price = price*u
+    } else {
+      price = price*d
+    }
+  }
+  returns[i] = (price - 100)/100
+}
+```
+```{r,fig.width=10}
+hist(returns,breaks=20)
+```
+```{r}
+sd(returns)
+```
+
+The ratio of the emirical annual standard deviation and $\sigma$ is `r sd(returns)/sigma`, which is roughly equal to $\sqrt{n} = \sqrt{98,280} = 313.4964$

@@ -1,0 +1,211 @@
+---
+title: "Problem Set 1"
+output: html_notebook
+---
+
+# Question 1
+
+### a. (5 points)
+Simulate the price process,
+\begin{align}
+  P_t & = \mu + P_{t-1} + \varepsilon_{t},
+\end{align}
+for $t=1,2,\ldots,T$, where $T=100$, $\varepsilon_t = N(0,\sigma^2)$, $\mu = 0.00024$ and $\sigma = 0.013$. You may initiate the simulation with $P_0 = 100$. A correct solution will simply include the simulation code.
+
+#### Solution:
+```{r}
+mu = 0.00024
+sigma = 0.013
+n = 100
+eps = rnorm(n+1,0,sigma)
+P = rep(100,n+1)
+for(i in 1:n){
+  P[i+1] = mu + P[i] + eps[i+1]
+}
+```
+
+
+### b. (10 points)
+Assume that the annualized risk-free rate of interest is $r = 0.0038$. For each $t = 1,2,\ldots,100$, compute the value of a futures contract on the asset prices you simulated in part (a), assuming that the contract expires at time $T=100$, and that the units of time $t$ are days. Plot the trajectories of the futures and asset prices together on a single figure.
+
+#### Solution:
+We know that the futures price is
+\begin{align}
+  F_t & = P_t e^{r\frac{(T-t)}{365}}.
+\end{align}
+The following code computes and plots these prices for $t=1,2,\ldots,100$.
+```{r}
+r = 0.0038
+FP = P[2:(n+1)]*exp(r*(n:1)/365)
+yMin = min(min(P),min(FP))
+yMax = max(max(P),max(FP))
+plot(P[2:(n+1)],type='l',ylim=c(yMin,yMax))
+lines(FP,col='blue')
+```
+
+### c. (5 points)
+What do you notice about the relationship between the futures price and underlying asset price? How might this relationship change?
+
+#### Solution:
+The futures price is consistently above the price of the underlying, but converges to the spot price at maturity. This is because of the positive interest differential, which compensates the short side of the futures contract for holding the underlying until $T=100$. If, however, the asset has a high dividend yield (greater than the risk-free interest rate), the cost of carry would be negative and the futures price would be consistently below the underlying.
+
+### d. (5 points)
+Obtain data for the front-month E-mini S&P 500 futures contract and for the S&P 500 index (Yahoo ticker `^GSPC`) for the period Jan 1, 2017 - Mar 9, 2017. Plot both time series in a single figure. What do you notice about the relationship between the futures and spot prices?
+
+#### Solution:
+```{r}
+library(Quandl)
+library(quantmod)
+getSymbols("^GSPC", from="2017-01-02", to="2017-03-09")
+ES1 = Quandl("CHRIS/CME_ES1",start_date="2017-01-02",end_date="2017-03-09",type="xts")
+plot(GSPC$GSPC.Adj)
+lines(ES1$Settle,col='blue')
+```
+As with the simulation in parts (a) and (b), the futures price is consistently below, but converges to, the spot price.
+
+### e. (10 points)
+Compute and plot the implied \emph{annualized} risk-free interest rate from the futures and spot prices in part (d), assuming that the S&P 500 index has a dividend yield of 1.7\% per year. Assume that the expiry date of the contract is Mar 17, 2017.
+
+#### Solution:
+Using the futures pricing equation, 
+\begin{align}
+  F_t & = S_t e^{(r-\delta)\frac{T-t}{365}},
+\end{align}
+where $\delta = 0.017$. Solving for $r$:
+\begin{align}
+  r_t & = \log(F_t/P_t) \frac{365}{T-t} + \delta.
+\end{align}
+Notice that we have indexed $r$ by time since it may vary throughout the time period. There are a total of 74 days between Jan 2, 2017 and Mar 16, 2017, so we set $T = 74$ and let $t=1,\ldots,74$. The following code computes and plots $r_t$.
+```{r}
+datesTilExp = as.numeric(as.Date("2017-03-17")-index(ES1))
+r = log(ES1$Settle/GSPC$GSPC.Adj)*(365/datesTilExp) + 0.017
+plot(r,type='l')
+```
+
+# Question 2
+
+Suppose you would like to buy cocoa futures on the ICE exchange.
+
+### a. (2 points)
+What are the price units and size for a cocoa contract?
+
+#### Solution:
+According to the ICE website, cocoa futures are quoted in U.S. dollars per metric ton and each contract comprises 10 metric tons of cocoa.
+
+### b. (3 points)
+What was the settlement price of ICE cocoa futures on Apr 11, 2017 and what was the resulting value of a single contract on that day?
+
+#### Solution:
+Using Quandl, we obtain the cocoa futures price for Apr 11, 2017:
+```{r}
+cc1 = Quandl("CHRIS/ICE_CC1",start_date="2017-04-11",end_date="2017-04-11")
+```
+The settlement price is 1972 USD, implying a contract value of 19,720 USD.
+
+### c. (5 points)
+Suppose that the cocoa contract has an initial margin of 1450 USD. If the price of the contract decreases by 1\% in the next day, what will be your percentage loss (on the original base of 1450 USD)? If the price increases by 1%, what would be your percentage gain?
+
+#### Solution:
+If the price falls by 1\% over the next day, the cocoa futures settlement price on Apr 12, 2017 will be $19,720 \times 0.99 = 19,522.80$ USD, resulting in a loss of $19,720 - 19,522.80 = 197.20$ USD, or a percentage loss of $\frac{197.20}{1450} \times 100 = 13.6%$. If the price rises by 1\% over the next day, the cocoa futures settlement price on Apr 12, 2017 will be $19,720 \times 1.01 = 19,917.20$ USD, resulting in a gain of $19,917.20 - 19,720 = 197.20$ USD, or a percentage gain of $\frac{197.20}{1450} \times 100 = 13.6%$
+
+### d. (5 points)
+Calculate the leverage ratio and explain the relationship between the leverage ratio and percentage gain.
+
+#### Solution:
+Leverage ratio is the value of asset over the value of equity. In this case, the leverage ratio is $\frac{19720}{1450}=13.6$. A 1\% increase (decrease) in the price leads to the same percentage gain (loss) as the leverage ratio.  
+
+### e. (5 points)
+Suppose maintenance margin is 1400 USD. What is the lowest settlement price which does not involve a margin call?
+
+#### Solution:
+Every dollar decrease in settlement price reduces margin balance by \$10. Thus, the margin balance attains maintenance margin when the settlement price decreases by $\frac{1450-1400}{10}=5$. A a result, when the settlement price drops below \$1967, there will be a margin call.
+
+# Question 3
+
+### a. (3 points)
+Suppose $APR = 5\%$ and it is semi-annually compounded. What is EAR?
+
+#### Solution:
+The relationship between APR and EAR is 
+\begin{align}
+  1+EAR = \left(1+\frac{APR}{n}\right)^n.
+\end{align}
+
+When $APR=0.05$ and $n=2$, $EAR=0.050625$.
+
+### b. (3 points)
+Suppose $APR = 5\%$ and it is continuously compounded. What is EAR?
+
+#### Solution:
+The relationship between APR and EAR when it is continuously compounded is
+\begin{align}
+  1+EAR = \lim_{n\rightarrow \infty}\left(1+\frac{APR}{n}\right)^n \equiv e^{APR}.
+\end{align}
+
+When $APR=0.05$, $EAR \approx 0.0513$.
+
+### c. (5 points)
+Suppose $APR = 5\%$ and it is semi-annually compounded. What is the equivalent APR with conutinuous compounding?
+
+#### Solution:
+Denote APR with compounding $n$ times per annum as $APR_{n}$ and APR with continuous compounding as $APR_{\infty}$. Using the above two relationships between APR and EAR, when $n=2$ and $APR_{2} = 0.05$, 
+
+\begin{align}
+APR_{\infty} = 2 \ln\left(1+\frac{APR_{2}}{2}\right) \approx 0.0494. 
+\end{align}
+
+### d. (6 points)
+Suppose $APR = 5\%$ and it is continuously compounded, using an actual/actual day count convention. What is the equivalent APR with semi-annually compounding, using an actual/360 day count convention?
+
+#### Solution:
+When the day count is actual/360, you will earn the quoted interest rate in 360 days. Thus, the relationship between APR and EAR becomes
+\begin{align}
+1 + EAR = \left(1+\frac{APR_{n}}{n}\right)^{n*\frac{365}{360}}.
+\end{align}
+Therefore, 
+
+\begin{align}
+APR_{2} = 2\left( e^{\frac{0.05}{2}\frac{360}{365}} -1 \right) = 0.0499.
+\end{align}
+
+Alternatively, you can first calculate APR with semi-annually compounding using actual/actual day count and adjust it to actual/360 later.
+\begin{align}
+APR_{2} = 2\left( e^{\frac{0.05}{2}} -1 \right)*\frac{360}{365} = 0.0499.
+\end{align}
+
+# Question 4
+
+### a. (5 points)
+Consider holding a long position with a forward contract in gold. Express the realized payoff of the forward contract in period $T$ as a function of the forward price and the future spot price.
+
+#### Solution:
+The realized payoff of the forward contract in period $T$ when you are long is the difference in the price you have to pay in period $T$ without and with the foward contract. This is $S_{T}-F_{0}$.
+
+### b. (5 points)
+Suppose the current forward price is \$100 and you expect that the future spot price will be \$99 with probability 0.9 and \$111 with probability 0.1. Calculate the ex-ante payoff of the forward contract when you hold a long position.
+
+#### Solution:
+The ex-ante payoff of the forward contract when you are long is the difference in the expected price you have to pay in period $T$ and current price of the forward contract. This is $(99*0.9+111*0.1)-100 = 0.2$.
+
+
+# Question 5
+
+### a. (6 points)
+Consider forward contracts on an asset. Suppose the foward price is strictly higher than the opportunity cost of holding the asset for $T$ periods. Explain how you can exploit the opportunity for arbitrage.  
+
+#### Solution:
+We know that $F_{0} > S_{0}e^{rT}$. When taking advantage of an arbitrage, one should always buy the cheap asset and sell the expensive. To accomplish the arbitrage, you borrow $S_0$ dollars at rate $r$, buy the asset and short the forward contract. At time $T$, you repay your loan value of $S_{0}e^{rT}$, deliver the asset to your counterparty, and receive $F_0$ for the forward, earning a total of $F_{0} - S_{0}e^{rT} > 0$. 
+
+### b. (6 points)
+Suppose the foward price is strictly lower than the opportunity cost of holding the asset for $T$ periods. Explain how you can exploit the opportunity for arbitrage. 
+
+#### Solution:
+Now $F_{0} < S_{0}e^{rT}$. In this case, you short the asset for $S_0$, invest the money at the risk-free rate $r$, and take the long position in the forward. At time $T$, your savings are worth $S_{0}e^{rT}$, and you pay $F_0$ for the asset (which you use to close out your short position), earning a total of $S_{0}e^{rT} - F_0 > 0$.  
+
+### c. (6 points)
+Consider a future contracts on GBP. The spot price is the value of 1 GBP in USD today. Suppose future price is lower than the opportunity cost of holding 1 GBP for $T$ periods. Explain how you can exploit the opportunity for arbitrage.
+
+#### Solution:
+We know that $F_{0} < S_{0}e^{(r-r_{f})T}$. Rearranging the formula yields $e^{r_{f}T} < \frac{S_{0}e^{rT}}{F_{0}}$. Thus, it is guaranteed that the cost of borrowing GBP and repaying with interest is smaller than the profit of exchanging the borrowed GBP into USD, earning interest on the USD, and exchanging it into GBP in period $T$ using the future contract.
+
+

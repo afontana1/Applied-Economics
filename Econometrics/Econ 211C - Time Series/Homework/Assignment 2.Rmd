@@ -1,0 +1,169 @@
+---
+title: "Assignment 2"
+author: "Anthony Fontana"
+date: "May 9, 2017"
+output: html_document
+---
+
+
+#Number 2
+
+```{r setup, include=TRUE}
+
+### Number 2
+
+###Note: n must be the desired number plus 2
+
+n<-32
+
+func<-function(n){
+  
+phi<-c(1.3,-.41)
+  
+eps<- rnorm(n,0,1)
+  
+output<-matrix(rep(0,n))
+  
+for(i in 3:length(output)){
+    
+    output[i,] <- phi[1]*output[i-1,] + phi[2]*output[i-2,] + eps[i]
+  }
+ 
+ return(output[-(1:2)])
+
+}
+
+
+
+func2<-function(n){
+
+m<-1000
+
+reg1coeff<-matrix(NA,m,1)
+
+reg2coeff<-matrix(NA,m,2)
+
+reg3coeff<-matrix(NA,m,3)   
+       
+    for(i in 1:m){
+      
+      d<-func(n)
+      
+      l<-length(d)
+      
+      reg1<-lm(d[2:l]~d[1:(l-1)])
+      
+      reg2<-lm(d[3:l]~d[2:(l-1)]+d[1:(l-2)])
+      
+      reg3<-lm(d[4:l]~d[3:(l-1)]+d[2:(l-2)]+d[1:(l-3)])
+      
+      reg1coeff[i,]<-summary(reg1)$coefficient[2,1]
+      
+      reg2coeff[i,]<-summary(reg2)$coefficients[c(2:3),1]
+      
+      reg3coeff[i,]<-summary(reg3)$coefficients[c(2:4),1]
+      
+    }
+
+  meanbeta1reg1<-mean(reg1coeff[,1])
+  sdbeta1reg1<-sd(reg1coeff[,1])
+  
+  meanbeta1reg2<-mean(reg2coeff[,1])
+  meanbeta2reg2<-mean(reg2coeff[,2])
+  sdbeta1reg2<-sd(reg2coeff[,1])
+  sdbeta2reg2<-sd(reg2coeff[,2])
+  
+  meanbeta1reg3<-mean(reg3coeff[,1])
+  meanbeta2reg3<-mean(reg3coeff[,2])
+  meanbeta3reg3<-mean(reg3coeff[,3])
+  sdbeta1reg3<-sd(reg3coeff[,1])
+  sdbeta2reg3<-sd(reg3coeff[,2])
+  sdbeta3reg3<-sd(reg3coeff[,3])
+  
+  regressionone<-data.frame(mean=meanbeta1reg1,SD=sdbeta1reg1)
+  
+  regressiontwo<-data.frame(mean1=meanbeta1reg2,mean2=meanbeta2reg2,SD1=sdbeta1reg2,SD2=sdbeta2reg2)
+  
+  regressionthree<-data.frame(mean1=meanbeta1reg3,mean2=meanbeta2reg3,mean3=meanbeta3reg3,SD1=sdbeta1reg3,SD2=sdbeta2reg3,SD3=sdbeta3reg3)
+
+  finalanswer<-data.frame(RegOne=regressionone,RegTwo=regressiontwo,RegThree=regressionthree)
+  
+  return(t(finalanswer))
+
+}
+
+solution1<-func2(32)
+solution2<-func2(1002)
+solution3<-func2(100002)
+
+answer<-cbind(solution1,solution2,solution3)
+
+answer
+
+```
+
+
+
+
+#Number 3
+
+```{r,include=TRUE}
+##### Number 3
+
+library(quantmod)
+library(forecast)
+library(tseries)
+
+#Get Data
+
+getSymbols("XIV",from="2014-04-25", to="2015-04-24")
+
+#Inspect Data
+
+plot(XIV$XIV.Close)
+
+#Test for Stationarity
+
+adf.test(XIV$XIV.Close,alternative="stationary")
+
+#Checking acf plots
+
+acf(XIV$XIV.Close,main=".")
+
+##Both tests suggest non-stationarity
+##Suggest differencing the Series to achieve stationarity
+##only fitting ARMA by instruction so ignoring this issue
+
+model1<-auto.arima(XIV$XIV.Close,0,seasonal = FALSE)
+summary(model1)
+tsdisplay(residuals(model1),lag.max=50)
+
+##appears to fit the model well based on ACF residuals plot, no significant autocorrelations
+##Optimizes model fit criteria including AIC and BIC
+##Minimizes these values
+## future value function of past values, negatively correlated with t-2
+
+forecast1<-forecast(model1,h=20)
+plot.forecast(forecast1)
+
+##Checking to see how well our forecasts are based on a window of prior known values
+
+windowvalues<-window(ts(XIV$XIV.Close),start=225)
+model2<-auto.arima(ts(XIV$XIV.Close[-c(225,252)]),0)
+forecast2<-forecast(model2,h=27)
+plot(forecast2, main="")
+lines(ts(XIV$XIV.Close))
+
+## Forecast has done surprisingly well
+
+```
+
+
+We cant interpret the coefficients from the model withou simulating an impulse response. The signs on the coefficients are meaningful however. The negative and positive values indicate the direction of change in $Y_t$. 
+
+
+
+
+
+
+

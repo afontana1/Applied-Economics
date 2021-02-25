@@ -1,0 +1,33 @@
+---
+title: "Problem Set 4"
+output:
+  html_notebook: default
+  pdf_document: default
+header-includes: \usepackage{tikz}
+---
+
+# Question 1 (50 points)
+Suppose the current value of an asset is $S_0$ and that the
+continuously-compounded annual risk-free interest rate is $r$. You are
+interested in valuing a put option on the asset with strike price
+$X$. Recall the Black-Scholes-Merton option pricing formula for a put:
+\begin{align}
+  P & = X e^{-rT} \Phi(-d_2) - S_0 \Phi(-d_1)\\
+  d_1 & = \frac{\log(S_0/X) + (r+\sigma^2/2)T}{\sigma \sqrt{T}} \\
+  d_2 & = \frac{\log(S_0/X) + (r-\sigma^2/2)T}{\sigma \sqrt{T}} = d_1
+  - \sigma \sqrt{T},
+\end{align}
+where $\sigma$ is the volatility of price increments and $T$ is the
+time to expiry.
+
+### a. (20 points)
+Consider the case where $\sigma \to 0$. What is the value of the put when $S_0 > X e^{-rT}$. Prove your answer mathematically.
+
+### b. (20 points)
+Consider the case where $\sigma \to 0$. What is the value of the put when $S_0 < X e^{-rT}$. Prove your answer mathematically.
+
+### c. (10 points)
+Interpret your solutions to parts (a) and (b).
+
+# Question 2 (50 points)
+Suppose that a stock price $S$ follows geometric Brownian motion with expected return $\mu$ and volatility $\sigma$. What is the process followed by the variable $t^2 S^3$?

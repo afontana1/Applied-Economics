@@ -1,0 +1,122 @@
+---
+title: "Econ 236 Midterm Solutions"
+output:
+  html_document: default
+  html_notebook: default
+  pdf_document: default
+---
+
+Write your name below. By doing this you pledge to obey and follow the
+UCSC Academic Integrity policy.
+
+\vspace{6.0in}
+\hfill \makebox[6in][l]{Name: \hrulefill}
+\newpage
+
+# Question 1 (20 points)
+Suppose that you enter into a 3-month forward contract on a non-dividend-paying stock when the stock price is \$60 and the risk-free interest rate (with continuous compounding) is 8\% per annum.
+
+### a. (5 points)
+What is the forward price?
+
+#### Solution:
+The forward price is
+\begin{align}
+F_{0}&=S_{0}e^{rT} \\
+&=\$60e^{0.08 \times 0.25} \\
+&=\$61.21.
+\end{align}
+
+### b. (5 points)
+Provide an interpretation of the forward price in terms of the spot price.   
+
+#### Solution:
+The forward price is the valuation of the contract based on the cost of financing the spot purchase of the asset at the spot price during the life of the forward contract.
+
+### c. (10 points)
+Suppose you are given the opportunity to buy/sell 1,000 units of the asset at \$65 in the forward market (i.e. $F_0 = \$65$). Explain how much you can earn as profit without any risk. 
+
+#### Solution:
+You take a short position in the opportunity. At the same time, You borrow \$60,000 today and buy 1,000 unit of the asset and hold the asset for 3 months. In 3 months, you deliver the asset and receive \$65,000. After repaying $60,000e^{0.08 \times 0.25} = 61,210$, you will gain \$3,790 as certain profit.
+
+# Question 2 (15 points)
+It is June 8 and a company knows that it will need to purchase 10,000 barrels of crude oil at some time in October or November. Oil futures contracts are currently traded for delivery every month on the NYMEX division of the CME Group and the contract size is 1,000 barrels. The company decides to use the December contract for hedging and takes a position in 10 December contracts. The futures price on June 8 is \$68.00 per barrel. The company finds that it is ready to purchase the crude oil on November 10 and closes out its futures contract on that date. The spot price and futures price on November 10 are \$70.00 per barrel and $69.10 per barrel, respectively. What is the total price paid?
+
+#### Solution:
+This is a long hedge and the price paid  $-10,000(-S_{T}-F_{0}+F_{T}) = -10,000(-70-68+69.1)=\$689,000$.
+
+# Question 3 (25 points)
+Suppose that you own 10,000 shares of eBay stock, currently valued at $P_{ebay} = \$33.82$, and that you want to hedge yourself against market risk by shorting the S\&P 500 exchange traded fund (SPY), currently valued at $P_{spy} = \$239.66$. Assume that the (annualized) risk-free rate is $r_f=0.0030$, that the expected (annual) return to SPY is $\mu_{spy} = 0.102$, and that the expected (annual) return to eBay stock is $\mu_{ebay} = 0.087$.
+
+### a. (12 points)
+If the correlation between eBay and SPY returns is 0.6 and if the volatility of SPY returns is $\sigma_{spy} = 0.15$, what would the volatility of eBay returns need to be so that shorting 1700 SPY shares is a perfect hedge?
+
+#### Solution:
+The hedging formula dicates
+\begin{align}
+  N^* & = \tilde{h} \frac{V_{ebay}}{V_{spy}} = \rho \frac{\sigma_{ebay}}{\sigma_{spy}} \frac{P_{ebay} Q_{ebay}}{P_{spy} Q_{spy}},
+\end{align}
+where $\rho = 0.6$, $\sigma_{sp} = 0.15$, $P_{ebay} = \$33.82$, $Q_{ebay} = 10,000$, $P_{spy} = \$239.66$ and $Q_{spy} = 1$. Assuming $N^* = 1700$ and solving for $\sigma_{ebay}$,
+\begin{align}
+  \sigma_{ebay} & = \frac{N^* \sigma_{spy} P_{spy} Q_{spy}}{\rho P_{ebay} Q_{ebay}} \\
+  & = \frac{1700 \times 0.15 \times 239.66 \times 1}{0.6 \times 33.82 \times 10,000} \\
+  & = 0.301,
+\end{align}
+or 30.1\%.
+
+### b. (6 points)
+Assume that the volatility of eBay stock returns is precisely the value you determined in part (a). What is the CAPM beta of eBay?
+
+#### Solution:
+\begin{align}
+  \beta & = \rho \frac{\sigma_{ebay}}{\sigma_{sp}} = 0.6 \frac{0.301}{0.15} = 1.204.
+\end{align}
+
+### c. (7 points)
+Assume that the beta of eBay stock returns is precisely the value you determined in part (b). How many SPY shares would you have to short if you'd like to reduce your beta to 0.3?
+
+#### Solution:
+Given $\beta = 1.204$ and a target $\beta^* = 0.3$, the number of shares that we need to short to acheive $\beta^*$ is
+\begin{align}
+  N^* & = (\beta - \beta^*) \frac{V_{ebay}}{V_{spy}} = 0.904 \times \frac{33.82 \times 10,000}{239.66} = 1275.694.
+\end{align}
+Rounding to the nearest share, you would need to short 1276 SPY shares.
+
+# Question 4 (15 points)
+Suppose that a Eurodollar futures contract matures on 19 Jun 2017 and has cash price $P = \$999,876$.
+
+### a. (8 points)
+What is the quoted price of the contract?
+
+#### Solution:
+The formula for the cash price of a Eurodollar futures contract is $P = 10,000 \times[100 - 0.25 \times(100-Q)]$. Solving for $Q$:
+\begin{align}
+  Q & = 100-4\times \left(100 - \frac{P}{10000}\right) = 100 - 4\times \left(100 - \frac{999,876}{10,000}\right) = \$99.95.
+\end{align}
+
+### b. (7 points)
+What is the implied LIBOR rate, expressed in continuous compounding?
+
+#### Solution:
+The implied LIBOR rate is $R = 100-Q = 100 - 99.95 = 0.05\%$ or $0.0005$. Since the Eurodollar futures rate is a quarterly compounded interest rate, we convert to continuous compounding via
+\begin{align}
+  r_c & = 4 \times \ln\left(1+\frac{0.0005}{4}\right) = 0.0005. 
+\end{align}
+
+# Question 5 (25 points)
+Under the terms of an interest rate swap, a financial institution has agreed to pay 8% per annum and to receive 3-month LIBOR on a notional principal of $100 million, with payments being exchanged every 3 months. The swap has a remaining life of 5 months. The average of the bid and offer fixed rates currently being swapped for 3-month LIBOR is 10% per annum for all maturities. The 3-month LIBOR rate 1 month ago was 11% per annum. All rates are compounded quarterly. Calculate the value of the swap to the financial institution.
+
+#### Solution:
+First, since 3-month LIBOR is compounded every 3 month, converting it to continuous compounding yields
+\begin{align}
+r_{cc} & = 4\ln \left(1+\frac{0.1}{4}\right) = 0.099.
+\end{align}
+Consider the value of floating payments. The first payment is $100(0.11)\frac{1}{4}=\$2.75 \text{ million}$. Using the folrmula for a floating-rate bond,
+\begin{align}
+V_{float} & = (100+2.75)e^{-0.099 \times \frac{2}{12}}=\$101.07 \text{million}.
+\end{align}
+Consider the value of fixed payments. Each payment is $100(0.08)\frac{1}{4}=\$2 \text{ million}$. Using the formula for a fixed-rate bond,
+\begin{align}
+V_{fix} & = 2e^{-0.099 \times \frac{2}{12}} + 102e^{-0.099 \times \frac{5}{12}} = \$99.85 \text{ million}
+\end{align}
+As a result, the value of the swap is $V_{float} - V_{fix} = \$101.07-\$99.85=\$1.22 \text{ million}$.

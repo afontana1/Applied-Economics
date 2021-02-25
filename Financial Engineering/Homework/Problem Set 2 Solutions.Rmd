@@ -1,0 +1,138 @@
+---
+title: "Problem Set 2 Solutions"
+output:
+  html_notebook: default
+  pdf_document: default
+---
+
+# Question 1
+Suppose that you own 2500 shares of Apple stock.
+
+### a. (15 points)
+Obtain data for the period 01 Jan 2017 - 31 Mar 2017 and estimate the hedge ratio for your portfolio. Use the 3-month U.S. T-bill for the risk-free interest rate. [Notes: (1) T-bill rates are expressed in annual terms - you will need to deannulaize to daily frequency; (2) Do not average the T-bill values - use them day-by-day.]
+
+#### Solution:
+We obtain the T-bill data through Quandl and the Apple and S&P 500 data through quantmod.
+```{r}
+library(Quandl)
+library(quantmod)
+rf = Quandl("FRED/DTB3", start_date="2017-01-01", end_date="2017-03-31",type="xts")
+getSymbols(c("AAPL","^GSPC"), from="2017-01-01", to="2017-03-31")
+```
+To compute the hedge ratio, we estimate the CAPM beta by regressing Apple excess returns on S&P 500 excess returns (where T-bill rates have been deannualized by dividing by 365):
+```{r}
+aaplRets = dailyReturn(AAPL$AAPL.Adj)
+spxRets = dailyReturn(GSPC$GSPC.Adj)
+rfRets = rf/(100*365)
+beta = lm((aaplRets-rfRets)~(spxRets-rfRets))$coef[2]
+```
+The resulting value of beta, `r beta`, is the hedge ratio. 
+
+### b. (10 points)
+How many E-mini S&P 500 futures contracts would you purchase or sell in order to hedge your portfolio on 31 Mar 2017?
+
+#### Solution:
+Since you are long a portfolio of Apple stock, you will need to hedge yourself by shorting futures contracts. The closing price of Apple stock on 31 Mar 2017 was $\$143.66$, resulting in a portfolio value of $\$143.66 \times 2500 = \$359,150$. Likewise the settlement price of the E-mini S\&P 500 futures contract on 31 Mar 2017 (obtained online from Quandl) was $2359.25$ index points, resulting in a contract value of $2359.25 \times \$50 = \$117,962.50$. Using these valuations, we can compute the optimal number of contracts for the hedge:
+\begin{align}
+  N^* & = \beta \frac{V_{AAPL}}{V_{E-mini}} = 0.9218 \frac{359150}{117962.5} = 2.81.
+\end{align}
+Since you can't short fractional E-mini contracts, you round to the nearest integer: your optimal hedging strategy is to short 3 E-minis.
+
+### c. (10 points)
+Suppose you would like to synthesize a portfolio beta of 1. What strategy would you employ?
+
+#### Solution:
+Given our estimated beta, $\beta=0.9218$, and a target beta of 1, $\beta^* = 1$, we can engage in a partial hedge (shorting E-mini contracts) to reduce the estimated beta to the target:
+\begin{align}
+  N^* & = (\beta-\beta^*) \frac{V_{AAPL}}{V_{E-mini}} = -0.078 \frac{359150}{117962.5} = -0.238.
+\end{align}
+Again, since you can't short fractional E-mini contracts, you round to the nearest integer: your optimal hedging strategy is to either purchase an entire E-mini or to do nothing (rounding to zero contracts).
+
+# Question 2 (15 points)
+Sixty futures contracts are used to hedge an exposure to the price of silver. Each futures contract is on $5,000$ ounces of silver. At the time the hedge is closed out, the basis is $\$0.20$ per ounce. What is the effect of the basis on the hedgerâs financial position if (a) the trader is hedging the purchase of silver and (b) the trader is hedging the sale of silver?
+
+#### Solution:
+The excess of the spot over the futures at the time the hedge is closed out is $\$0.20$ per ounce. If the trader is hedging the purchase of silver, the price paid is the futures price plus the basis. The trader therefore loses $60 \times 5,000 \times \$0.20 = \$60,000$. If the trader is hedging the sales of silver, the price received is the futures price plus the basis. The trader therefore gains $\$60,000$.
+
+# Question 3
+### a. (5 points)
+Suppose that LIBOR rates for maturities of $1,2,3,4,5$, and $6$ months are $2.6\%$, $2.9\%$, $3.1\%$, $3.2\%$, $3.25\%$, and $3.3\%$ with continuous compounding. What are the forward rates for future 1-month periods?
+
+#### Solution:
+The forward rate between period $T_{1}$ and $T_{2}$ is calculated as
+\begin{align}
+r_{f} = \frac{T_{2}R_{2}-T_{1}R_{1} }{T_{2}-T_{1}}.
+\end{align}
+
+```{r}
+zerorate <- c(2.6,2.9,3.1,3.2,3.25,3.3)
+k <- length(zerorate)
+forward <- rep(0,length=k-1)
+for (i in 1:length(forward)){
+    forward[i] = ((i+1)*zerorate[i+1]-i*zerorate[i])/((i+1)-i)
+}
+forward <- append(NA,forward)
+results <- cbind(zerorate,forward)
+print(results)
+```
+
+### b. (5 points)
+Prove that a forward rate is strictly larger (smaller) than the two zero rates used to calculate the forward rate when the slope of zero curve at the interval is strictly positive (negative).  
+
+#### Solution:
+Arranging the equation above yields
+\begin{align}
+r_{f} = r_{2} + (r_{2}-r_{1})\frac{t_{1}}{t_{2}-t_{1}}.
+\end{align}
+When the slope is strictly positive ($r_{2}>r_{1}$), the second term is positive and $r_{f} > r_{2} > r_{1}$. When the slope is strictly negative ($r_{2}<r_{1}$), the second term is negative and $r_{f} < r_{2} < r_{1}$. 
+
+### c. (5 points)
+Suppose you can borrow or lend at LIBOR rates. Explain how you can lock in the forward rate for future 1-month period starting in a month.
+
+#### Solution:
+If you want to borrow at the forward rate, you can lend at 2.9\% for 2 months and borrow at 2.6\% for a month. Then, you will pay $e^{0.026/12}\approx 1.002169$ in a month and receive $e^{0.029/6}\approx 1.004845$ in 2 months. The interest rate you face for a month starting in a month is implicitly calculated as
+\begin{align}
+1.002169e^{r^{*}\left(\frac{1}{12}\right)} = 1.004845.
+\end{align}
+That is, $r^{*}=0.031999$ and ignoring the rounding error, this was the forward rate you calculated for part a).
+
+# Question 4 (15 points)
+It is March 10, 2017 today. The cheapest-to-deliver bond in a December 2017 Treasury bond futures contract is an 8\% coupon bond, and delivery is expected to be made on December 31, 2017. Coupon payments on the bond are made on March 1 and September 1 each year. The rate of interest with continuous compounding is 5% per annum for all maturities. The conversion factor for the bond is 1.2191. The current quoted bond price is $137. Calculate the quoted futures price for the contract.
+
+
+#### Solution:
+The opportunity cost of holding treasury bond from March 10, 2017 to December 31, 2017 is $(S_{0}-I)e^{rT}$, where $S_{0}$ is cash price of the bond and $I$ is the present discounted value of coupon payments. The cash bond price, $S_{0}$ is currently $137+4\frac{9}{184}=137.1957$. A coupon of 4 will be received after 175 days or 0.4795 years. The present value of the coupon on the bond, $I$, is $4e^{-0.05?~0.4795}=3.9053$. The futures contract lasts 296 days or 0.8110 years. The cash futures price if it were written on the 8% bond, $F_{0}$, would therefore be $(137.1957 ?|  3.9053)e^{0.05?~0.8110} =138.8061$. 
+
+Lastly, the relationship between quoted price and cash price is 
+\begin{align}
+F_{0} = (\text{Most recent settlement price}) \times  (\text{conversion factor}) + \text{Accrued interests}.
+\end{align}
+At delivery there are 121 days of accrued interest and conversion factor is $1.2191$. Therefore, the quoted price should be  $\frac{138.8061 - 4\frac{121}{182}}{1.2191}=111.68$.
+ 
+# Question 5
+
+Suppose that it is April 27, 2017 and the quoted price of a December, 2017 expiry Eurodollar futures contract is 98.52.
+
+### a. 5 (points)
+What is the expiry date of the futures contract?
+
+#### Solution:
+According to the CME Group contract specificatons for Eurodollar futures, the contracts expire on the second business day prior to the third Wednesday of the contract month. In this case, that is Monday, December 18, 2017.
+
+### b. (5 points)
+What is the implied forward rate and for what period does it apply? Express the rate per year and in terms of the actual period.
+
+#### Solution:
+The implide forward rate is $R - 100 - Q = 100 - 98.52 = 1.48\%$ per annum, and applies for the 3-month period Dec 18, 2017 - Mar 18, 2018. Since the rate is compounded on a quarterly frequency, the actual rate is $1.48\%/4 = 0.37\% = 0.0037$.
+
+### c. (5 points)
+What is the cash price of the contract?
+
+#### Solution:
+The cash price is $P = \$10,000(100 - 0.25R) = 996,300$.
+
+### d. (5 points)
+If the price of the futures contract falls, who benefits and why?
+
+#### Solution:
+The futures contract is considered a hedge for both lender and borrower - on April 27, they lock in the forward LIBOR rate for the period Dec 18, 2017 - Mar 18, 2017. Typically the lender benefits when the future spot rate rises, since she will receive a larger interest payment, so the futures contract is only a hedge if she pays the interest differential on the $1 million principal when rates rise. This means that if rates fall, she gains on the futures contract: the borrower will pay the interest differential to the seller.

@@ -1,0 +1,73 @@
+---
+title: "Econ 211C Midterm"
+author: "Anthony Fontana"
+output:
+  pdf_document: default
+  html_notebook: default
+  html_document: default
+---
+
+# Instructions
+
+1. You may not discuss this exam with any other person in any way ("discuss" includes any form of electronic communication).
+2. You may only reference course materials: notes, textbook and files posted on the Econ 211C website. You may not use Wikipedia, Google or any other online or physical reference.
+3. Print (do not sign) your name below. By doing this you pledge to obey and follow the UCSC Academic Integrity policy and to abide by the instructions above.
+4. Include this cover sheet (with your name printed below) with your solutions.
+
+\vspace{4.0in}
+\hfill \makebox[6in][l]{Name: \hrulefill}
+\newpage
+
+
+# Question 1
+
+Suppose that $X_1, \ldots, X_n \stackrel{i.i.d.}{\sim} Poisson(\lambda)$. That is
+\begin{align}
+  p_X(x) & = \frac{\lambda^x e^{-\lambda}}{x!},
+\end{align}
+for $x \in \{0,1,2,\ldots\}$.
+
+### a. (15 points)
+Derive the log likelihood function.
+
+#### Solution:
+
+### b. (15 points)
+Derive the MLE of $\lambda$.
+
+#### Solution:
+
+### c. (15 points)
+State a Central Limit Theorem for the MLE, $\hat{\lambda}$. You may assume that $E[X_i] = \lambda$ for $i=1,\ldots,n$.
+
+#### Solution:
+
+### d. (20 points)
+Simulate 1000 $i.i.d.$ samples of size $n = 10$ from a $Poisson(\lambda=4)$ distribution. Compute the MLE for each sample and report the fraction of estimates that fall within a two standard deviation interval of the true parameter, under the assumption that the limiting distribution in part (c) holds.
+
+#### Solution
+
+# Question 2
+
+Consider an $AR(1)$ process
+\begin{align}
+  Y_t & = 0.77 Y_{t-1} + \varepsilon_t,
+\end{align}
+where $\varepsilon_t \stackrel{i.i.d.}{\sim} WN(0,\sigma=2.3)$.
+
+### a. (10 points)
+Write a formula for the MSE of an $s$-step ahead forecast. Plot the function as a simple line plot for $s=1,\ldots,30$.
+
+#### Solution:
+
+### b. (25 points)
+Simulate 1000 sample paths of $n=130$ observations of the $AR(1)$ process. For each simulation, use the 100th observation to make forecasts for $s=1,\ldots,30$ and compute the errors relative to the true (simulated) observations. Average the squared errors over the 1000 simulations for each value of $s$, and plot the empirical mean squared error on the same plot as the theoretical MSE computed in part (a).
+
+#### Solution:
+
+
+
+
+
+
+

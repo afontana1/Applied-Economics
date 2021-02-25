@@ -1,0 +1,132 @@
+---
+title: "Econ 211C Assignment 1"
+author: "Aj Fontana"
+date: "April 24, 2017"
+output: html_document
+---
+#Number 1
+##a:
+Is the process weakly stationary and if so calculate the autocovariances
+
+$Y_t=(1+2.4L+0.8L^2)*e_t$
+
+$Y_t=e_t+2.4*e_{t-1}+.8*e_{t-2}$
+
+$E[Y_t]=E[e_t]+E[2.4*e_{t-1}]+E[0.8*e_{t-2}]$
+
+Assuming a mean zero MA(2) process$E[Y_t]=\mu=0$ Autocovariances can be shown to be $E[Y_t*Y_{t-j}]$. Expanding will give the following expressions:
+
+$\rightarrow \gamma_0=(1+\theta_{1}^{2}+\theta_{2}^{2})*\sigma{2}=(1+2.4^2+0.8^2)=7.4$
+
+$\rightarrow \gamma_1=(1+\theta_{1}+\theta_{1}*\theta_{2})*\sigma{2}=(2.4+2.4*(0.8))=4.32$
+
+$\rightarrow \gamma_2=\theta_2*\sigma^{2}=0.8$
+
+##b/c
+Show the process is not invertible and find an invertible representation for it
+$Y_t=(1+2.4L+0.8L^2)*e_t$ can be rewritten as $(1+0.4L)*(1+2L)$ We can see this lies outside the unit circle.
+
+The invertible representation can be found by replacing the root 2 ($\lambda$) with its reciprocal. Also, the autocovariance functions need to be multiplied by $\eta^2$ in this case $2^2$ 
+
+$(1+04.L)*(1+\frac{1}{2}L)$
+
+Expanding: $1+0.5L+0.4L+0.2L^2 = (1+0.9L+0.2L^2)$
+
+$\gamma_0=(1+0.9^2+0.2^2)*4=7.4$
+
+$\gamma_1=(0.9+0.9*0.2)*4=4.32$
+
+$\gamma_2=(0.2)*4=0.8$
+
+#Number 2
+
+```{r, include=TRUE}
+### Number 2
+n<-24000
+sig<-.5
+eps<-rnorm(n,0,sig)
+epsilonmatrix<-matrix(eps,24,1000)
+mu=.61
+theta=.95
+
+y1<-mu+epsilonmatrix[2:24,]+theta*epsilonmatrix[1:23,]
+y2<-mu+epsilonmatrix[2:24,]-theta*epsilonmatrix[1:23,]
+par(mfrow=c(2,1))
+matplot(y1,type="l",main="Time Path for Y1",col=rgb(0,0,0,.2))
+matplot(y2,type="l",main="Time Path for Y2",col=rgb(0,0,0,.2))
+```
+
+
+#Number 3
+##a
+Is this ARMA process weakly stationary?
+
+We only need to look at the AR portion because all MA(p) models are stationary.
+
+$Y_t=1.3Y_{t-1}-0.4Y_{t-2}+e_t$
+
+$\phi(L)=1.3L-0.4L^2$
+
+$\phi(L)= 1-1.3z+.4z^2$
+
+$=(1-.8z)(1-.5z)$
+
+$\frac{1}{\phi(z)}=\frac{1}{(1-.8z)(1-.5z)}=\frac{-1}{(1-.8z)}+\frac{2}{(1-.5z)}$
+
+which can be rewritten using infinite sums which eventually gives us...
+
+$$(\sum_{j=0}^{\infty}[-(0.8)^j+2(0.5)^j]L^j)e_t$$
+
+$$\sum_{j=0}^{\infty}[-(0.8)^j+2(.25)^j]e_{t-j}$$
+Or we could have just simply checked to see if the roots are outside the unit circle by looking at the reciprocal of $\lambda_j$ which shows...
+
+$\frac{1}{0.8}=1.25$ and $\frac{1}{0.5}=2$
+
+##b
+
+```{r,include=TRUE}
+matrix1<-matrix(0,nrow=5,ncol=5)
+matrix1[1,]<-c(0.7,0,0.1,0.5,0.2)
+matrix1[2:5,1:4]<-diag(4)
+eigen(matrix1)$value
+```
+
+Because one of the eigenvalues is outside of the unit circle this is not invertible.
+
+##c
+See Attachment
+
+
+
+##d
+
+
+
+
+
+##e
+
+```{r,include=TRUE}
+ARMA<-function(n,phi,theta){
+  p<-length(phi)
+  q<-length(theta)
+  r<-max(p,q)
+  es<-rnorm(n+r)
+  Y<-rep(0,n+r)
+  Y[1:r]<-rnorm(r)
+  for(i in (r+1):(r+n)){
+    Y[i]<-t(phi)%*%Y[(i-1):(i-p)]+t(theta)%*%es[(i-1):(i-q)]+es[i]
+  }
+}
+
+```
+
+
+##f
+
+```{r,include=TRUE}
+ARMA(10000,2,3)
+```
+
+
+
