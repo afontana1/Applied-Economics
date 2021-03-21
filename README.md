@@ -11,6 +11,7 @@
 - **Advanced Data Analysis:** http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/
 - **Regression:** http://www.stat.cmu.edu/~cshalizi/mreg/15/
 
+- https://en.wikipedia.org/wiki/Evolutionary_economics
 - https://en.wikipedia.org/wiki/Category:History_of_economic_thought
 - https://en.wikipedia.org/wiki/Category:Schools_of_economic_thought
 - https://en.wikipedia.org/wiki/Management_science
@@ -22,10 +23,8 @@
 - https://en.wikipedia.org/wiki/Category:Strategy
 
 
-- http://www.changingsociety.org/syllabus.html
-
 ### People
-- **Cosma Shalizi:** 	  http://www.stat.cmu.edu/~cshalizi/
+- **Cosma Shalizi:** http://www.stat.cmu.edu/~cshalizi/
 - **J Doyne Farmer:** http://www.doynefarmer.com/about-me
 - **Victor Yakovenko**: http://physics.umd.edu/~yakovenk/econophysics/
 - **Judea Pearl:** http://bayes.cs.ucla.edu/jp_home.html
