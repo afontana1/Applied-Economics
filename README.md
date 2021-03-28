@@ -4,7 +4,7 @@
 - **Computational Statistics:** https://people.duke.edu/~ccc14/sta-663/index.html
 - **Some Practical Stats:** https://ocw.mit.edu/courses/mathematics/18-650-statistics-for-applications-fall-2016/
 - **Some Statistical Theory:** https://ocw.mit.edu/courses/economics/14-381-statistical-method-in-economics-fall-2018/
-- **Probability:** https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/
+- **Probability:** https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/ , https://ocw.mit.edu/resources/res-6-012-introduction-to-probability-spring-2018/
 - **Mathematical Stats:** https://ocw.mit.edu/courses/mathematics/18-655-mathematical-statistics-spring-2016/
 - **Matrix Methods:** https://ocw.mit.edu/courses/mathematics/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/index.htm
 - **Data Analysis:** http://www.stat.cmu.edu/~cshalizi/uADA/
