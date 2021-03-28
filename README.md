@@ -10,6 +10,8 @@
 - **Data Analysis:** http://www.stat.cmu.edu/~cshalizi/uADA/
 - **Advanced Data Analysis:** http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/
 - **Regression:** http://www.stat.cmu.edu/~cshalizi/mreg/15/
+- **Game Theory:** https://oyc.yale.edu/economics/econ-159
+- **Financial Theory:** https://oyc.yale.edu/economics/econ-251
 
 - https://en.wikipedia.org/wiki/Evolutionary_economics
 - https://en.wikipedia.org/wiki/Category:History_of_economic_thought
@@ -80,3 +82,10 @@
 - http://timroughgarden.org/f13/f13.html
 - http://people.csail.mit.edu/costis/6853fa2011/
 - https://eml.berkeley.edu/books/choice2.html
+- https://en.wikipedia.org/wiki/Multi-agent_system
+- https://en.wikipedia.org/wiki/Agent-based_model
+- https://en.wikipedia.org/wiki/Evolutionary_game_theory
+- https://en.wikipedia.org/wiki/Cooperative_game_theory
+- https://en.wikipedia.org/wiki/Group_decision-making
+- https://en.wikipedia.org/wiki/Tragedy_of_the_commons
+- https://plato.stanford.edu/entries/convention/
