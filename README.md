@@ -1,4 +1,5 @@
 # Resources
+- **BVAR:** https://sites.google.com/site/dimitriskorobilis/
 - **Panel Data Econometrics:** http://people.stern.nyu.edu/wgreene/Econometrics/PanelDataEconometrics.htm
 - **stats:** https://online.stat.psu.edu/statprogram/
 - **Computational Statistics:** https://people.duke.edu/~ccc14/sta-663/index.html
