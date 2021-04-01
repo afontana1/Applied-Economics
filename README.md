@@ -14,6 +14,7 @@
 - **Game Theory:** https://oyc.yale.edu/economics/econ-159
 - **Financial Theory:** https://oyc.yale.edu/economics/econ-251
 
+## Concepts
 - https://en.wikipedia.org/wiki/Evolutionary_economics
 - https://en.wikipedia.org/wiki/Category:History_of_economic_thought
 - https://en.wikipedia.org/wiki/Category:Schools_of_economic_thought
