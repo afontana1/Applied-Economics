@@ -14,19 +14,6 @@
 - **Game Theory:** https://oyc.yale.edu/economics/econ-159
 - **Financial Theory:** https://oyc.yale.edu/economics/econ-251
 
-## Concepts
-- https://en.wikipedia.org/wiki/Evolutionary_economics
-- https://en.wikipedia.org/wiki/Category:History_of_economic_thought
-- https://en.wikipedia.org/wiki/Category:Schools_of_economic_thought
-- https://en.wikipedia.org/wiki/Management_science
-- https://en.wikipedia.org/wiki/Category:Business_process
-- https://en.wikipedia.org/wiki/Category:Bayesian_statistics
-- https://en.wikipedia.org/wiki/Category:Research
-- https://en.wikipedia.org/wiki/Category:Methodology
-- https://en.wikipedia.org/wiki/Category:Evaluation_methods
-- https://en.wikipedia.org/wiki/Category:Strategy
-
-
 ### People
 - **Cosma Shalizi:** http://www.stat.cmu.edu/~cshalizi/
 - **J Doyne Farmer:** http://www.doynefarmer.com/about-me
