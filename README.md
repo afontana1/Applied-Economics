@@ -78,3 +78,6 @@
 - https://en.wikipedia.org/wiki/Group_decision-making
 - https://en.wikipedia.org/wiki/Tragedy_of_the_commons
 - https://plato.stanford.edu/entries/convention/
+
+### Concepts
+- https://en.wikipedia.org/wiki/Selective_exposure_theory
