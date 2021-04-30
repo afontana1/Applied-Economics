@@ -1,5 +1,8 @@
 # Resources
 - **BVAR:** https://sites.google.com/site/dimitriskorobilis/
+- **Discrete Choice:** http://www.econ.ucla.edu/rmatzkin/researchdiscretechoiceapr11.html
+- **MicroEconometrics:** http://people.stern.nyu.edu/wgreene/Microeconometrics-UAM.htm
+- **Applied Econometrics:** http://people.stern.nyu.edu/wgreene/Econometrics/Econometrics.htm
 - **Panel Data Econometrics:** http://people.stern.nyu.edu/wgreene/Econometrics/PanelDataEconometrics.htm
 - **stats:** https://online.stat.psu.edu/statprogram/
 - **Computational Statistics:** https://people.duke.edu/~ccc14/sta-663/index.html

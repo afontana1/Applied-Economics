@@ -1,6 +1,9 @@
-# Causality
-- https://en.wikipedia.org/wiki/Category:Causality
-- http://statweb.stanford.edu/~owen/courses/363/
+# [Causality](https://en.wikipedia.org/wiki/Category:Causality)
+
+- **Causal Model:** https://en.wikipedia.org/wiki/Causal_model
+- **Graphical Model:** https://en.wikipedia.org/wiki/Graphical_model
+- **Causal Model Philosophy:** https://plato.stanford.edu/entries/causal-models/
+- **Course:** http://statweb.stanford.edu/~owen/courses/363/
 - **Causal Inference Group:** https://ei.is.tuebingen.mpg.de/research_groups/causal-inference-group
 - **Wisconson:** https://www.ssc.wisc.edu/~felwert/causality/
 - **Penn State:** https://www.methodology.psu.edu/ra/causal/
