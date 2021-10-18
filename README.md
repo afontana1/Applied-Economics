@@ -65,6 +65,15 @@
 - **Reihnard Selten:** https://en.wikipedia.org/wiki/Reinhard_Selten
 - **Hyman Minsky:** https://en.wikipedia.org/wiki/Hyman_Minsky
 - **Talcott Parsons:** https://en.wikipedia.org/wiki/Talcott_Parsons
+- **Robert Hodrick:** https://en.wikipedia.org/wiki/Robert_J._Hodrick
+- **Joshua Angrist:** https://economics.mit.edu/faculty/angrist
+- **David Card:** https://davidcard.berkeley.edu/
+- **Guido Imbens:** https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens
+- **John Cochrane:** https://johnhcochrane.blogspot.com/
+- **Drew Fudenberg:** https://economics.mit.edu/faculty/drewf
+- **Abhijit Banerjee:** https://economics.mit.edu/faculty/banerjee
+- **Esther Duflo:** https://economics.mit.edu/faculty/eduflo
+- **Michael Kremer:** https://en.wikipedia.org/wiki/Michael_Kremer
 
 ### Computational Economics
 - http://www2.econ.iastate.edu/tesfatsi/ace.htm
