@@ -93,3 +93,6 @@
 
 ### Concepts
 - https://en.wikipedia.org/wiki/Selective_exposure_theory
+- https://en.wikipedia.org/wiki/Market_failure
+- https://python.quantecon.org/cake_eating_problem.html
+- https://python.quantecon.org/cake_eating_numerical.html
