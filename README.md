@@ -90,6 +90,14 @@
 - https://en.wikipedia.org/wiki/Group_decision-making
 - https://en.wikipedia.org/wiki/Tragedy_of_the_commons
 - https://plato.stanford.edu/entries/convention/
+- **Evolutionary Economics:** 
+	- https://en.wikipedia.org/wiki/Evolutionary_economics
+	- https://www.springer.com/journal/191
+	- https://www.cambridge.org/core/what-we-publish/elements/evolutionary-economics
+	- https://www.sciencedirect.com/topics/economics-econometrics-and-finance/evolutionary-economics
+	- https://www.exploring-economics.org/en/orientation/evolutionary-economics/
+	- https://link.springer.com/chapter/10.1007/3-540-31307-9_3
+	- https://www.sciencedirect.com/referencework/9780128004265/encyclopedia-of-evolutionary-biology
 
 ### Concepts
 - https://en.wikipedia.org/wiki/Selective_exposure_theory
