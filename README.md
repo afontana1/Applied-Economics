@@ -74,6 +74,8 @@
 - **Abhijit Banerjee:** https://economics.mit.edu/faculty/banerjee
 - **Esther Duflo:** https://economics.mit.edu/faculty/eduflo
 - **Michael Kremer:** https://en.wikipedia.org/wiki/Michael_Kremer
+- **Franco Modigliani:** https://en.wikipedia.org/wiki/Franco_Modigliani
+- **James Tobin:** https://en.wikipedia.org/wiki/James_Tobin
 
 ### Computational Economics
 - http://www2.econ.iastate.edu/tesfatsi/ace.htm
