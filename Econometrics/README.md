@@ -23,6 +23,7 @@
 5. https://en.wikipedia.org/wiki/Regression_toward_the_mean
 6. https://en.wikipedia.org/wiki/Data_generating_process
 7. https://bookdown.org/cristobalmoya/iscs_materials/data-generation.html
+8. https://en.wikipedia.org/wiki/Propensity_score_matching
 
 
 ## Books
