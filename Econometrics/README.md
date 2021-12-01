@@ -13,6 +13,8 @@
 11. https://en.wikipedia.org/wiki/Randomized_controlled_trial
 12. https://en.wikipedia.org/wiki/Category:Statistical_data_types
 13. https://en.wikipedia.org/wiki/Category:Survival_analysis
+14. https://en.wikipedia.org/wiki/Category:Sampling_(statistics)
+15. https://en.wikipedia.org/wiki/Category:Statistical_methods
 
 ## Concepts
 
