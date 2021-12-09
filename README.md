@@ -1,6 +1,6 @@
 # [Resources](https://en.wikipedia.org/wiki/Category:Economics)
 - [BVAR](https://sites.google.com/site/dimitriskorobilis/)
-- [Discrete Choice(http://www.econ.ucla.edu/rmatzkin/researchdiscretechoiceapr11.html)
+- [Discrete Choice](http://www.econ.ucla.edu/rmatzkin/researchdiscretechoiceapr11.html)
 - [MicroEconometrics](http://people.stern.nyu.edu/wgreene/Microeconometrics-UAM.htm)
 - [Applied Econometrics](http://people.stern.nyu.edu/wgreene/Econometrics/Econometrics.htm)
 - [Panel Data Econometrics](http://people.stern.nyu.edu/wgreene/Econometrics/PanelDataEconometrics.htm)
