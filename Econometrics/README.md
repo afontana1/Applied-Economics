@@ -17,6 +17,7 @@
 15. https://en.wikipedia.org/wiki/Category:Statistical_methods
 16. https://en.wikipedia.org/wiki/Category:Economic_indicators
 17. https://en.wikipedia.org/wiki/Category:Indicators
+18. https://en.wikipedia.org/wiki/Category:Statistical_hypothesis_testing
 
 ## Concepts
 
