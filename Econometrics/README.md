@@ -18,21 +18,3 @@
 16. https://en.wikipedia.org/wiki/Category:Economic_indicators
 17. https://en.wikipedia.org/wiki/Category:Indicators
 18. https://en.wikipedia.org/wiki/Category:Statistical_hypothesis_testing
-
-## Concepts
-
-1. https://en.wikipedia.org/wiki/Stationary_process
-2. https://rpubs.com/simaan84/regime_switching
-3. https://en.wikipedia.org/wiki/Censoring_(statistics)
-4. https://en.wikipedia.org/wiki/Dose%E2%80%93response_relationship
-5. https://en.wikipedia.org/wiki/Regression_toward_the_mean
-6. https://en.wikipedia.org/wiki/Data_generating_process
-7. https://bookdown.org/cristobalmoya/iscs_materials/data-generation.html
-8. https://en.wikipedia.org/wiki/Propensity_score_matching
-
-
-## Books
-
-1. https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780199559084.001.0001/oxfordhb-9780199559084?rskey=r6oHhU&result=9
-2. https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780199844371.001.0001/oxfordhb-9780199844371?rskey=r6oHhU&result=13
-3. https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780199940042.001.0001/oxfordhb-9780199940042?rskey=f7UILw&result=39
