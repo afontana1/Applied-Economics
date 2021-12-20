@@ -77,7 +77,7 @@
 - [Franco Modigliani](https://en.wikipedia.org/wiki/Franco_Modigliani)
 - [James Tobin](https://en.wikipedia.org/wiki/James_Tobin)
 
-### Computational Economics
+### Computational Economics and [Game Theory](https://en.wikipedia.org/wiki/Category:Game_theory)
 - http://www2.econ.iastate.edu/tesfatsi/ace.htm
 - https://www2.cs.duke.edu/courses/fall07/cps196.2/
 - https://quantecon.org/lectures/
