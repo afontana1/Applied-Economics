@@ -1,4 +1,4 @@
-# Resources
+# [Resources](https://en.wikipedia.org/wiki/Category:Econometric_models) for [Econometrics](https://en.wikipedia.org/wiki/Category:Econometrics)
 
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
 2. [Experiments](https://en.wikipedia.org/wiki/Category:Experiments)
@@ -18,3 +18,4 @@
 16. [Economic_indicators](https://en.wikipedia.org/wiki/Category:Economic_indicators)
 17. [Indicators](https://en.wikipedia.org/wiki/Category:Indicators)
 18. [Statistical_hypothesis_testing](https://en.wikipedia.org/wiki/Category:Statistical_hypothesis_testing)
+19. [Applied Statistics](https://en.wikipedia.org/wiki/Category:Applied_statistics)

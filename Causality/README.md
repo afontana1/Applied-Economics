@@ -10,23 +10,25 @@
 8. [Design of Experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
 9. [Clinical Research](https://en.wikipedia.org/wiki/Category:Clinical_research)
 10. [medical statistics](https://en.wikipedia.org/wiki/Category:Medical_statistics)
+11. [Causal Model](https://en.wikipedia.org/wiki/Causal_model)
+12. [Graphical Model](https://en.wikipedia.org/wiki/Graphical_model)
+13. [Causal Model Philosophy](https://plato.stanford.edu/entries/causal-models/)
+14. [Probability Theory](https://en.wikipedia.org/wiki/Category:Probability_theory)
 
-- **Causal Model:** https://en.wikipedia.org/wiki/Causal_model
-- **Graphical Model:** https://en.wikipedia.org/wiki/Graphical_model
-- **Causal Model Philosophy:** https://plato.stanford.edu/entries/causal-models/
-- **Probability Theory:** https://en.wikipedia.org/wiki/Category:Probability_theory
-- **Course:** http://statweb.stanford.edu/~owen/courses/363/
-- **Causal Inference Group:** https://ei.is.tuebingen.mpg.de/research_groups/causal-inference-group
-- **Wisconson:** https://www.ssc.wisc.edu/~felwert/causality/
-- **Penn State:** https://www.methodology.psu.edu/ra/causal/
-- **Pitt:** https://www.ccd.pitt.edu/
-- **UPenn:** https://www.cceb.med.upenn.edu/cci
-- **Alan Turing Institute:** https://www.turing.ac.uk/research/interest-groups/causal-inference
-- **Peter Sprites**: https://www.cmu.edu/dietrich/philosophy/people/faculty/spirtes.html
-- **Clark Glymour:** https://www.cmu.edu/dietrich/philosophy/people/emeritus/glymour.html
-- **Kun Zhang:** http://www.andrew.cmu.edu/user/kunz1/index.html
-- **Blog:** http://causality.cs.ucla.edu/blog/
-- **SEM:** https://m-clark.github.io/sem/
+## Groups, Courses, and People
+
+1. [Course](http://statweb.stanford.edu/~owen/courses/363/)
+2. [Causal Inference Group](https://ei.is.tuebingen.mpg.de/research_groups/causal-inference-group)
+3. [Wisconsin](https://www.ssc.wisc.edu/~felwert/causality/)
+4. [Penn State](https://www.methodology.psu.edu/ra/causal/)
+5. [Pitts](https://www.ccd.pitt.edu/)
+6. [U Penn](https://www.cceb.med.upenn.edu/cci)
+7. [Alan Turing Institute](https://www.turing.ac.uk/research/interest-groups/causal-inference)
+8. [Peter Sprites](https://www.cmu.edu/dietrich/philosophy/people/faculty/spirtes.html)
+9. [Clark Glymour](https://www.cmu.edu/dietrich/philosophy/people/emeritus/glymour.html)
+10. [Kun Zhang](http://www.andrew.cmu.edu/user/kunz1/index.html)
+11. [UCLA Blog](http://causality.cs.ucla.edu/blog/)
+12. [SEM](https://m-clark.github.io/sem/)
 
 ## MODULE 1
 

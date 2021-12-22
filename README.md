@@ -1,4 +1,5 @@
-# [Resources](https://en.wikipedia.org/wiki/Category:Economics)
+# [Resources](https://en.wikipedia.org/wiki/Category:Economics) for Economics
+
 - [BVAR](https://sites.google.com/site/dimitriskorobilis/)
 - [Discrete Choice](http://www.econ.ucla.edu/rmatzkin/researchdiscretechoiceapr11.html)
 - [MicroEconometrics](http://people.stern.nyu.edu/wgreene/Microeconometrics-UAM.htm)
@@ -76,34 +77,49 @@
 - [Michael Kremer](https://en.wikipedia.org/wiki/Michael_Kremer)
 - [Franco Modigliani](https://en.wikipedia.org/wiki/Franco_Modigliani)
 - [James Tobin](https://en.wikipedia.org/wiki/James_Tobin)
+- [Herbert A. Simon](https://www.cs.cmu.edu/simon/bio.html))
+	* [Society](https://herbertsimonsociety.org/)
+	* [Website](https://www.hetwebsite.net/het/profiles/simon.htm)
 
-### Computational Economics and [Game Theory](https://en.wikipedia.org/wiki/Category:Game_theory)
-- http://www2.econ.iastate.edu/tesfatsi/ace.htm
-- https://www2.cs.duke.edu/courses/fall07/cps196.2/
-- https://quantecon.org/lectures/
-- https://www.cis.upenn.edu/~aaroth/courses/agtS20.html
-- http://timroughgarden.org/f13/f13.html
-- http://people.csail.mit.edu/costis/6853fa2011/
-- https://eml.berkeley.edu/books/choice2.html
-- https://en.wikipedia.org/wiki/Multi-agent_system
-- https://en.wikipedia.org/wiki/Agent-based_model
 
-### [Concepts](https://en.wikipedia.org/wiki/Category:Economic_theories)
-- https://en.wikipedia.org/wiki/Selective_exposure_theory
-- https://en.wikipedia.org/wiki/Market_failure
-- https://python.quantecon.org/cake_eating_problem.html
-- https://python.quantecon.org/cake_eating_numerical.html
-- https://en.wikipedia.org/wiki/Granger_causality
-- https://en.wikipedia.org/wiki/Pareto_efficiency
-- https://en.wikipedia.org/wiki/Evolutionary_game_theory
-- https://en.wikipedia.org/wiki/Cooperative_game_theory
-- https://en.wikipedia.org/wiki/Group_decision-making
-- https://en.wikipedia.org/wiki/Tragedy_of_the_commons
-- https://plato.stanford.edu/entries/convention/
-- [Evolutionary Economics](https://en.wikipedia.org/wiki/Evolutionary_economics)
+### [Concepts and Theories](https://en.wikipedia.org/wiki/Category:Economic_theories)
+
+1. [Selective_exposure_theory](https://en.wikipedia.org/wiki/Selective_exposure_theory)
+2. [Market_failure](https://en.wikipedia.org/wiki/Market_failure)
+3. [cake_eating_problem](https://python.quantecon.org/cake_eating_problem.html)
+4. [cake_eating_numerical](https://python.quantecon.org/cake_eating_numerical.html)
+5. [Granger_causality](https://en.wikipedia.org/wiki/Granger_causality)
+6. [Pareto_efficiency](https://en.wikipedia.org/wiki/Pareto_efficiency)
+7. [Evolutionary_game_theory](https://en.wikipedia.org/wiki/Evolutionary_game_theory)
+8. [Cooperative_game_theory](https://en.wikipedia.org/wiki/Cooperative_game_theory)
+9. [Group_decision](https://en.wikipedia.org/wiki/Group_decision-making)
+10. [Tragedy_of_the_commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons)
+11. [Mechanism_design](https://en.wikipedia.org/wiki/Mechanism_design)
+12. [Rational_choice_theory](https://en.wikipedia.org/wiki/Rational_choice_theory)
+13. [Multi agent_system](https://en.wikipedia.org/wiki/Multi-agent_system)
+14. [Agent Based Models](https://en.wikipedia.org/wiki/Agent-based_model)
+15. [Impossibility Theorem](https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem)
+16. [Critical Juncture Theory](https://en.wikipedia.org/wiki/Critical_juncture_theory)
+
+
+### [Schools of Thought](https://en.wikipedia.org/wiki/Category:Schools_of_economic_thought) and [History of Economic Thought](https://en.wikipedia.org/wiki/Category:History_of_economic_thought)
+
+1. [Mainstream](https://en.wikipedia.org/wiki/Mainstream_economics)
+2. [Heterodox Economics](https://en.wikipedia.org/wiki/Heterodox_economics)
+3. [Evolutionary Economics](https://en.wikipedia.org/wiki/Evolutionary_economics)
 	- https://www.springer.com/journal/191
 	- https://www.cambridge.org/core/what-we-publish/elements/evolutionary-economics
 	- https://www.sciencedirect.com/topics/economics-econometrics-and-finance/evolutionary-economics
 	- https://www.exploring-economics.org/en/orientation/evolutionary-economics/
 	- https://link.springer.com/chapter/10.1007/3-540-31307-9_3
 	- https://www.sciencedirect.com/referencework/9780128004265/encyclopedia-of-evolutionary-biology
+
+4. [Computational Economics](http://www2.econ.iastate.edu/tesfatsi/ace.htm) and [Game Theory](https://en.wikipedia.org/wiki/Category:Game_theory)
+	- [Introduction to Computational Economics](https://www2.cs.duke.edu/courses/fall07/cps196.2/)
+	- [Quantitative Economics](https://quantecon.org/lectures/)
+	- [Algorithmic Game Theory](https://www.cis.upenn.edu/~aaroth/courses/agtS20.html)
+	- [Tim Roughgarden Lectures](http://timroughgarden.org/f13/f13.html)
+	- [Topics in Algorithmic Game Theory](http://people.csail.mit.edu/costis/6853fa2011/)
+	- [Discrete Choice and Simulation](https://eml.berkeley.edu/books/choice2.html)
+
+5. [Schools_of_economic_thought](https://en.wikipedia.org/wiki/Schools_of_economic_thought)
