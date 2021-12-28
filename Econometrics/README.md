@@ -19,3 +19,4 @@
 17. [Indicators](https://en.wikipedia.org/wiki/Category:Indicators)
 18. [Statistical_hypothesis_testing](https://en.wikipedia.org/wiki/Category:Statistical_hypothesis_testing)
 19. [Applied Statistics](https://en.wikipedia.org/wiki/Category:Applied_statistics)
+20. [Measurement](https://en.wikipedia.org/wiki/Category:Measurement)
