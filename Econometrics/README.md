@@ -20,3 +20,5 @@
 18. [Statistical_hypothesis_testing](https://en.wikipedia.org/wiki/Category:Statistical_hypothesis_testing)
 19. [Applied Statistics](https://en.wikipedia.org/wiki/Category:Applied_statistics)
 20. [Measurement](https://en.wikipedia.org/wiki/Category:Measurement)
+21. [Probability Distributions](https://en.wikipedia.org/wiki/Category:Probability_distributions)
+22. [Game Theory](https://en.wikipedia.org/wiki/Category:Game_theory)
