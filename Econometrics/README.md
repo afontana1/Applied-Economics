@@ -22,3 +22,5 @@
 20. [Measurement](https://en.wikipedia.org/wiki/Category:Measurement)
 21. [Probability Distributions](https://en.wikipedia.org/wiki/Category:Probability_distributions)
 22. [Game Theory](https://en.wikipedia.org/wiki/Category:Game_theory)
+23. [Extreme Value Theory](https://en.wikipedia.org/wiki/Extreme_value_theory)
+24. [Latent Variable Models](https://en.wikipedia.org/wiki/Category:Latent_variable_models)

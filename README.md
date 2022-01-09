@@ -77,6 +77,8 @@
 - [Michael Kremer](https://en.wikipedia.org/wiki/Michael_Kremer)
 - [Franco Modigliani](https://en.wikipedia.org/wiki/Franco_Modigliani)
 - [James Tobin](https://en.wikipedia.org/wiki/James_Tobin)
+- [Friedman](https://en.wikipedia.org/wiki/Milton_Friedman)
+- [Keynes](https://en.wikipedia.org/wiki/John_Maynard_Keynes)
 - [Herbert A. Simon](https://www.cs.cmu.edu/simon/bio.html))
 	* [Society](https://herbertsimonsociety.org/)
 	* [Website](https://www.hetwebsite.net/het/profiles/simon.htm)
