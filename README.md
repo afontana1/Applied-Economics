@@ -86,6 +86,8 @@
 
 ### [Concepts and Theories](https://en.wikipedia.org/wiki/Category:Economic_theories)
 
+- [Outline of Economics](https://en.wikipedia.org/wiki/Outline_of_economics)
+
 1. [Selective_exposure_theory](https://en.wikipedia.org/wiki/Selective_exposure_theory)
 2. [Market_failure](https://en.wikipedia.org/wiki/Market_failure)
 3. [cake_eating_problem](https://python.quantecon.org/cake_eating_problem.html)
