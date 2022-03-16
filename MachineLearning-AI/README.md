@@ -11,6 +11,7 @@
 9. [Artificial Intelligence](https://en.wikipedia.org/wiki/Category:Artificial_intelligence)
 10. [NLP](https://en.wikipedia.org/wiki/Category:Natural_language_processing)
 11. [AI BOOK](https://artint.info/index.html)
+12. [Prnciples of Forecasting](https://otexts.com/fpp2/)
 
 ## Resources
 
