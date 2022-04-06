@@ -9,21 +9,9 @@
 7. [Awesome RL](https://github.com/aikorea/awesome-rl)
 8. [Machine Learning](https://en.wikipedia.org/wiki/Category:Machine_learning) and [ML Algorithms](https://en.wikipedia.org/wiki/Category:Machine_learning_algorithms)
 9. [Artificial Intelligence](https://en.wikipedia.org/wiki/Category:Artificial_intelligence)
-10. [NLP](https://en.wikipedia.org/wiki/Category:Natural_language_processing)
-11. [AI BOOK](https://artint.info/index.html)
-12. [Prnciples of Forecasting](https://otexts.com/fpp2/)
-
-## Resources
-
-1. [Studies in Computational Intelligence](https://www.springer.com/series/7092)
-
-## Additional related courses
-- https://www.coursera.org/specializations/aml
-- https://www.coursera.org/specializations/probabilistic-graphical-models
-- https://www.coursera.org/specializations/data-mining
-- https://www.coursera.org/specializations/reinforcement-learning
-- https://www.coursera.org/specializations/bioinformatics
-- https://www.coursera.org/specializations/natural-language-processing
+10. [AI BOOK](https://artint.info/index.html)
+11. [Prnciples of Forecasting](https://otexts.com/fpp2/)
+12. [AI Notes](https://users.cs.cf.ac.uk/Dave.Marshall/AI2/AI_notes.html)
 
 ### Additional resources
 **ML**
@@ -46,12 +34,3 @@
 **NLP**
 - https://web.stanford.edu/~jurafsky/slp3/
 - https://nlp.stanford.edu/IR-book/information-retrieval-book.html
-
-**AI**
-- https://spinningup.openai.com/en/latest/index.html
-- http://rl.cs.mcgill.ca/index.html
-- http://www.imperial.ac.uk/machine-learning/research/theory/reinforcement-online-learning/
-- http://pages.cs.wisc.edu/~dyer/cs540/
-- https://en.wikipedia.org/wiki/Collective_intelligence
-- https://ocw.mit.edu/resources/res-9-003-brains-minds-and-machines-summer-course-summer-2015/
-- https://users.cs.cf.ac.uk/Dave.Marshall/AI2/AI_notes.html
