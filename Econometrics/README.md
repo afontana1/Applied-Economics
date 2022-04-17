@@ -32,6 +32,7 @@
 30. [Statistical Inference](https://en.wikipedia.org/wiki/Category:Statistical_inference)
 31. [Time Series](https://en.wikipedia.org/wiki/Category:Time_series)
 32. [Decision Theory](https://en.wikipedia.org/wiki/Category:Decision_theory)
+33. [Stochastic Process](https://en.wikipedia.org/wiki/Category:Stochastic_processes)
 
 
 # [Sampling](https://en.wikipedia.org/wiki/Category:Sampling_(statistics)) and [Probability](https://en.wikipedia.org/wiki/Category:Probability_distributions) [Distributions](https://en.wikipedia.org/wiki/List_of_probability_distributions)

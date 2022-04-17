@@ -15,13 +15,6 @@
 13. [Causal Model Philosophy](https://plato.stanford.edu/entries/causal-models/)
 14. [Probability Theory](https://en.wikipedia.org/wiki/Category:Probability_theory)
 
-## Resources for Inference
-
-1. [Kalman-and-Bayesian-Filters-in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)
-2. [PYMC3 Resources](https://github.com/pymc-devs/resources)
-3. [Probabilistic-Programming-and-Bayesian-Methods-for-Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
-4. [Causal Impact](https://github.com/ricoms/causalimpact)
-
 ## Groups, Courses, and People
 
 1. [Course](http://statweb.stanford.edu/~owen/courses/363/)

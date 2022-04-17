@@ -104,6 +104,8 @@
 14. [Agent Based Models](https://en.wikipedia.org/wiki/Agent-based_model)
 15. [Impossibility Theorem](https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem)
 16. [Critical Juncture Theory](https://en.wikipedia.org/wiki/Critical_juncture_theory)
+17. [Heckman Correction](https://en.wikipedia.org/wiki/Heckman_correction)
+18. [Propensity Score](https://en.wikipedia.org/wiki/Propensity_score_matching)
 
 
 ### [Schools of Thought](https://en.wikipedia.org/wiki/Category:Schools_of_economic_thought) and [History of Economic Thought](https://en.wikipedia.org/wiki/Category:History_of_economic_thought)
