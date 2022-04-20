@@ -28,7 +28,8 @@
 9. [Clark Glymour](https://www.cmu.edu/dietrich/philosophy/people/emeritus/glymour.html)
 10. [Kun Zhang](http://www.andrew.cmu.edu/user/kunz1/index.html)
 11. [UCLA Blog](http://causality.cs.ucla.edu/blog/)
-12. [SEM](https://m-clark.github.io/sem/)
+12. [DoWhy](https://github.com/microsoft/dowhy)
+13. [Causal Impact](https://github.com/ricoms/causalimpact)
 
 ## MODULE 1
 

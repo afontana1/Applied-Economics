@@ -1,5 +1,6 @@
-# [Resources](https://en.wikipedia.org/wiki/Category:Economics) for Economics
+# [Resources](https://en.wikipedia.org/wiki/Category:Economics) for [Economics](https://en.wikipedia.org/wiki/Outline_of_economics)
 
+- [Concepts and Theories](https://en.wikipedia.org/wiki/Category:Economic_theories)
 - [BVAR](https://sites.google.com/site/dimitriskorobilis/)
 - [Discrete Choice](http://www.econ.ucla.edu/rmatzkin/researchdiscretechoiceapr11.html)
 - [MicroEconometrics](http://people.stern.nyu.edu/wgreene/Microeconometrics-UAM.htm)
@@ -17,9 +18,10 @@
 - [Regression](http://www.stat.cmu.edu/~cshalizi/mreg/15/)
 - [Game Theory](https://oyc.yale.edu/economics/econ-159)
 - [Financial Theory](https://oyc.yale.edu/economics/econ-251)
+- [Evolutionary_game_theory](https://en.wikipedia.org/wiki/Evolutionary_game_theory)
+- [Cooperative_game_theory](https://en.wikipedia.org/wiki/Cooperative_game_theory)
 
 ### [People](https://en.wikipedia.org/wiki/List_of_economists)
-- [Cosma Shalizi](http://www.stat.cmu.edu/~cshalizi/)
 - [J Doyne Farmer](http://www.doynefarmer.com/about-me)
 - [Victor Yakovenko](http://physics.umd.edu/~yakovenk/econophysics/)
 - [Judea Pearl](http://bayes.cs.ucla.edu/jp_home.html)
@@ -32,7 +34,6 @@
 - [Nicholas Economides](http://neconomides.stern.nyu.edu/networks/)
 - [Dan Friedman](https://leeps.ucsc.edu/people/details/dan-friedman)
 - [Hal Varian](http://people.ischool.berkeley.edu/~hal/people/hal/papers.html)
-- [Dimitris Korobilis](https://sites.google.com/site/dimitriskorobilis/matlab)
 - [Omer Tamu](http://tamuz.caltech.edu/)
 - [Adam Wierman](http://users.cms.caltech.edu/~adamw/)
 - [Elchanan Mossel](http://math.mit.edu/~elmos/)
@@ -83,31 +84,6 @@
 	* [Society](https://herbertsimonsociety.org/)
 	* [Website](https://www.hetwebsite.net/het/profiles/simon.htm)
 
-
-### [Concepts and Theories](https://en.wikipedia.org/wiki/Category:Economic_theories)
-
-- [Outline of Economics](https://en.wikipedia.org/wiki/Outline_of_economics)
-
-1. [Selective_exposure_theory](https://en.wikipedia.org/wiki/Selective_exposure_theory)
-2. [Market_failure](https://en.wikipedia.org/wiki/Market_failure)
-3. [cake_eating_problem](https://python.quantecon.org/cake_eating_problem.html)
-4. [cake_eating_numerical](https://python.quantecon.org/cake_eating_numerical.html)
-5. [Granger_causality](https://en.wikipedia.org/wiki/Granger_causality)
-6. [Pareto_efficiency](https://en.wikipedia.org/wiki/Pareto_efficiency)
-7. [Evolutionary_game_theory](https://en.wikipedia.org/wiki/Evolutionary_game_theory)
-8. [Cooperative_game_theory](https://en.wikipedia.org/wiki/Cooperative_game_theory)
-9. [Group_decision](https://en.wikipedia.org/wiki/Group_decision-making)
-10. [Tragedy_of_the_commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons)
-11. [Mechanism_design](https://en.wikipedia.org/wiki/Mechanism_design)
-12. [Rational_choice_theory](https://en.wikipedia.org/wiki/Rational_choice_theory)
-13. [Multi agent_system](https://en.wikipedia.org/wiki/Multi-agent_system)
-14. [Agent Based Models](https://en.wikipedia.org/wiki/Agent-based_model)
-15. [Impossibility Theorem](https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem)
-16. [Critical Juncture Theory](https://en.wikipedia.org/wiki/Critical_juncture_theory)
-17. [Heckman Correction](https://en.wikipedia.org/wiki/Heckman_correction)
-18. [Propensity Score](https://en.wikipedia.org/wiki/Propensity_score_matching)
-
-
 ### [Schools of Thought](https://en.wikipedia.org/wiki/Category:Schools_of_economic_thought) and [History of Economic Thought](https://en.wikipedia.org/wiki/Category:History_of_economic_thought)
 
 1. [Mainstream](https://en.wikipedia.org/wiki/Mainstream_economics)
@@ -119,13 +95,3 @@
 	- https://www.exploring-economics.org/en/orientation/evolutionary-economics/
 	- https://link.springer.com/chapter/10.1007/3-540-31307-9_3
 	- https://www.sciencedirect.com/referencework/9780128004265/encyclopedia-of-evolutionary-biology
-
-4. [Computational Economics](http://www2.econ.iastate.edu/tesfatsi/ace.htm) and [Game Theory](https://en.wikipedia.org/wiki/Category:Game_theory)
-	- [Introduction to Computational Economics](https://www2.cs.duke.edu/courses/fall07/cps196.2/)
-	- [Quantitative Economics](https://quantecon.org/lectures/)
-	- [Algorithmic Game Theory](https://www.cis.upenn.edu/~aaroth/courses/agtS20.html)
-	- [Tim Roughgarden Lectures](http://timroughgarden.org/f13/f13.html)
-	- [Topics in Algorithmic Game Theory](http://people.csail.mit.edu/costis/6853fa2011/)
-	- [Discrete Choice and Simulation](https://eml.berkeley.edu/books/choice2.html)
-
-5. [Schools_of_economic_thought](https://en.wikipedia.org/wiki/Schools_of_economic_thought)
