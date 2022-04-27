@@ -20,6 +20,8 @@
 	- [Topics in Algorithmic Game Theory](http://people.csail.mit.edu/costis/6853fa2011/)
 	- [Discrete Choice and Simulation](https://eml.berkeley.edu/books/choice2.html)
 14. [NowCasting](https://github.com/MajesticKhan/Nowcasting-Python)
+15. [Bayesloop](https://github.com/christophmark/bayesloop)
+16. [Pomegranate](https://github.com/jmschrei/pomegranate)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)

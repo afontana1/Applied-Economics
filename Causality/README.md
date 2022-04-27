@@ -30,6 +30,7 @@
 11. [UCLA Blog](http://causality.cs.ucla.edu/blog/)
 12. [DoWhy](https://github.com/microsoft/dowhy)
 13. [Causal Impact](https://github.com/ricoms/causalimpact)
+14. [Causal Discovery](https://github.com/SirLori96/causal_discovery)
 
 ## MODULE 1
 
