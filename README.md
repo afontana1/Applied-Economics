@@ -83,7 +83,6 @@
 	* [Website](https://www.hetwebsite.net/het/profiles/simon.htm)
 
 ### [Schools of Thought](https://en.wikipedia.org/wiki/Category:Schools_of_economic_thought) and [History of Economic Thought](https://en.wikipedia.org/wiki/Category:History_of_economic_thought)
-
 1. [Mainstream](https://en.wikipedia.org/wiki/Mainstream_economics)
 2. [Heterodox Economics](https://en.wikipedia.org/wiki/Heterodox_economics)
 3. [Evolutionary Economics](https://en.wikipedia.org/wiki/Evolutionary_economics)
@@ -93,3 +92,14 @@
 	- https://www.exploring-economics.org/en/orientation/evolutionary-economics/
 	- https://link.springer.com/chapter/10.1007/3-540-31307-9_3
 	- https://www.sciencedirect.com/referencework/9780128004265/encyclopedia-of-evolutionary-biology
+
+#### [Political Economy](https://en.wikipedia.org/wiki/Category:Political_economy)
+1. [Ideologies](https://en.wikipedia.org/wiki/Category:Ideologies)
+2. [Political Ideologies](https://en.wikipedia.org/wiki/Category:Political_ideologies)
+	- [List of Political Ideologies](https://en.wikipedia.org/wiki/List_of_political_ideologies)
+	- [Political Systems](https://en.wikipedia.org/wiki/Category:Political_systems)
+3. [Political Philosophy](https://en.wikipedia.org/wiki/Category:Political_philosophy)
+4. [Political Theories](https://en.wikipedia.org/wiki/Category:Political_theories)
+5. [Political Science Theories](https://en.wikipedia.org/wiki/Category:Political_science_theories)
+6. [Economic Systems](https://en.wikipedia.org/wiki/Category:Economic_systems)
+7. [Economic Ideologies](https://en.wikipedia.org/wiki/Category:Economic_ideologies)
