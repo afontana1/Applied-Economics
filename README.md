@@ -81,6 +81,9 @@
 - [Herbert A. Simon](https://www.cs.cmu.edu/simon/bio.html)
 	* [Society](https://herbertsimonsociety.org/)
 	* [Website](https://www.hetwebsite.net/het/profiles/simon.htm)
+- [Matthew O. Jackson](https://web.stanford.edu/~jacksonm/)
+- [Brian Arthur](https://en.wikipedia.org/wiki/W._Brian_Arthur)
+- [Jozef Barunik (Networks)](https://barunik.github.io/)
 
 ### [Schools of Thought](https://en.wikipedia.org/wiki/Category:Schools_of_economic_thought) and [History of Economic Thought](https://en.wikipedia.org/wiki/Category:History_of_economic_thought)
 1. [Mainstream](https://en.wikipedia.org/wiki/Mainstream_economics)

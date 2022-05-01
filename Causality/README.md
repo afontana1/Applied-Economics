@@ -31,6 +31,7 @@
 12. [DoWhy](https://github.com/microsoft/dowhy)
 13. [Causal Impact](https://github.com/ricoms/causalimpact)
 14. [Causal Discovery](https://github.com/SirLori96/causal_discovery)
+15. [Targeted Learning](https://www.youtube.com/playlist?list=PLy_CaFomwGGGH10tbq9zSyfHVrdklMaLe)
 
 ## MODULE 1
 

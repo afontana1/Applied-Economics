@@ -22,6 +22,7 @@
 14. [NowCasting](https://github.com/MajesticKhan/Nowcasting-Python)
 15. [Bayesloop](https://github.com/christophmark/bayesloop)
 16. [Pomegranate](https://github.com/jmschrei/pomegranate)
+17. [Computational Bayesian Statistics](https://sjster.github.io/introduction_to_computational_statistics/docs/index.html)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
