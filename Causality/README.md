@@ -33,6 +33,23 @@
 14. [Causal Discovery](https://github.com/SirLori96/causal_discovery)
 15. [Targeted Learning](https://www.youtube.com/playlist?list=PLy_CaFomwGGGH10tbq9zSyfHVrdklMaLe)
 
+## Videos
+- [Causal Inference Playlist 1](https://www.youtube.com/watch?v=zvrcyqcN9Wo&list=PL0fusIJuNs3NTG-5R1AljT1gl-qWbJGgF)
+- [Causal Inference Playlist 2](https://www.youtube.com/watch?v=6SCoaBo1MqU&list=PLTnoloBvEJ0sDUd5aK42oXnDgZ7e63Dor)
+- [Causal Inference Course](https://www.youtube.com/playlist?list=PLoazKTcS0RzZ1SUgeOgc6SWt51gfT80N0)
+- [Machine Learning & Causal Inference](https://www.youtube.com/playlist?list=PLxq_lXOUlvQAoWZEqhRqHNezS30lI49G-)
+
+1. [Introduction to Causal Inference: Philosophy, Framework and Key Methods PART ONE](https://www.youtube.com/watch?v=BQkmzrn8pl4)
+2. [Introduction to Causal Inference: Philosophy, Framework and Key Methods PART TWO](https://www.youtube.com/watch?v=A0vMD6IiQW4)
+3. [Introduction to Causal Inference: Philosophy, Framework and Key Methods PART THREE](https://www.youtube.com/watch?v=tGXal3vmRRc)
+4. [Introduction to Causal Inference: Philosophy, Framework and Key Methods PART FOUR](https://www.youtube.com/watch?v=lF3ampZt9sQ)
+5. [Causal Inference in Machine Learning and AI](https://www.youtube.com/watch?v=GtpnWQ9uTL8)
+6. [Michael Johns: Propensity Score Matching: A Non-experimental Approach to Causal Inference| PyData NYC 2019](https://www.youtube.com/watch?v=gaUgW7NWai8)
+7. [Susan Athey Guest Talk - Estimating Heterogeneous Treatment Effects](https://www.youtube.com/watch?v=oZoizsX3bts)
+8. [Conditional Average Treatment Effects: Overview](https://www.youtube.com/watch?v=BH8U-BMPklw)
+9. [Crimes against data, Professor Andrew Gelman](https://www.youtube.com/watch?v=fc1hkFC2c1E&t=939s)
+10. [Causal Inference: Making the Right Intervention | QuantumBlack](https://www.youtube.com/watch?v=O5-vbOWQhLo&t=391s)
+
 ## MODULE 1
 
 - Holland, P. (1986), “Statistics and Causal Inference,” (with discussion), Journal of the American Statistical Association, 81, 945-970.
