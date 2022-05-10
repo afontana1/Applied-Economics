@@ -32,6 +32,7 @@
 13. [Causal Impact](https://github.com/ricoms/causalimpact)
 14. [Causal Discovery](https://github.com/SirLori96/causal_discovery)
 15. [Targeted Learning](https://www.youtube.com/playlist?list=PLy_CaFomwGGGH10tbq9zSyfHVrdklMaLe)
+16. [Causality and Causal Inference Course](https://chalmers.instructure.com/courses/10036)
 
 ## Videos
 - [Causal Inference Playlist 1](https://www.youtube.com/watch?v=zvrcyqcN9Wo&list=PL0fusIJuNs3NTG-5R1AljT1gl-qWbJGgF)
@@ -49,6 +50,7 @@
 8. [Conditional Average Treatment Effects: Overview](https://www.youtube.com/watch?v=BH8U-BMPklw)
 9. [Crimes against data, Professor Andrew Gelman](https://www.youtube.com/watch?v=fc1hkFC2c1E&t=939s)
 10. [Causal Inference: Making the Right Intervention | QuantumBlack](https://www.youtube.com/watch?v=O5-vbOWQhLo&t=391s)
+11. [Causal Inference -- Online Lectures (M.Sc/PhD Level)](https://www.youtube.com/playlist?list=PLyvUJLHD8IsJCB7ALqwjRG1BjL5JxE__H)
 
 ## MODULE 1
 
