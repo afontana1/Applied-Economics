@@ -33,6 +33,7 @@
 14. [Causal Discovery](https://github.com/SirLori96/causal_discovery)
 15. [Targeted Learning](https://www.youtube.com/playlist?list=PLy_CaFomwGGGH10tbq9zSyfHVrdklMaLe)
 16. [Causality and Causal Inference Course](https://chalmers.instructure.com/courses/10036)
+17. [Causal Inference and Learning Course](https://www.cs.uic.edu/~elena/courses/fall19/cs594cil.html)
 
 ## Videos
 - [Causal Inference Playlist 1](https://www.youtube.com/watch?v=zvrcyqcN9Wo&list=PL0fusIJuNs3NTG-5R1AljT1gl-qWbJGgF)
