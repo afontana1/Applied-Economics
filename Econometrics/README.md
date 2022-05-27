@@ -68,6 +68,8 @@
 41. [Agent Based Models](https://en.wikipedia.org/wiki/Agent-based_model)
 42. [Heckman Correction](https://en.wikipedia.org/wiki/Heckman_correction)
 43. [Propensity Score](https://en.wikipedia.org/wiki/Propensity_score_matching)
+44. [Regression Analysis](https://en.wikipedia.org/wiki/Category:Regression_analysis)
+45. [Multivariate statistics](https://en.wikipedia.org/wiki/Category:Multivariate_statistics)
 
 
 ## [Sampling](https://en.wikipedia.org/wiki/Category:Sampling_(statistics)) and [Probability](https://en.wikipedia.org/wiki/Category:Probability_distributions) [Distributions](https://en.wikipedia.org/wiki/List_of_probability_distributions)
