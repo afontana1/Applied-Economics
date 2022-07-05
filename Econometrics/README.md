@@ -23,6 +23,11 @@
 15. [Bayesloop](https://github.com/christophmark/bayesloop)
 16. [Pomegranate](https://github.com/jmschrei/pomegranate)
 17. [Computational Bayesian Statistics](https://sjster.github.io/introduction_to_computational_statistics/docs/index.html)
+18. [Bayesian Networks](https://github.com/MaxHalford/sorobn)
+19. [bayesian-network-learning](https://github.com/navreeetkaur/bayesian-network-learning)
+20. [EDAspy](https://github.com/VicentePerezSoloviev/EDAspy)
+21. [LGNpy](https://github.com/ostwalprasad/LGNpy)
+22. [Linear Algebra with Python](https://github.com/MacroAnalyst/Linear_Algebra_With_Python)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
