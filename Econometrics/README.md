@@ -28,6 +28,7 @@
 20. [EDAspy](https://github.com/VicentePerezSoloviev/EDAspy)
 21. [LGNpy](https://github.com/ostwalprasad/LGNpy)
 22. [Linear Algebra with Python](https://github.com/MacroAnalyst/Linear_Algebra_With_Python)
+23. [learn-linalg](https://github.com/kevinzakka/learn-linalg)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
@@ -75,7 +76,11 @@
 43. [Propensity Score](https://en.wikipedia.org/wiki/Propensity_score_matching)
 44. [Regression Analysis](https://en.wikipedia.org/wiki/Category:Regression_analysis)
 45. [Multivariate statistics](https://en.wikipedia.org/wiki/Category:Multivariate_statistics)
-
+46. [Regression Models](https://en.wikipedia.org/wiki/Category:Regression_models)
+47. [ANOVA](https://en.wikipedia.org/wiki/Category:Analysis_of_variance)
+48. [Machine Learning](https://en.wikipedia.org/wiki/Category:Machine_learning)
+49. [Machine Learning Algorithms](https://en.wikipedia.org/wiki/Category:Machine_learning_algorithms)
+50. [Applied Machine Learning](https://en.wikipedia.org/wiki/Category:Applied_machine_learning)
 
 ## [Sampling](https://en.wikipedia.org/wiki/Category:Sampling_(statistics)) and [Probability](https://en.wikipedia.org/wiki/Category:Probability_distributions) [Distributions](https://en.wikipedia.org/wiki/List_of_probability_distributions)
 
