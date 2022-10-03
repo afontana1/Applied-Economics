@@ -29,6 +29,7 @@
 21. [LGNpy](https://github.com/ostwalprasad/LGNpy)
 22. [Linear Algebra with Python](https://github.com/MacroAnalyst/Linear_Algebra_With_Python)
 23. [learn-linalg](https://github.com/kevinzakka/learn-linalg)
+24. [Survey_methodology](https://en.wikipedia.org/wiki/Category:Survey_methodology)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)

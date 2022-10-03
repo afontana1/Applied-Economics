@@ -20,6 +20,8 @@
 - [Financial Theory](https://oyc.yale.edu/economics/econ-251)
 - [Evolutionary_game_theory](https://en.wikipedia.org/wiki/Evolutionary_game_theory)
 - [Cooperative_game_theory](https://en.wikipedia.org/wiki/Cooperative_game_theory)
+- [Economic_methods](https://en.wikipedia.org/wiki/Category:Economic_methods)
+- [Economic_methodology](https://en.wikipedia.org/wiki/Category:Economic_methodology)
 
 ### [People](https://en.wikipedia.org/wiki/List_of_economists)
 - [J Doyne Farmer](http://www.doynefarmer.com/about-me)
