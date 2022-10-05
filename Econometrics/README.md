@@ -69,7 +69,7 @@
 35. [cake_eating_problem](https://python.quantecon.org/cake_eating_problem.html)
 36. [cake_eating_numerical](https://python.quantecon.org/cake_eating_numerical.html)
 37. [Granger_causality](https://en.wikipedia.org/wiki/Granger_causality)
-38. [Mechanism_design](https://en.wikipedia.org/wiki/Mechanism_design)
+38. [Mechanism_design](https://en.wikipedia.org/wiki/Category:Mechanism_design)
 39. [Rational_choice_theory](https://en.wikipedia.org/wiki/Rational_choice_theory)
 40. [Multi agent_system](https://en.wikipedia.org/wiki/Multi-agent_system)
 41. [Agent Based Models](https://en.wikipedia.org/wiki/Agent-based_model)
