@@ -52,6 +52,10 @@
 9. [Crimes against data, Professor Andrew Gelman](https://www.youtube.com/watch?v=fc1hkFC2c1E&t=939s)
 10. [Causal Inference: Making the Right Intervention | QuantumBlack](https://www.youtube.com/watch?v=O5-vbOWQhLo&t=391s)
 11. [Causal Inference -- Online Lectures (M.Sc/PhD Level)](https://www.youtube.com/playlist?list=PLyvUJLHD8IsJCB7ALqwjRG1BjL5JxE__H)
+12. [The Nature of Causation: The Regularity Theory](https://www.youtube.com/watch?v=3vc5ZggUdYo&t=1914s)
+13. [The Nature of Causation: The Counterfactual Theory of Causation](https://www.youtube.com/watch?v=MpCxksDQ8uw&t=3s)
+14. [The Nature of Causation: The Necessary Connection Analysis](https://www.youtube.com/watch?v=t7cfljJ79X0)
+15. [The Nature of Causation: Mental Causation](https://www.youtube.com/watch?v=RefjI1lGT-Q)
 
 ## MODULE 1
 
