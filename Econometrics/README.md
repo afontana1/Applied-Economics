@@ -30,6 +30,23 @@
 22. [Linear Algebra with Python](https://github.com/MacroAnalyst/Linear_Algebra_With_Python)
 23. [learn-linalg](https://github.com/kevinzakka/learn-linalg)
 24. [Survey_methodology](https://en.wikipedia.org/wiki/Category:Survey_methodology)
+25. BVAR](https://sites.google.com/site/dimitriskorobilis/)
+26. [Discrete Choice](http://www.econ.ucla.edu/rmatzkin/researchdiscretechoiceapr11.html)
+27. [MicroEconometrics](http://people.stern.nyu.edu/wgreene/Microeconometrics-UAM.htm)
+28. [Applied Econometrics](http://people.stern.nyu.edu/wgreene/Econometrics/Econometrics.htm)
+29. [Panel Data Econometrics](http://people.stern.nyu.edu/wgreene/Econometrics/PanelDataEconometrics.htm)
+30. [stats](https://online.stat.psu.edu/statprogram/)
+31. [Computational Statistics](https://people.duke.edu/~ccc14/sta-663/index.html)
+32. [Some Practical Stats](https://ocw.mit.edu/courses/mathematics/18-650-statistics-for-applications-fall-2016/)
+33. [Some Statistical Theory](https://ocw.mit.edu/courses/economics/14-381-statistical-method-in-economics-fall-2018/)
+34. [Probability](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/)
+35. [Mathematical Stats](https://ocw.mit.edu/courses/mathematics/18-655-mathematical-statistics-spring-2016/)
+36. [Matrix Methods](https://ocw.mit.edu/courses/mathematics/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/index.htm)
+37. [Data Analysis](http://www.stat.cmu.edu/~cshalizi/uADA/)
+38. [Advanced Data Analysis](http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/)
+39. [Regression](http://www.stat.cmu.edu/~cshalizi/mreg/15/)
+40. [Game Theory](https://oyc.yale.edu/economics/econ-159)
+41. [Financial Theory](https://oyc.yale.edu/economics/econ-251)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
@@ -82,6 +99,8 @@
 48. [Machine Learning](https://en.wikipedia.org/wiki/Category:Machine_learning)
 49. [Machine Learning Algorithms](https://en.wikipedia.org/wiki/Category:Machine_learning_algorithms)
 50. [Applied Machine Learning](https://en.wikipedia.org/wiki/Category:Applied_machine_learning)
+51. [Metrology](https://en.wikipedia.org/wiki/Category:Metrology)
+52. [Telemetry](https://en.wikipedia.org/wiki/Category:Telemetry)
 
 ## [Sampling](https://en.wikipedia.org/wiki/Category:Sampling_(statistics)) and [Probability](https://en.wikipedia.org/wiki/Category:Probability_distributions) [Distributions](https://en.wikipedia.org/wiki/List_of_probability_distributions)
 
