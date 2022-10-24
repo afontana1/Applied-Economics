@@ -30,7 +30,7 @@
 22. [Linear Algebra with Python](https://github.com/MacroAnalyst/Linear_Algebra_With_Python)
 23. [learn-linalg](https://github.com/kevinzakka/learn-linalg)
 24. [Survey_methodology](https://en.wikipedia.org/wiki/Category:Survey_methodology)
-25. BVAR](https://sites.google.com/site/dimitriskorobilis/)
+25. [BVAR](https://sites.google.com/site/dimitriskorobilis/)
 26. [Discrete Choice](http://www.econ.ucla.edu/rmatzkin/researchdiscretechoiceapr11.html)
 27. [MicroEconometrics](http://people.stern.nyu.edu/wgreene/Microeconometrics-UAM.htm)
 28. [Applied Econometrics](http://people.stern.nyu.edu/wgreene/Econometrics/Econometrics.htm)
