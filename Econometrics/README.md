@@ -101,6 +101,7 @@
 50. [Applied Machine Learning](https://en.wikipedia.org/wiki/Category:Applied_machine_learning)
 51. [Metrology](https://en.wikipedia.org/wiki/Category:Metrology)
 52. [Telemetry](https://en.wikipedia.org/wiki/Category:Telemetry)
+53. [Bayesian_statistics](https://en.wikipedia.org/wiki/Category:Bayesian_statistics)
 
 ## [Sampling](https://en.wikipedia.org/wiki/Category:Sampling_(statistics)) and [Probability](https://en.wikipedia.org/wiki/Category:Probability_distributions) [Distributions](https://en.wikipedia.org/wiki/List_of_probability_distributions)
 
