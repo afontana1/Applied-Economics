@@ -102,6 +102,7 @@
 51. [Metrology](https://en.wikipedia.org/wiki/Category:Metrology)
 52. [Telemetry](https://en.wikipedia.org/wiki/Category:Telemetry)
 53. [Bayesian_statistics](https://en.wikipedia.org/wiki/Category:Bayesian_statistics)
+54. [Model_selection](https://en.wikipedia.org/wiki/Category:Model_selection)
 
 ## [Sampling](https://en.wikipedia.org/wiki/Category:Sampling_(statistics)) and [Probability](https://en.wikipedia.org/wiki/Category:Probability_distributions) [Distributions](https://en.wikipedia.org/wiki/List_of_probability_distributions)
 
@@ -115,3 +116,7 @@
 8. [Discrete Distributions](https://en.wikipedia.org/wiki/Category:Discrete_distributions)
 9. [Conjugate Prior Distributions](https://en.wikipedia.org/wiki/Category:Conjugate_prior_distributions)
 10. [Exponential Distributions](https://en.wikipedia.org/wiki/Category:Exponential_family_distributions)
+11. [Cross Validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics))
+12. [Classification Algorithm](https://en.wikipedia.org/wiki/Category:Classification_algorithms)
+13. [Maximum_likelihood_estimation](https://en.wikipedia.org/wiki/Category:Maximum_likelihood_estimation)
+14. [Statistical_model_validation](https://en.wikipedia.org/wiki/Statistical_model_validation)
