@@ -47,6 +47,10 @@
 39. [Regression](http://www.stat.cmu.edu/~cshalizi/mreg/15/)
 40. [Game Theory](https://oyc.yale.edu/economics/econ-159)
 41. [Financial Theory](https://oyc.yale.edu/economics/econ-251)
+42. [ISLR-python](https://github.com/JWarmenhoven/ISLR-python)
+43. [Elements of Statistical Learning](https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks)
+44. [Introduction to Statistical Learning](https://github.com/hardikkamboj/An-Introduction-to-Statistical-Learning)
+45. [multiply](https://github.com/puolival/multipy)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
@@ -103,6 +107,13 @@
 52. [Telemetry](https://en.wikipedia.org/wiki/Category:Telemetry)
 53. [Bayesian_statistics](https://en.wikipedia.org/wiki/Category:Bayesian_statistics)
 54. [Model_selection](https://en.wikipedia.org/wiki/Category:Model_selection)
+55. [Statistical_hypothesis_testing](https://en.wikipedia.org/wiki/Category:Statistical_hypothesis_testing)
+56. [Sensitivity_analysis](https://en.wikipedia.org/wiki/Category:Sensitivity_analysis)
+57. [Statistical_analysis](https://en.wikipedia.org/wiki/Category:Statistical_analysis)
+58. [Statistical_methods](https://en.wikipedia.org/wiki/Category:Statistical_methods)
+59. [Data_analysis](https://en.wikipedia.org/wiki/Category:Data_analysis)
+60. [Summary_statistics](https://en.wikipedia.org/wiki/Category:Summary_statistics)
+61. [List_of_analyses_of_categorical_data](https://en.wikipedia.org/wiki/List_of_analyses_of_categorical_data)
 
 ## [Sampling](https://en.wikipedia.org/wiki/Category:Sampling_(statistics)) and [Probability](https://en.wikipedia.org/wiki/Category:Probability_distributions) [Distributions](https://en.wikipedia.org/wiki/List_of_probability_distributions)
 
