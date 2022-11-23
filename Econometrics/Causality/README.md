@@ -14,6 +14,11 @@
 12. [Graphical Model](https://en.wikipedia.org/wiki/Graphical_model)
 13. [Causal Model Philosophy](https://plato.stanford.edu/entries/causal-models/)
 14. [Probability Theory](https://en.wikipedia.org/wiki/Category:Probability_theory)
+15. [Cosma Shalizi](http://bactra.org/)
+    * [Causality](http://bactra.org/notebooks/causality.html)
+    * [Causal Inference](http://bactra.org/notebooks/causal-inference.html)
+    * [Graphical Models](http://bactra.org/notebooks/graphical-models.html)
+    * [Graphical Causal Models](http://bactra.org/notebooks/graphical-causal-models.html)
 
 ## Groups, Courses, and People
 
