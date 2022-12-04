@@ -45,6 +45,7 @@
 - [Causal Inference Playlist 2](https://www.youtube.com/watch?v=6SCoaBo1MqU&list=PLTnoloBvEJ0sDUd5aK42oXnDgZ7e63Dor)
 - [Causal Inference Course](https://www.youtube.com/playlist?list=PLoazKTcS0RzZ1SUgeOgc6SWt51gfT80N0)
 - [Machine Learning & Causal Inference](https://www.youtube.com/playlist?list=PLxq_lXOUlvQAoWZEqhRqHNezS30lI49G-)
+- [The Mathematics of Causal Inference, with Reflections on Machine Learning and the Logic of Science](https://www.youtube.com/watch?v=zHjdd--W6o4)
 
 1. [Introduction to Causal Inference: Philosophy, Framework and Key Methods PART ONE](https://www.youtube.com/watch?v=BQkmzrn8pl4)
 2. [Introduction to Causal Inference: Philosophy, Framework and Key Methods PART TWO](https://www.youtube.com/watch?v=A0vMD6IiQW4)
@@ -61,6 +62,7 @@
 13. [The Nature of Causation: The Counterfactual Theory of Causation](https://www.youtube.com/watch?v=MpCxksDQ8uw&t=3s)
 14. [The Nature of Causation: The Necessary Connection Analysis](https://www.youtube.com/watch?v=t7cfljJ79X0)
 15. [The Nature of Causation: Mental Causation](https://www.youtube.com/watch?v=RefjI1lGT-Q)
+16. [Econometrics Causality and Coding](https://www.youtube.com/playlist?list=PLcTBLulJV_AKmUTH-nUsxxFyRQoWnUzxU)
 
 ## MODULE 1
 
