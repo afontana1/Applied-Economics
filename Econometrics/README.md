@@ -51,7 +51,7 @@
 38. [Bayesian analysis with Python](https://github.com/PacktPublishing/Bayesian-Analysis-with-Python-Second-Edition)
 39. [Regression](http://www.stat.cmu.edu/~cshalizi/mreg/15/)
 40. [Game Theory](https://oyc.yale.edu/economics/econ-159)
-41. [Financial Theory](https://oyc.yale.edu/economics/econ-251)
+41. [Introduction to Bayesian Thinking](https://statswithr.github.io/book/)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
