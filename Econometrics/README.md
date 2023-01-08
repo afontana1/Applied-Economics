@@ -52,6 +52,7 @@
 39. [Regression](http://www.stat.cmu.edu/~cshalizi/mreg/15/)
 40. [Game Theory](https://oyc.yale.edu/economics/econ-159)
 41. [Introduction to Bayesian Thinking](https://statswithr.github.io/book/)
+42. [Darts Time Series Forecasting](https://github.com/unit8co/darts)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
