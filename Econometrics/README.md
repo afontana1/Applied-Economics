@@ -56,6 +56,8 @@
 43. [Survival Modeling](https://github.com/autonlab/auton-survival)
 44. [DoWhy](https://github.com/py-why/dowhy)
 45. [Probabilistic Graphical Models](https://github.com/pgmpy/pgmpy)
+46. [Causal-lift](https://github.com/Minyus/causallift)
+47. [Causal](https://github.com/jamalsenouci/causalimpact) [Impact](https://github.com/tcassou/causal_impact)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
