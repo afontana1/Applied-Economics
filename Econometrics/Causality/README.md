@@ -19,6 +19,7 @@
     * [Causal Inference](http://bactra.org/notebooks/causal-inference.html)
     * [Graphical Models](http://bactra.org/notebooks/graphical-models.html)
     * [Graphical Causal Models](http://bactra.org/notebooks/graphical-causal-models.html)
+16. [Introduction to Do-Calculus](https://www.inference.vc/untitled/)
 
 ## Groups, Courses, and People
 
