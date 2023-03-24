@@ -20,6 +20,9 @@
     * [Graphical Models](http://bactra.org/notebooks/graphical-models.html)
     * [Graphical Causal Models](http://bactra.org/notebooks/graphical-causal-models.html)
 16. [Introduction to Do-Calculus](https://www.inference.vc/untitled/)
+17. [Causal Flows](https://www.causalflows.com/)
+18. [Estimation of Heterogeneous Treatment Effects](https://gsbdbi.github.io/ml_tutorial/hte_tutorial/hte_tutorial.html)
+19. [Machine Learning for Causal Inference](https://bookdown.org/halflearned/ml-ci-tutorial/)
 
 ## Groups, Courses, and People
 
@@ -40,6 +43,7 @@
 15. [Targeted Learning](https://www.youtube.com/playlist?list=PLy_CaFomwGGGH10tbq9zSyfHVrdklMaLe)
 16. [Causality and Causal Inference Course](https://chalmers.instructure.com/courses/10036)
 17. [Causal Inference and Learning Course](https://www.cs.uic.edu/~elena/courses/fall19/cs594cil.html)
+18. [Machine Learning & Causal Inference: A Short Course](https://www.gsb.stanford.edu/faculty-research/centers-initiatives/sil/research/methods/ai-machine-learning/short-course)
 
 ## Videos
 - [Causal Inference Playlist 1](https://www.youtube.com/watch?v=zvrcyqcN9Wo&list=PL0fusIJuNs3NTG-5R1AljT1gl-qWbJGgF)

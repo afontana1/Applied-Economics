@@ -60,6 +60,8 @@
 47. [Causal](https://github.com/jamalsenouci/causalimpact) [Impact](https://github.com/tcassou/causal_impact)
 48. [Bayesian Modeling and computation in Python](https://bayesiancomputationbook.com/welcome.html)
 	* [Code](https://github.com/BayesianModelingandComputationInPython/BookCode_Edition1)
+49. [Library of Statistical Techniques (LOST)](https://lost-stats.github.io/)
+50. [Applied Causal Analysis (with R)](https://bookdown.org/paul/applied-causal-analysis/)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
