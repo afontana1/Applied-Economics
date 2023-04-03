@@ -62,6 +62,16 @@
 	* [Code](https://github.com/BayesianModelingandComputationInPython/BookCode_Edition1)
 49. [Library of Statistical Techniques (LOST)](https://lost-stats.github.io/)
 50. [Applied Causal Analysis (with R)](https://bookdown.org/paul/applied-causal-analysis/)
+51. [causalTree](https://github.com/susanathey/causalTree)
+52. [causalml](https://github.com/uber/causalml)
+53. [Uncertainty Quantification](https://github.com/SURGroup/UQpy)
+54. [dexpy](https://github.com/statease/dexpy)
+55. [doepy](https://github.com/tirthajyoti/doepy)
+56. [pyDOE2](https://github.com/clicumu/pyDOE2)
+57. [Psychopy](https://github.com/psychopy/psychopy)
+58. [Design-of-experiment-Python](https://github.com/tirthajyoti/Design-of-experiment-Python)
+59. [Design-and-Analysis-of-Experiments](https://github.com/fcampelo/Design-and-Analysis-of-Experiments)
+60. [Stan Hierarchical Modelling](https://github.com/widdowquinn/Teaching-Stan-Hierarchical-Modelling)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)

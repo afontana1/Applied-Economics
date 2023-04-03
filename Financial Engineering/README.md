@@ -8,3 +8,4 @@
 6. [PyDaddy](https://github.com/tee-lab/PyDaddy)
 7. [Markov Chain Analysis](https://github.com/TommasoBelluzzo/PyDTMC)
 8. [Stochastic](https://github.com/crflynn/stochastic)
+9. [Discrete Time Markov Chain](https://github.com/TommasoBelluzzo/PyDTMC)

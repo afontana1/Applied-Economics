@@ -23,6 +23,7 @@
 17. [Causal Flows](https://www.causalflows.com/)
 18. [Estimation of Heterogeneous Treatment Effects](https://gsbdbi.github.io/ml_tutorial/hte_tutorial/hte_tutorial.html)
 19. [Machine Learning for Causal Inference](https://bookdown.org/halflearned/ml-ci-tutorial/)
+20. [Causal Incentives](https://causalincentives.com/)
 
 ## Groups, Courses, and People
 
