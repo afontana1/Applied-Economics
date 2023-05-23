@@ -45,6 +45,15 @@
 16. [Causality and Causal Inference Course](https://chalmers.instructure.com/courses/10036)
 17. [Causal Inference and Learning Course](https://www.cs.uic.edu/~elena/courses/fall19/cs594cil.html)
 18. [Machine Learning & Causal Inference: A Short Course](https://www.gsb.stanford.edu/faculty-research/centers-initiatives/sil/research/methods/ai-machine-learning/short-course)
+19. [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)
+20. [CausalPy](https://github.com/pymc-labs/CausalPy)
+21. [pgmpy](https://pgmpy.org/index.html)
+22. [CausalLib](https://github.com/BiomedSciAI/causallib)
+23. [CausalInference](https://github.com/laurencium/CausalInference/)
+24. [CausalNex](https://github.com/quantumblacklabs/causalnex)
+25. [python-causality-handbook](https://github.com/matheusfacure/python-causality-handbook)
+26. [Gcastle](https://github.com/huawei-noah/trustworthyAI/tree/master/gcastle)
+27. [Causal Inference in Python](https://causalinferenceinpython.org/)
 
 ## Videos
 - [Causal Inference Playlist 1](https://www.youtube.com/watch?v=zvrcyqcN9Wo&list=PL0fusIJuNs3NTG-5R1AljT1gl-qWbJGgF)
