@@ -1,5 +1,7 @@
 # [Resources](https://en.wikipedia.org/wiki/Category:Economics) for [Economics](https://en.wikipedia.org/wiki/Outline_of_economics)
 
+- [Exploring Economics](https://www.exploring-economics.org/en/)
+
 ### [People](https://en.wikipedia.org/wiki/List_of_economists)
 - [J Doyne Farmer](http://www.doynefarmer.com/about-me)
 - [Victor Yakovenko](http://physics.umd.edu/~yakovenk/econophysics/)
