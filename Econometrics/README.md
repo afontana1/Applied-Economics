@@ -72,6 +72,8 @@
 58. [Design-of-experiment-Python](https://github.com/tirthajyoti/Design-of-experiment-Python)
 59. [Design-and-Analysis-of-Experiments](https://github.com/fcampelo/Design-and-Analysis-of-Experiments)
 60. [Stan Hierarchical Modelling](https://github.com/widdowquinn/Teaching-Stan-Hierarchical-Modelling)
+61. [Computational Social Science (Soc 690)](https://cbail.github.io/comp_soc_grad/Home.html)
+62. [Comp Social Science Code](http://pablobarbera.com/POIR613/code.html)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
