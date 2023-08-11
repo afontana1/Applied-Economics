@@ -77,6 +77,16 @@
 60. [Stan Hierarchical Modelling](https://github.com/widdowquinn/Teaching-Stan-Hierarchical-Modelling)
 61. [Computational Social Science (Soc 690)](https://cbail.github.io/comp_soc_grad/Home.html)
 62. [Comp Social Science Code](http://pablobarbera.com/POIR613/code.html)
+63. [Doing Bayesian Data Analysis - Python/PyMC3](https://github.com/JWarmenhoven/DBDA-python)
+64. [Statistical Rethinking with Python and PyMC3](https://github.com/aloctavodia/Statistical-Rethinking-with-Python-and-PyMC3)
+65. [Bayesian Data Analysis Python Demos](https://github.com/avehtari/BDA_py_demos)
+66. [Bayesian Analysis with Python (Second edition)](https://github.com/aloctavodia/BAP)
+67. [bayesian-stats-modelling-tutorial](https://github.com/ericmjl/bayesian-stats-modelling-tutorial)
+68. [learn-linalg](https://github.com/kevinzakka/learn-linalg)
+69. [Statistical Rethinking (2023 Edition)](https://github.com/rmcelreath/stat_rethinking_2023)
+70. [shinystan](https://github.com/stan-dev/shinystan)
+71. [tidybayes](https://github.com/mjskay/tidybayes)
+72. [simanneal](https://github.com/perrygeo/simanneal)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
