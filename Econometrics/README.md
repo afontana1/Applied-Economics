@@ -1,5 +1,7 @@
 # [Resources](https://en.wikipedia.org/wiki/Category:Econometric_models) for [Econometrics](https://en.wikipedia.org/wiki/Category:Econometrics)
 
+- [Econometrics Academy](https://sites.google.com/site/econometricsacademy/home)
+
 1. [Principles of Forecasting](https://otexts.com/fpp2/)
 2. [Kalman-and-Bayesian-Filters-in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)
 3. [PYMC3 Resources](https://github.com/pymc-devs/resources)
@@ -87,6 +89,19 @@
 70. [shinystan](https://github.com/stan-dev/shinystan)
 71. [tidybayes](https://github.com/mjskay/tidybayes)
 72. [simanneal](https://github.com/perrygeo/simanneal)
+73. [Chris Bilder: Analysis of Categorical Data](http://www.chrisbilder.com/)
+74. [tidyverse](https://www.tidyverse.org/)
+75. [Mastering Metrics](https://www.masteringmetrics.com/online-metrics-resources/)
+76. [Principles of Econometrics with R](https://bookdown.org/ccolonescu/RPoE4/)
+77. [Linear Models](https://github.com/bashtage/linearmodels)
+78. [FixedEffectModels](https://github.com/FixedEffects/FixedEffectModels.jl)
+79. [fastverse](https://github.com/fastverse/fastverse)
+80. [Data Science MicroMasters Program from UC San Diego on edX](https://github.com/broepke/UCSanDiegoX/tree/master)
+81. [CakeEating](https://github.com/Zung-0/CakeEating)
+82. [Bayesian-Analysis-with-Python-Second-Edition](https://github.com/PacktPublishing/Bayesian-Analysis-with-Python-Second-Edition)
+83. [The-Elements-of-Statistical-Learning-Python-Notebooks](https://github.com/empathy87/The-Elements-of-Statistical-Learning-Python-Notebooks)
+84. [Bayes_Computing_Course](https://github.com/fonnesbeck/Bayes_Computing_Course)
+85. [Bios8366](https://github.com/fonnesbeck/Bios8366)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
