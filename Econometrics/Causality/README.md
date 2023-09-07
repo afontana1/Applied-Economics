@@ -1,5 +1,7 @@
 # [Causality](https://en.wikipedia.org/wiki/Category:Causality)
 
+- [Philosophical Treatment of Causaility](https://github.com/afontana1/critical-thinking/tree/master/course_outline/course5-Causation)
+
 1. [Mathematical and quantitative methods (economics)](https://en.wikipedia.org/wiki/Category:Mathematical_and_quantitative_methods_(economics))
 2. [Causal Inference](https://en.wikipedia.org/wiki/Category:Causal_inference)
 3. [Experiments](https://en.wikipedia.org/wiki/Category:Experiments)
@@ -46,14 +48,29 @@
 17. [Causal Inference and Learning Course](https://www.cs.uic.edu/~elena/courses/fall19/cs594cil.html)
 18. [Machine Learning & Causal Inference: A Short Course](https://www.gsb.stanford.edu/faculty-research/centers-initiatives/sil/research/methods/ai-machine-learning/short-course)
 19. [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)
-20. [CausalPy](https://github.com/pymc-labs/CausalPy)
-21. [pgmpy](https://pgmpy.org/index.html)
-22. [CausalLib](https://github.com/BiomedSciAI/causallib)
-23. [CausalInference](https://github.com/laurencium/CausalInference/)
-24. [CausalNex](https://github.com/quantumblacklabs/causalnex)
-25. [python-causality-handbook](https://github.com/matheusfacure/python-causality-handbook)
-26. [Gcastle](https://github.com/huawei-noah/trustworthyAI/tree/master/gcastle)
-27. [Causal Inference in Python](https://causalinferenceinpython.org/)
+
+## Libraries
+
+1. [CausalPy](https://github.com/pymc-labs/CausalPy)
+2. [pgmpy](https://pgmpy.org/index.html)
+3. [CausalLib](https://github.com/BiomedSciAI/causallib)
+4. [CausalInference](https://github.com/laurencium/CausalInference/)
+5. [CausalNex](https://github.com/quantumblacklabs/causalnex)
+6. [python-causality-handbook](https://github.com/matheusfacure/python-causality-handbook)
+7. [Gcastle](https://github.com/huawei-noah/trustworthyAI/tree/master/gcastle)
+8. [Causal Inference in Python](https://causalinferenceinpython.org/)
+9. [Applied Causal Analysis (with R)](https://bookdown.org/paul/applied-causal-analysis/)
+10. [causalTree](https://github.com/susanathey/causalTree)
+11. [causalml](https://github.com/uber/causalml)
+12. [Uncertainty Quantification](https://github.com/SURGroup/UQpy)
+13. [dexpy](https://github.com/statease/dexpy)
+14. [doepy](https://github.com/tirthajyoti/doepy)
+15. [pyDOE2](https://github.com/clicumu/pyDOE2)
+16. [Causal-lift](https://github.com/Minyus/causallift)
+17. [Causal](https://github.com/jamalsenouci/causalimpact) [Impact](https://github.com/tcassou/causal_impact)
+18. [DoWhy](https://github.com/py-why/dowhy)
+19. [Design-of-experiment-Python](https://github.com/tirthajyoti/Design-of-experiment-Python)
+20. [Design-and-Analysis-of-Experiments](https://github.com/fcampelo/Design-and-Analysis-of-Experiments)
 
 ## Videos
 - [Causal Inference Playlist 1](https://www.youtube.com/watch?v=zvrcyqcN9Wo&list=PL0fusIJuNs3NTG-5R1AljT1gl-qWbJGgF)
