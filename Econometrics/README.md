@@ -99,6 +99,7 @@
 82. [Mathematics of Financial Derivatives](https://bookdown.org/S_hubbert/mathematics_of_financial_derivatives/introduction.html)
 83. [Social Science Statistics Blog](https://blogs.iq.harvard.edu/)
 85. [Penn State STAT505](https://online.stat.psu.edu/stat505/)
+86. [BIOL3360 - Analysis and Communication of Biological Data](https://bookdown.org/janengelstaedter/biol3360modelling3/)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
