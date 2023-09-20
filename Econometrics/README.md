@@ -100,6 +100,10 @@
 83. [Social Science Statistics Blog](https://blogs.iq.harvard.edu/)
 85. [Penn State STAT505](https://online.stat.psu.edu/stat505/)
 86. [BIOL3360 - Analysis and Communication of Biological Data](https://bookdown.org/janengelstaedter/biol3360modelling3/)
+87. [Factor Analysis](https://github.com/EducationalTestingService/factor_analyzer)
+88. [Psychometrics Python](https://github.com/inuyasha2012/pypsy)
+89. [Sensitivity Analysis Lib](https://github.com/SALib/SALib)
+90. [prince](https://github.com/MaxHalford/prince)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
