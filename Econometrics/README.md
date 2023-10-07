@@ -104,6 +104,7 @@
 88. [Psychometrics Python](https://github.com/inuyasha2012/pypsy)
 89. [Sensitivity Analysis Lib](https://github.com/SALib/SALib)
 90. [prince](https://github.com/MaxHalford/prince)
+91. [Bayesian Data Analysis Course](https://avehtari.github.io/BDA_course_Aalto/)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)

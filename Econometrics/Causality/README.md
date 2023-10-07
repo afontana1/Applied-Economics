@@ -26,6 +26,7 @@
 18. [Estimation of Heterogeneous Treatment Effects](https://gsbdbi.github.io/ml_tutorial/hte_tutorial/hte_tutorial.html)
 19. [Machine Learning for Causal Inference](https://bookdown.org/halflearned/ml-ci-tutorial/)
 20. [Causal Incentives](https://causalincentives.com/)
+21. [Granger_causality](https://en.wikipedia.org/wiki/Granger_causality) & [Impulse Response](https://en.wikipedia.org/wiki/Impulse_response)
 
 ## Groups, Courses, and People
 
