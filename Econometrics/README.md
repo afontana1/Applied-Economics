@@ -105,6 +105,7 @@
 89. [Sensitivity Analysis Lib](https://github.com/SALib/SALib)
 90. [prince](https://github.com/MaxHalford/prince)
 91. [Bayesian Data Analysis Course](https://avehtari.github.io/BDA_course_Aalto/)
+92. [psy_207_advanced_stats_I](https://bookdown.org/danbarch/psy_207_advanced_stats_I/)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
