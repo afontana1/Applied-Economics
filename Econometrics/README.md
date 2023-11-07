@@ -1,13 +1,14 @@
 # [Resources](https://en.wikipedia.org/wiki/Category:Econometric_models) for [Econometrics](https://en.wikipedia.org/wiki/Category:Econometrics)
 
 - [Econometrics Academy](https://sites.google.com/site/econometricsacademy/home)
+- [Bookdown Statistics](https://bookdown.org/home/tags/statistics/)
 
 1. [Principles of Forecasting](https://otexts.com/fpp2/)
 2. [Kalman-and-Bayesian-Filters-in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)
 3. [PYMC3 Resources](https://github.com/pymc-devs/resources)
 4. [Probabilistic-Programming-and-Bayesian-Methods-for-Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
 5. [SEM](https://m-clark.github.io/sem/)
-6. [iscs_materials](https://bookdown.org/cristobalmoya/iscs_materials/)
+6. [Inferential Statistics and Complex Surveys](https://bookdown.org/cristobalmoya/iscs_materials/)
 7. [bmbstats-book](https://mladenjovanovic.github.io/bmbstats-book/)
 8. [SEM](https://jslefche.github.io/sem_book/index.html)
 9. [stat_rethinking_2022](https://github.com/rmcelreath/stat_rethinking_2022)
@@ -106,6 +107,9 @@
 90. [prince](https://github.com/MaxHalford/prince)
 91. [Bayesian Data Analysis Course](https://avehtari.github.io/BDA_course_Aalto/)
 92. [psy_207_advanced_stats_I](https://bookdown.org/danbarch/psy_207_advanced_stats_I/)
+93. [A Guide on Data Analysis](https://bookdown.org/mike/data_analysis/)
+94. [Distribution Theory](https://bookdown.org/pkaldunn/DistTheory/)
+95. [Advanced Statistical Computing](https://bookdown.org/rdpeng/advstatcomp/)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
