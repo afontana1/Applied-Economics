@@ -110,6 +110,8 @@
 93. [A Guide on Data Analysis](https://bookdown.org/mike/data_analysis/)
 94. [Distribution Theory](https://bookdown.org/pkaldunn/DistTheory/)
 95. [Advanced Statistical Computing](https://bookdown.org/rdpeng/advstatcomp/)
+96. [Flexible Imputation of Missing Data](https://stefvanbuuren.name/fimd/)
+97. [Interpretable ML](https://christophm.github.io/interpretable-ml-book/)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
@@ -173,6 +175,7 @@
 59. [Data_analysis](https://en.wikipedia.org/wiki/Category:Data_analysis)
 60. [Summary_statistics](https://en.wikipedia.org/wiki/Category:Summary_statistics)
 61. [List_of_analyses_of_categorical_data](https://en.wikipedia.org/wiki/List_of_analyses_of_categorical_data)
+62. [Regression Analysis](https://en.wikipedia.org/wiki/Category:Regression_analysis) and [Regression Models](https://en.wikipedia.org/wiki/Category:Regression_models)
 
 ## [Sampling](https://en.wikipedia.org/wiki/Category:Sampling_(statistics)) and [Probability](https://en.wikipedia.org/wiki/Category:Probability_distributions) [Distributions](https://en.wikipedia.org/wiki/List_of_probability_distributions)
 

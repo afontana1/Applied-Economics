@@ -2,6 +2,12 @@
 
 - [Philosophical Treatment of Causaility](https://github.com/afontana1/critical-thinking/tree/master/course_outline/course5-Causation)
 
+- [Causal Analysis in Theory and Practice](http://causality.cs.ucla.edu/blog/)
+- [ML beyond Curve Fitting: An Intro to Causal Inference and do-Calculus](https://www.inference.vc/untitled/)
+- [Causal Inference 2: Illustrating Interventions via a Toy Example](https://www.inference.vc/causal-inference-2-illustrating-interventions-in-a-toy-example/)
+- [Causal Inference 3: Counterfactuals](https://www.inference.vc/causal-inference-3-counterfactuals/)
+- [Causal inference 4: Causal Diagrams, Markov Factorization, Structural Equation Models](https://www.inference.vc/causal-inference-4/)
+
 1. [Mathematical and quantitative methods (economics)](https://en.wikipedia.org/wiki/Category:Mathematical_and_quantitative_methods_(economics))
 2. [Causal Inference](https://en.wikipedia.org/wiki/Category:Causal_inference)
 3. [Experiments](https://en.wikipedia.org/wiki/Category:Experiments)
@@ -27,6 +33,11 @@
 19. [Machine Learning for Causal Inference](https://bookdown.org/halflearned/ml-ci-tutorial/)
 20. [Causal Incentives](https://causalincentives.com/)
 21. [Granger_causality](https://en.wikipedia.org/wiki/Granger_causality) & [Impulse Response](https://en.wikipedia.org/wiki/Impulse_response)
+22. [Statistical Tools for Causal Inference](https://chabefer.github.io/STCI/)
+23. [Causal Inference and Its Applications in Online Industry](https://alexdeng.github.io/causal/index.html)
+24. [Causal Inference Blog](https://solomonkurz.netlify.app/blog/)
+25. [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/index.html)
+26. [Causal Inference: The Mixtape](https://mixtape.scunning.com/)
 
 ## Groups, Courses, and People
 

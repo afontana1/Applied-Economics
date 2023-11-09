@@ -2,6 +2,9 @@
 
 - [Research Methods Resources](https://www.youtube.com/@mronkko)
 - [Exploring Economics](https://www.exploring-economics.org/en/)
+- [Stanford Institute for Economic Policy Research (SIEPR)](https://www.youtube.com/user/SIEPRatStanford)
+- [Computation and Economics](https://www.youtube.com/channel/UCFat6uPNM2KnPlm5uDZnwmQ)
+
 
 ### [People](https://en.wikipedia.org/wiki/List_of_economists)
 - [J Doyne Farmer](http://www.doynefarmer.com/about-me)
