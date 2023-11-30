@@ -2,6 +2,10 @@
 
 - [Econometrics Academy](https://sites.google.com/site/econometricsacademy/home)
 - [Bookdown Statistics](https://bookdown.org/home/tags/statistics/)
+- [Statistical Learning](https://www.statlearning.com/)
+- [The Elements of Statistical Learning](https://hastie.su.domains/ElemStatLearn/)
+- [In-depth introduction to machine learning in 15 hours of expert videos](https://www.r-bloggers.com/2014/09/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/)
+- [Storytelling With Data](https://www.storytellingwithdata.com/)
 
 1. [Principles of Forecasting](https://otexts.com/fpp2/)
 2. [Kalman-and-Bayesian-Filters-in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)
@@ -112,6 +116,10 @@
 95. [Advanced Statistical Computing](https://bookdown.org/rdpeng/advstatcomp/)
 96. [Flexible Imputation of Missing Data](https://stefvanbuuren.name/fimd/)
 97. [Interpretable ML](https://christophm.github.io/interpretable-ml-book/)
+98. [High Dimensional Stats with R](https://carpentries-incubator.github.io/high-dimensional-stats-r/)
+99. [Quant Econ Dynamic Programming](https://quantecon.github.io/book-dp1/intro.html)
+100. [Epidemiologist R Handbook](https://epirhandbook.com/en/index.html#)
+101. [Spatial Data Science](https://r-spatial.org/book/)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
