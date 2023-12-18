@@ -120,6 +120,7 @@
 99. [Quant Econ Dynamic Programming](https://quantecon.github.io/book-dp1/intro.html)
 100. [Epidemiologist R Handbook](https://epirhandbook.com/en/index.html#)
 101. [Spatial Data Science](https://r-spatial.org/book/)
+102. [Bayesian Statistics using Julia and Turing](https://storopoli.io/Bayesian-Julia/)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
