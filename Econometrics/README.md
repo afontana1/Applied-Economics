@@ -51,7 +51,8 @@
 28. [Applied Econometrics](http://people.stern.nyu.edu/wgreene/Econometrics/Econometrics.htm)
 29. [Panel Data Econometrics](http://people.stern.nyu.edu/wgreene/Econometrics/PanelDataEconometrics.htm)
 30. [stats](https://online.stat.psu.edu/statprogram/)
-31. [Computational Statistics](https://people.duke.edu/~ccc14/sta-663/index.html)
+31. [Computational Statistics in Python](https://people.duke.edu/~ccc14/sta-663/index.html)
+	* [Computational Statistics for Bayesian Inference with PyMC3](https://sjster.github.io/introduction_to_computational_statistics/docs/index.html)
 32. [Some Practical Stats](https://ocw.mit.edu/courses/mathematics/18-650-statistics-for-applications-fall-2016/)
 33. [Some Statistical Theory](https://ocw.mit.edu/courses/economics/14-381-statistical-method-in-economics-fall-2018/)
 34. [Probability](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/)
@@ -121,6 +122,7 @@
 100. [Epidemiologist R Handbook](https://epirhandbook.com/en/index.html#)
 101. [Spatial Data Science](https://r-spatial.org/book/)
 102. [Bayesian Statistics using Julia and Turing](https://storopoli.io/Bayesian-Julia/)
+103. [Stat 503: Design of Experiments](https://online.stat.psu.edu/stat503/)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
