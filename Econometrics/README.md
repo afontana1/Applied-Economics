@@ -122,7 +122,23 @@
 100. [Epidemiologist R Handbook](https://epirhandbook.com/en/index.html#)
 101. [Spatial Data Science](https://r-spatial.org/book/)
 102. [Bayesian Statistics using Julia and Turing](https://storopoli.io/Bayesian-Julia/)
-103. [Stat 503: Design of Experiments](https://online.stat.psu.edu/stat503/)
+
+## Penn State Online Stats
+
+1. [Stat 500: Applied Statistics](https://online.stat.psu.edu/stat500/)
+2. [Stat 501: Regression Methods](https://online.stat.psu.edu/stat501/)
+3. [Stat 502: Analysis of Variance and Design of Experiments](https://online.stat.psu.edu/statprogram/stat502)
+4. [Stat 503: Design of Experiments](https://online.stat.psu.edu/stat503/)
+5. [Stat 504: Analysis of Discrete Data](https://online.stat.psu.edu/statprogram/stat504)
+6. [STAT 505: Applied Multivariate Statistical Analysis](https://online.stat.psu.edu/stat505/)
+	* [Course Website](https://sites.psu.edu/djmallinson/padm-576/)
+7. [STAT 506: Sampling Theory and Methods](https://online.stat.psu.edu/stat506/)
+8. [STAT 507: Epidemiological Research Methods](https://online.stat.psu.edu/stat507/)
+9. [STAT 508: Applied Data Mining & Statistical Learning](https://online.stat.psu.edu/statprogram/stat508)
+10. [STAT 509: Design and Analysis of Clinical Trials](https://online.stat.psu.edu/stat509/)
+11. [STAT 510: Applied Time Series Analysis](https://online.stat.psu.edu/stat510/)
+12. [STAT 555: Statistical Analysis of Genomics Data](https://online.stat.psu.edu/stat555/)
+13. [STAT 800: Introduction to Applied Statistics](https://online.stat.psu.edu/stat800/)
 
 ## Concepts
 1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
