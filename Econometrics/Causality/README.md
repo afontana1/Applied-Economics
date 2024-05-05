@@ -61,6 +61,7 @@
 18. [Machine Learning & Causal Inference: A Short Course](https://www.gsb.stanford.edu/faculty-research/centers-initiatives/sil/research/methods/ai-machine-learning/short-course)
 19. [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)
 20. [pgmpy](https://github.com/pgmpy/pgmpy)
+21. [Causal Inference in R](https://www.r-causal.org/)
 
 ## Libraries
 
@@ -84,6 +85,7 @@
 18. [DoWhy](https://github.com/py-why/dowhy)
 19. [Design-of-experiment-Python](https://github.com/tirthajyoti/Design-of-experiment-Python)
 20. [Design-and-Analysis-of-Experiments](https://github.com/fcampelo/Design-and-Analysis-of-Experiments)
+21. [lingam](https://lingam.readthedocs.io/en/latest/index.html)
 
 ## Videos
 - [Causal Inference Playlist 1](https://www.youtube.com/watch?v=zvrcyqcN9Wo&list=PL0fusIJuNs3NTG-5R1AljT1gl-qWbJGgF)
