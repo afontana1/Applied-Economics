@@ -38,30 +38,12 @@
 24. [Causal Inference Blog](https://solomonkurz.netlify.app/blog/)
 25. [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/index.html)
 26. [Causal Inference: The Mixtape](https://mixtape.scunning.com/)
+27. [Causality and Causal Inference Course](https://chalmers.instructure.com/courses/10036)
+28. [Causal Inference and Learning Course](https://www.cs.uic.edu/~elena/courses/fall19/cs594cil.html)
+29. [Machine Learning & Causal Inference: A Short Course](https://www.gsb.stanford.edu/faculty-research/centers-initiatives/sil/research/methods/ai-machine-learning/short-course)
+30. [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)
+31. [Causal Inference in R](https://www.r-causal.org/)
 
-## Groups, Courses, and People
-
-1. [Course](http://statweb.stanford.edu/~owen/courses/363/)
-2. [Causal Inference Group](https://ei.is.tuebingen.mpg.de/research_groups/causal-inference-group)
-3. [Wisconsin](https://www.ssc.wisc.edu/~felwert/causality/)
-4. [Penn State](https://www.methodology.psu.edu/ra/causal/)
-5. [Pitts](https://www.ccd.pitt.edu/)
-6. [U Penn](https://www.cceb.med.upenn.edu/cci)
-7. [Alan Turing Institute](https://www.turing.ac.uk/research/interest-groups/causal-inference)
-8. [Peter Sprites](https://www.cmu.edu/dietrich/philosophy/people/faculty/spirtes.html)
-9. [Clark Glymour](https://www.cmu.edu/dietrich/philosophy/people/emeritus/glymour.html)
-10. [Kun Zhang](http://www.andrew.cmu.edu/user/kunz1/index.html)
-11. [UCLA Blog](http://causality.cs.ucla.edu/blog/)
-12. [DoWhy](https://github.com/microsoft/dowhy)
-13. [Causal Impact](https://github.com/ricoms/causalimpact)
-14. [Causal Discovery](https://github.com/SirLori96/causal_discovery)
-15. [Targeted Learning](https://www.youtube.com/playlist?list=PLy_CaFomwGGGH10tbq9zSyfHVrdklMaLe)
-16. [Causality and Causal Inference Course](https://chalmers.instructure.com/courses/10036)
-17. [Causal Inference and Learning Course](https://www.cs.uic.edu/~elena/courses/fall19/cs594cil.html)
-18. [Machine Learning & Causal Inference: A Short Course](https://www.gsb.stanford.edu/faculty-research/centers-initiatives/sil/research/methods/ai-machine-learning/short-course)
-19. [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)
-20. [pgmpy](https://github.com/pgmpy/pgmpy)
-21. [Causal Inference in R](https://www.r-causal.org/)
 
 ## Libraries
 
@@ -86,13 +68,14 @@
 19. [Design-of-experiment-Python](https://github.com/tirthajyoti/Design-of-experiment-Python)
 20. [Design-and-Analysis-of-Experiments](https://github.com/fcampelo/Design-and-Analysis-of-Experiments)
 21. [lingam](https://lingam.readthedocs.io/en/latest/index.html)
+22. [EconML](https://github.com/py-why/EconML)
+23. [causica](https://github.com/microsoft/causica)
+24. [showwhy](https://github.com/microsoft/showwhy)
+25. [DoWhy](https://github.com/microsoft/dowhy)
+26. [Causal Impact](https://github.com/ricoms/causalimpact)
+27. [Causal Discovery](https://github.com/SirLori96/causal_discovery)
 
 ## Videos
-- [Causal Inference Playlist 1](https://www.youtube.com/watch?v=zvrcyqcN9Wo&list=PL0fusIJuNs3NTG-5R1AljT1gl-qWbJGgF)
-- [Causal Inference Playlist 2](https://www.youtube.com/watch?v=6SCoaBo1MqU&list=PLTnoloBvEJ0sDUd5aK42oXnDgZ7e63Dor)
-- [Causal Inference Course](https://www.youtube.com/playlist?list=PLoazKTcS0RzZ1SUgeOgc6SWt51gfT80N0)
-- [Machine Learning & Causal Inference](https://www.youtube.com/playlist?list=PLxq_lXOUlvQAoWZEqhRqHNezS30lI49G-)
-- [The Mathematics of Causal Inference, with Reflections on Machine Learning and the Logic of Science](https://www.youtube.com/watch?v=zHjdd--W6o4)
 
 1. [Introduction to Causal Inference: Philosophy, Framework and Key Methods PART ONE](https://www.youtube.com/watch?v=BQkmzrn8pl4)
 2. [Introduction to Causal Inference: Philosophy, Framework and Key Methods PART TWO](https://www.youtube.com/watch?v=A0vMD6IiQW4)
@@ -110,6 +93,14 @@
 14. [The Nature of Causation: The Necessary Connection Analysis](https://www.youtube.com/watch?v=t7cfljJ79X0)
 15. [The Nature of Causation: Mental Causation](https://www.youtube.com/watch?v=RefjI1lGT-Q)
 16. [Econometrics Causality and Coding](https://www.youtube.com/playlist?list=PLcTBLulJV_AKmUTH-nUsxxFyRQoWnUzxU)
+17. [Causal Inference Playlist 1](https://www.youtube.com/watch?v=zvrcyqcN9Wo&list=PL0fusIJuNs3NTG-5R1AljT1gl-qWbJGgF)
+18. [Causal Inference Playlist 2](https://www.youtube.com/watch?v=6SCoaBo1MqU&list=PLTnoloBvEJ0sDUd5aK42oXnDgZ7e63Dor)
+19. [Causal Inference Course](https://www.youtube.com/playlist?list=PLoazKTcS0RzZ1SUgeOgc6SWt51gfT80N0)
+20. [Machine Learning & Causal Inference](https://www.youtube.com/playlist?list=PLxq_lXOUlvQAoWZEqhRqHNezS30lI49G-)
+21. [The Mathematics of Causal Inference, with Reflections on Machine Learning and the Logic of Science](https://www.youtube.com/watch?v=zHjdd--W6o4)
+22. [Econometrics](https://youtube.com/playlist?list=PLcTBLulJV_ALLS7R_e7ig0aEcBrtp6B18&si=G7hH2DlkE7cqY4eY)
+23. [Econometrics, Causality, and Coding with Dr. HK](https://youtube.com/playlist?list=PLcTBLulJV_AKmUTH-nUsxxFyRQoWnUzxU&si=ktWYmqcRW6Y_t6fb)
+24. [The Effect](https://youtube.com/playlist?list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&si=ZIzkqi7YIY69ZLiS)
 
 ## MODULE 1
 

@@ -122,6 +122,10 @@
 100. [Epidemiologist R Handbook](https://epirhandbook.com/en/index.html#)
 101. [Spatial Data Science](https://r-spatial.org/book/)
 102. [Bayesian Statistics using Julia and Turing](https://storopoli.io/Bayesian-Julia/)
+103. [Multivariate Statistical Analysis - Course](https://youtube.com/playlist?list=PLw3gXq8rdVU6BAh8ZA8Gfd030CMY5tztu&si=HHejEG7DbE3kacgE)
+104. [Multivariate statistics - a full course](https://youtube.com/playlist?list=PLLTSM0eKjC2fZqeVFWBBBr8KSqnBIPMQD&si=Ulf6kgFfYn2pRRGB)
+105. [Structural Equation Modeling - Course](https://youtube.com/playlist?list=PLTjlULGD9bNLPjpFqDlVMFu0GyNX7_IB-&si=aZzTcOvmQ-2z9TUy)
+106. [Applied Multivariate Analysis (Alan Dabney, STAT 636, Texas A&M)](https://youtube.com/playlist?list=PL91cR71aKpekIDFYIUkc2xdFxLu9LAYTg&si=_tudzWXNA1grCZkY)
 
 ## Penn State Online Stats
 
