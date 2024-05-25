@@ -126,6 +126,8 @@
 104. [Multivariate statistics - a full course](https://youtube.com/playlist?list=PLLTSM0eKjC2fZqeVFWBBBr8KSqnBIPMQD&si=Ulf6kgFfYn2pRRGB)
 105. [Structural Equation Modeling - Course](https://youtube.com/playlist?list=PLTjlULGD9bNLPjpFqDlVMFu0GyNX7_IB-&si=aZzTcOvmQ-2z9TUy)
 106. [Applied Multivariate Analysis (Alan Dabney, STAT 636, Texas A&M)](https://youtube.com/playlist?list=PL91cR71aKpekIDFYIUkc2xdFxLu9LAYTg&si=_tudzWXNA1grCZkY)
+107. [MATH2750 Introduction to Markov Processes](https://mpaldridge.github.io/math2750/)
+108. [lifelines: Survival Analysis](https://github.com/CamDavidsonPilon/lifelines)
 
 ## Penn State Online Stats
 
