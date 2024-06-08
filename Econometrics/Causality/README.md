@@ -43,6 +43,7 @@
 29. [Machine Learning & Causal Inference: A Short Course](https://www.gsb.stanford.edu/faculty-research/centers-initiatives/sil/research/methods/ai-machine-learning/short-course)
 30. [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)
 31. [Causal Inference in R](https://www.r-causal.org/)
+32. [Causal Analysis in Theory and Practice](http://causality.cs.ucla.edu/blog/)
 
 
 ## Libraries
