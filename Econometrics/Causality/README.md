@@ -1,7 +1,7 @@
 # [Causality](https://en.wikipedia.org/wiki/Category:Causality)
 
 - [Philosophical Treatment of Causaility](https://github.com/afontana1/critical-thinking/tree/master/course_outline/course5-Causation)
-
+- [awesome-causal-inference](https://github.com/matteocourthoud/awesome-causal-inference)
 - [Causal Analysis in Theory and Practice](http://causality.cs.ucla.edu/blog/)
 - [ML beyond Curve Fitting: An Intro to Causal Inference and do-Calculus](https://www.inference.vc/untitled/)
 - [Causal Inference 2: Illustrating Interventions via a Toy Example](https://www.inference.vc/causal-inference-2-illustrating-interventions-in-a-toy-example/)
@@ -44,6 +44,8 @@
 30. [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)
 31. [Causal Inference in R](https://www.r-causal.org/)
 32. [Causal Analysis in Theory and Practice](http://causality.cs.ucla.edu/blog/)
+33. [Causal Inference with Python](https://causal-methods.github.io/Book/Introduction.html)
+34. [Matching Methods for Causal Inference](https://humboldt-wi.github.io/blog/research/applied_predictive_modeling_19/matching_methods/)
 
 
 ## Libraries
@@ -64,8 +66,8 @@
 14. [doepy](https://github.com/tirthajyoti/doepy)
 15. [pyDOE2](https://github.com/clicumu/pyDOE2)
 16. [Causal-lift](https://github.com/Minyus/causallift)
-17. [Causal](https://github.com/jamalsenouci/causalimpact) [Impact](https://github.com/tcassou/causal_impact)
-18. [DoWhy](https://github.com/py-why/dowhy)
+17. [Causal-Impact](https://github.com/jamalsenouci/causalimpact)
+18. [pywhy](https://www.pywhy.org/)
 19. [Design-of-experiment-Python](https://github.com/tirthajyoti/Design-of-experiment-Python)
 20. [Design-and-Analysis-of-Experiments](https://github.com/fcampelo/Design-and-Analysis-of-Experiments)
 21. [lingam](https://lingam.readthedocs.io/en/latest/index.html)
@@ -73,8 +75,24 @@
 23. [causica](https://github.com/microsoft/causica)
 24. [showwhy](https://github.com/microsoft/showwhy)
 25. [DoWhy](https://github.com/microsoft/dowhy)
-26. [Causal Impact](https://github.com/ricoms/causalimpact)
-27. [Causal Discovery](https://github.com/SirLori96/causal_discovery)
+26. [Causal Discovery](https://github.com/SirLori96/causal_discovery)
+27. [Causal Impact](https://github.com/tcassou/causal_impact)
+28. [Causal Learn](https://causal-learn.readthedocs.io/en/latest/)
+29. [dagitty](https://github.com/jtextor/dagitty)
+30. [MatchIt](https://kosukeimai.github.io/MatchIt/)
+31. [doubleml-for-py](https://github.com/DoubleML/doubleml-for-py)
+32. [CausalDag](https://github.com/uhlerlab/causaldag)
+33. [CausalDiscoveryToolbox](https://github.com/FenTechSolutions/CausalDiscoveryToolbox)
+34. [gcastle](https://github.com/huawei-noah/trustworthyAI/tree/master/gcastle)
+35. [causality](https://github.com/akelleh/causality)
+36. [CausalNex](https://causalnex.readthedocs.io/en/latest/index.html)
+37. [causal-curve](https://github.com/ronikobrosly/causal-curve)
+38. [causal-learn](https://github.com/py-why/causal-learn)
+39. [causalnlp](https://github.com/amaiya/causalnlp)
+40. [tigramite](https://github.com/jakobrunge/tigramite)
+41. [causaltune](https://github.com/py-why/causaltune)
+42. [azcausal](https://github.com/amazon-science/azcausal)
+43. [y0](https://github.com/y0-causal-inference/y0)
 
 ## Videos
 
