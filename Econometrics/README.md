@@ -209,6 +209,9 @@
 60. [Summary_statistics](https://en.wikipedia.org/wiki/Category:Summary_statistics)
 61. [List_of_analyses_of_categorical_data](https://en.wikipedia.org/wiki/List_of_analyses_of_categorical_data)
 62. [Regression Analysis](https://en.wikipedia.org/wiki/Category:Regression_analysis) and [Regression Models](https://en.wikipedia.org/wiki/Category:Regression_models)
+63. [Design of Experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
+64. [Observational Study](https://en.wikipedia.org/wiki/Category:Observational_study)
+65. [Econometric Modeling](https://en.wikipedia.org/wiki/Category:Econometric_modeling)
 
 ## [Sampling](https://en.wikipedia.org/wiki/Category:Sampling_(statistics)) and [Probability](https://en.wikipedia.org/wiki/Category:Probability_distributions) [Distributions](https://en.wikipedia.org/wiki/List_of_probability_distributions)
 
