@@ -1,5 +1,15 @@
 # Financial Engineering
 
+## Risk Management
+
+### Courses
+
+1. [Financial Engineering and Risk Management Specialization](https://www.coursera.org/specializations/financialengineering)
+2. [MITx: Mathematical Methods for Quantitative Finance](https://www.edx.org/learn/finance/massachusetts-institute-of-technology-mathematical-methods-for-quantitative-finance)
+3. [Pricing Options with Mathematical Models](https://www.coursera.org/learn/pricing-options-with-mathematical-models)
+
+## Tools
+
 1. [Financial Model Numerical Methods](https://github.com/cantaro86/Financial-Models-Numerical-Methods)
 2. [Economic Scenario Generator](https://github.com/jason-ash/pyesg)
 3. [pymc-stochastic-processes](https://github.com/AlexIoannides/pymc-stochastic-process)
