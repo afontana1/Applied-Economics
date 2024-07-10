@@ -9,3 +9,5 @@
 7. [dsgepy](https://github.com/gusamarante/dsgepy)
 8. [pydsge](https://github.com/gboehl/pydsge)
 9. [awesome-var](https://github.com/kvasilopoulos/awesome-var)
+10. [Microprediction](https://github.com/microprediction/microprediction)
+11. [Python Nowcasting](https://github.com/MajesticKhan/Nowcasting-Python)
