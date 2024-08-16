@@ -93,6 +93,9 @@
 41. [causaltune](https://github.com/py-why/causaltune)
 42. [azcausal](https://github.com/amazon-science/azcausal)
 43. [y0](https://github.com/y0-causal-inference/y0)
+44. [sdid](https://github.com/Daniel-Pailanir/sdid)
+45. [awesome-causality-algorithms](https://github.com/rguo12/awesome-causality-algorithms)
+46. [backtracing](https://github.com/rosewang2008/backtracing)
 
 ## Videos
 
