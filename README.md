@@ -70,6 +70,8 @@
 - [Brian Arthur](https://en.wikipedia.org/wiki/W._Brian_Arthur)
 - [Jozef Barunik (Networks)](https://barunik.github.io/)
 - [Leeat Yariv](https://www.lyariv.com/)
+- [Leigh S Tesfatsion](https://faculty.sites.iastate.edu/tesfatsi/)
+- [Robert Hanneman](https://faculty.ucr.edu/~hanneman/)
 
 ### [Schools of Thought](https://en.wikipedia.org/wiki/Category:Schools_of_economic_thought) and [History of Economic Thought](https://en.wikipedia.org/wiki/Category:History_of_economic_thought)
 1. [Mainstream](https://en.wikipedia.org/wiki/Mainstream_economics)

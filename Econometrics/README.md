@@ -26,16 +26,7 @@
 	* [Advanced Data Analysis](https://www.stat.cmu.edu/~cshalizi/uADA/)
 	* [ADA Reading Group](https://www.youtube.com/playlist?list=PLob0yCmJjJ3XT9DfcQ63ly79ICmgGU5bt)
 	* [Advanced Data Analysis From an Elementary View Point](https://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/)
-13. [Computational Economics](http://www2.econ.iastate.edu/tesfatsi/ace.htm) and [Game Theory](https://en.wikipedia.org/wiki/Category:Game_theory)
-	- [Introduction to Computational Economics](https://www2.cs.duke.edu/courses/fall07/cps196.2/)
-	- [Quantitative Economics](https://quantecon.org/lectures/)
-	- [Algorithmic Game Theory](https://www.cis.upenn.edu/~aaroth/courses/agtS20.html)
-	- [Tim Roughgarden Lectures](http://timroughgarden.org/f13/f13.html)
-	- [Topics in Algorithmic Game Theory](http://people.csail.mit.edu/costis/6853fa2011/)
-	- [Discrete Choice and Simulation](https://eml.berkeley.edu/books/choice2.html)
-	- [Foundations of Computational Economics](https://fedor.iskh.me/compecon-video)
-	- [Notebook Gallery](https://notebook.community/)
-	- [Computational Economics Models](https://juejung.github.io/jdocs/Comp/html/index.html#)
+13. [lifelines: Survival Analysis](https://github.com/CamDavidsonPilon/lifelines)
 14. [NowCasting](https://github.com/MajesticKhan/Nowcasting-Python)
 15. [Bayesloop](https://github.com/christophmark/bayesloop)
 16. [Pomegranate](https://github.com/jmschrei/pomegranate)
@@ -129,7 +120,6 @@
 105. [Structural Equation Modeling - Course](https://youtube.com/playlist?list=PLTjlULGD9bNLPjpFqDlVMFu0GyNX7_IB-&si=aZzTcOvmQ-2z9TUy)
 106. [Applied Multivariate Analysis (Alan Dabney, STAT 636, Texas A&M)](https://youtube.com/playlist?list=PL91cR71aKpekIDFYIUkc2xdFxLu9LAYTg&si=_tudzWXNA1grCZkY)
 107. [MATH2750 Introduction to Markov Processes](https://mpaldridge.github.io/math2750/)
-108. [lifelines: Survival Analysis](https://github.com/CamDavidsonPilon/lifelines)
 
 ## Penn State Online Stats
 
