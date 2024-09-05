@@ -4,9 +4,9 @@
 
 > Presents mathematical methods commonly used in graduate-level economic analysis: basic matrix algebra, real analysis, functions, continuity concepts, differentiation, Taylor expansions, and implicit function theorem and optimization.
 
-2. ECON 201 Applications in Microeconomics
+2. ECON 200 Microeconomic Analysis
 
-> Applies concepts and tools developed in ECON 200 to problems encountered in private- and public-sector output and labor markets. The focus is empirical; topics include analysis of labor supply and labor demand and the role of government labor market policies, analysis of pricing policies and regulation, estimation of the returns to schooling, estimation of demand and cost functions, and the role of unions in the economy. ECON 200 is strongly recommended as preparation.
+> Survey of partial equilibrium analysis, market distortions, consumer choice and production and trade theory, perfect and imperfect competition, price discrimination, and intertemporal choice theory.
 
 3. ECON 294A Applied Economics and Finance Laboratory
 
@@ -44,9 +44,9 @@
 
 > Application of modern financial theory to corporate decision making. Topics covered include capital budgeting and the firm's investment decision, capital structure, dividend policies, and the implications of corporate governance for enterprise financial goals.
 
-12. ECON 200 Microeconomic Analysis
+12. ECON 201 Applications in Microeconomics
 
-> Survey of partial equilibrium analysis, market distortions, consumer choice and production and trade theory, perfect and imperfect competition, price discrimination, and intertemporal choice theory.
+> Applies concepts and tools developed in ECON 200 to problems encountered in private- and public-sector output and labor markets. The focus is empirical; topics include analysis of labor supply and labor demand and the role of government labor market policies, analysis of pricing policies and regulation, estimation of the returns to schooling, estimation of demand and cost functions, and the role of unions in the economy. ECON 200 is strongly recommended as preparation.
 
 
 <details><summary><h2><a href="https://en.wikipedia.org/wiki/Category:Economics">Resources</a> for <a href="https://en.wikipedia.org/wiki/Outline_of_economics">Economics</a></h2></summary>
