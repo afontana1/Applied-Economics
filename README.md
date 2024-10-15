@@ -134,6 +134,7 @@
 6. [Economic_methods](https://en.wikipedia.org/wiki/Category:Economic_methods)
 7. [Economic_methodology](https://en.wikipedia.org/wiki/Category:Economic_methodology)
 8. [Concepts and Theories](https://en.wikipedia.org/wiki/Category:Economic_theories)
+9. [Carnegie School](https://en.wikipedia.org/wiki/Carnegie_School)
 
 #### [Political Economy](https://en.wikipedia.org/wiki/Category:Political_economy)
 1. [Ideologies](https://en.wikipedia.org/wiki/Category:Ideologies)

@@ -7,6 +7,8 @@
 - [In-depth introduction to machine learning in 15 hours of expert videos](https://www.r-bloggers.com/2014/09/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/)
 - [Storytelling With Data](https://www.storytellingwithdata.com/)
 - [A Guide on Data Analysis](https://bookdown.org/mike/data_analysis/)
+- [Bayesian statistics: a comprehensive course](https://youtube.com/playlist?list=PLFDbGp5YzjqXQ4oE4w9GVWdiokWB9gEpm&si=o0s_LJpd6ffBF3L-)
+- [A Student's Guide to Bayesian Statistics](https://youtube.com/playlist?list=PLwJRxp3blEvZ8AKMXOy0fc0cqT61GsKCG&si=sTxW4ijSAeGqgAU5)
 
 1. [Principles of Forecasting](https://otexts.com/fpp2/)
 2. [Kalman-and-Bayesian-Filters-in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)
