@@ -10,6 +10,7 @@
 - [QuantEcon](https://quantecon.org/)
 - [Storytelling With Data](https://www.storytellingwithdata.com/)
 - [A Guide on Data Analysis](https://bookdown.org/mike/data_analysis/)
+- [Tim Roughgarden](https://timroughgarden.org/)
 
 1. [Econometrics Academy](https://sites.google.com/site/econometricsacademy/home)
 2. [Kalman-and-Bayesian-Filters-in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)
