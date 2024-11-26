@@ -10,6 +10,7 @@
 - [QuantEcon](https://quantecon.org/)
 - [Storytelling With Data](https://www.storytellingwithdata.com/)
 - [A Guide on Data Analysis](https://bookdown.org/mike/data_analysis/)
+- [Statistical Thinking for the 21st Century](https://statsthinking21.github.io/statsthinking21-core-site/)
 - [Tim Roughgarden](https://timroughgarden.org/)
 
 1. [Econometrics Academy](https://sites.google.com/site/econometricsacademy/home)
