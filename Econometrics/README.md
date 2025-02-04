@@ -12,6 +12,7 @@
 - [A Guide on Data Analysis](https://bookdown.org/mike/data_analysis/)
 - [Statistical Thinking for the 21st Century](https://statsthinking21.github.io/statsthinking21-core-site/)
 - [Tim Roughgarden](https://timroughgarden.org/)
+- [Mechanism Design](https://mech-design.github.io/)
 
 1. [Econometrics Academy](https://sites.google.com/site/econometricsacademy/home)
 2. [Kalman-and-Bayesian-Filters-in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)
