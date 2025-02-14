@@ -9,15 +9,10 @@
 	* [Advanced Data Analysis](https://www.stat.cmu.edu/~cshalizi/uADA/)
 	* [ADA Reading Group](https://www.youtube.com/playlist?list=PLob0yCmJjJ3XT9DfcQ63ly79ICmgGU5bt)
 	* [Advanced Data Analysis From an Elementary View Point](https://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/)
-- [QuantEcon](https://quantecon.org/)
 - [Storytelling With Data](https://www.storytellingwithdata.com/)
 - [A Guide on Data Analysis](https://bookdown.org/mike/data_analysis/)
 - [Statistical Thinking for the 21st Century](https://statsthinking21.github.io/statsthinking21-core-site/)
-- [Tim Roughgarden](https://timroughgarden.org/)
-- [Mechanism Design](https://mech-design.github.io/)
 - [Econometrics Academy](https://sites.google.com/site/econometricsacademy/home)
-- [Computational Social Science (Soc 690)](https://cbail.github.io/comp_soc_grad/Home.html)
-- [Comp Social Science Code](http://pablobarbera.com/POIR613/code.html)
 
 ## Statistics & Probability
 
