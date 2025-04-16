@@ -102,6 +102,7 @@
 20. [Interpretable ML](https://christophm.github.io/interpretable-ml-book/)
 21. [Epidemiologist R Handbook](https://epirhandbook.com/en/index.html#)
 22. [Spatial Data Science](https://r-spatial.org/book/)
+23. [Nonlinear Econometric Estimates](https://ocw.mit.edu/courses/14-385-nonlinear-econometric-analysis-fall-2007/)
 
 
 ## Penn State Online Stats
