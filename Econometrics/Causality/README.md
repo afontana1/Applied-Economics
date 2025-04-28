@@ -123,3 +123,5 @@
 22. [Econometrics](https://youtube.com/playlist?list=PLcTBLulJV_ALLS7R_e7ig0aEcBrtp6B18&si=G7hH2DlkE7cqY4eY)
 23. [Econometrics, Causality, and Coding with Dr. HK](https://youtube.com/playlist?list=PLcTBLulJV_AKmUTH-nUsxxFyRQoWnUzxU&si=ktWYmqcRW6Y_t6fb)
 24. [The Effect](https://youtube.com/playlist?list=PLcTBLulJV_AK1hKtnO0-kYrU0D09K-kj8&si=ZIzkqi7YIY69ZLiS)
+25. [Causal Inference Course Lectures](https://youtube.com/playlist?list=PLoazKTcS0Rzb6bb9L508cyJ1z-U9iWkA0&si=D9JOaBWYSoVs3HiX)
+26. [Full Lectures - Causal Inference Course](https://youtube.com/playlist?list=PLoazKTcS0RzZ1SUgeOgc6SWt51gfT80N0&si=PNPo2UXzaYRbkeHl)
