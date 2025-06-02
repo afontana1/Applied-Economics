@@ -46,3 +46,5 @@
 34. [tsfresh](https://github.com/blue-yonder/tsfresh)
 35. [StreamAD](https://github.com/Fengrui-Liu/StreamAD)
 36. [Gluonts](https://github.com/awslabs/gluonts)
+37. [Riskfolio Lib](https://github.com/dcajasn/Riskfolio-Lib)
+38. [skfolio](https://github.com/skfolio/skfolio)
