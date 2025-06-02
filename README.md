@@ -10,6 +10,7 @@
 - [Mathematical and Quantitative Methods in Economics](https://en.wikipedia.org/wiki/Category:Mathematical_and_quantitative_methods_%28economics%29)
 - [Cambridge Society for Economic Pluralism](https://www.cambridgepluralism.org/)
 - [Rethinking Economics](https://www.rethinkeconomics.org/)
+- [Mathematical and quantitative methods (economics)](https://en.wikipedia.org/wiki/Category:Mathematical_and_quantitative_methods_(economics))
 
 ### [People](https://en.wikipedia.org/wiki/List_of_economists)
 - [J Doyne Farmer](http://www.doynefarmer.com/about-me)
