@@ -13,6 +13,8 @@
 - [A Guide on Data Analysis](https://bookdown.org/mike/data_analysis/)
 - [Statistical Thinking for the 21st Century](https://statsthinking21.github.io/statsthinking21-core-site/)
 - [Econometrics Academy](https://sites.google.com/site/econometricsacademy/home)
+- [Introduction to Data Analysis](https://michael-franke.github.io/intro-data-analysis/)
+- [Data Analysis for Social Scientists](https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/)
 
 ## Statistics & Probability
 
@@ -21,6 +23,7 @@
 3. [Probability](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/)
 4. [Mathematical Stats](https://ocw.mit.edu/courses/mathematics/18-655-mathematical-statistics-spring-2016/)
 5. [Matrix Methods](https://ocw.mit.edu/courses/mathematics/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/index.htm)
+6. [Statistical Methods: Likelihood, Bayes and Regression](https://strimmerlab.github.io/publications/lecture-notes/MATH20802/)
 
 ## Microeconometrics
 
@@ -31,6 +34,7 @@
 5. [Linear Models](https://github.com/bashtage/linearmodels)
 6. [FixedEffectModels](https://github.com/FixedEffects/FixedEffectModels.jl)
 7. [Mastering Metrics](https://www.masteringmetrics.com/online-metrics-resources/)
+8. [Applied Econometrics: Mostly Harmless Big Data](https://ocw.mit.edu/courses/14-387-applied-econometrics-mostly-harmless-big-data-fall-2014/)
 
 ## Bayesian Analysis
 
@@ -58,6 +62,7 @@
 20. [Statistical Rethinking (2023 Edition)](https://github.com/rmcelreath/stat_rethinking_2023)
 21. [Bayes_Computing_Course](https://github.com/fonnesbeck/Bayes_Computing_Course)
 22. [Bayesian Data Analysis Course](https://avehtari.github.io/BDA_course_Aalto/)
+23. [An Introduction to Bayesian Reasoning and Methods](https://bookdown.org/kevin_davisross/bayesian-reasoning-and-methods/)
 
 ## Time Series
 
