@@ -15,6 +15,7 @@
 - [Econometrics Academy](https://sites.google.com/site/econometricsacademy/home)
 - [Introduction to Data Analysis](https://michael-franke.github.io/intro-data-analysis/)
 - [Data Analysis for Social Scientists](https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/)
+- [Designing Simulations in R](https://jepusto.github.io/Designing-Simulations-in-R/)
 
 ## Statistics & Probability
 
