@@ -80,6 +80,7 @@
 - [Leigh S Tesfatsion](https://faculty.sites.iastate.edu/tesfatsi/)
 - [Robert Hanneman](https://faculty.ucr.edu/~hanneman/)
 - [Matthijs van Veelen](https://sites.google.com/view/matthijsvanveelen/home)
+- [Uskali Mäki](https://scholar.google.com/citations?user=IvpY3esAAAAJ&hl=fi)
 
 ### [Schools of Thought](https://en.wikipedia.org/wiki/Category:Schools_of_economic_thought) and [History of Economic Thought](https://en.wikipedia.org/wiki/Category:History_of_economic_thought)
 1. [Mainstream](https://en.wikipedia.org/wiki/Mainstream_economics)
