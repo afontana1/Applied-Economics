@@ -64,6 +64,8 @@
 21. [Bayes_Computing_Course](https://github.com/fonnesbeck/Bayes_Computing_Course)
 22. [Bayesian Data Analysis Course](https://avehtari.github.io/BDA_course_Aalto/)
 23. [An Introduction to Bayesian Reasoning and Methods](https://bookdown.org/kevin_davisross/bayesian-reasoning-and-methods/)
+24. [Bayesian inference with INLA](https://becarioprecario.bitbucket.io/inla-gitbook/index.html)
+25. [Bayesian Statistics course](https://bayesf22.classes.andrewheiss.com/schedule/)
 
 ## Time Series
 
