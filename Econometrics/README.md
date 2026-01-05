@@ -202,6 +202,9 @@
 68. [Bayesian Hierarchical Modeling](https://en.wikipedia.org/wiki/Bayesian_hierarchical_modeling)
 69. [Multilevel Modeling](https://en.wikipedia.org/wiki/Multilevel_model)
 70. [Mixture Modeling](https://en.wikipedia.org/wiki/Mixture_model)
+71. [Risk_analysis](https://en.wikipedia.org/wiki/Category:Risk_analysis)
+	* [Risk_analysis_methodologies](https://en.wikipedia.org/wiki/Category:Risk_analysis_methodologies)
+	* [Risk](https://en.wikipedia.org/wiki/Category:Risk)
 
 ## [Sampling](https://en.wikipedia.org/wiki/Category:Sampling_(statistics)) and [Probability](https://en.wikipedia.org/wiki/Category:Probability_distributions) [Distributions](https://en.wikipedia.org/wiki/List_of_probability_distributions)
 
