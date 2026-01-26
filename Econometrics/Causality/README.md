@@ -37,10 +37,9 @@
 12. [Causal Inference in R](https://www.r-causal.org/)
 13. [Principles of Causal Inference](https://faculty.ist.psu.edu/vhonavar/Courses/causality/homepage.html)
 14. [Causal Inference with Python](https://causal-methods.github.io/Book/Introduction.html)
-15. [Matching Methods for Causal Inference](https://humboldt-wi.github.io/blog/research/applied_predictive_modeling_19/matching_methods/)
+15. [Econometrics, Causality, and Coding with Dr. HK](https://youtube.com/playlist?list=PLcTBLulJV_AKmUTH-nUsxxFyRQoWnUzxU&si=ktWYmqcRW6Y_t6fb)
+    * [Econometrics](https://youtube.com/playlist?list=PLcTBLulJV_ALLS7R_e7ig0aEcBrtp6B18&si=G7hH2DlkE7cqY4eY)
 16. [Causal Inference -- Online Lectures (M.Sc/PhD Level)](https://www.youtube.com/playlist?list=PLyvUJLHD8IsJCB7ALqwjRG1BjL5JxE__H)
-17. [Econometrics](https://youtube.com/playlist?list=PLcTBLulJV_ALLS7R_e7ig0aEcBrtp6B18&si=G7hH2DlkE7cqY4eY)
-18. [Econometrics, Causality, and Coding with Dr. HK](https://youtube.com/playlist?list=PLcTBLulJV_AKmUTH-nUsxxFyRQoWnUzxU&si=ktWYmqcRW6Y_t6fb)
 
 
 ## Labs, People,  Blogs
