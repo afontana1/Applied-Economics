@@ -12,6 +12,7 @@
 - [Rethinking Economics](https://www.rethinkeconomics.org/)
 - [Mathematical and quantitative methods (economics)](https://en.wikipedia.org/wiki/Category:Mathematical_and_quantitative_methods_(economics))
 - [Rebuilding Macroeconomics](https://www.rebuildingmacroeconomics.ac.uk/)
+- [Oxford - Institute for New Economic Thinking](https://www.inet.ox.ac.uk/research)
 
 ### [People](https://en.wikipedia.org/wiki/List_of_economists)
 - [J Doyne Farmer](http://www.doynefarmer.com/about-me)
