@@ -17,6 +17,8 @@
 - [Data Analysis for Social Scientists](https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/)
 - [Designing Simulations in R](https://jepusto.github.io/Designing-Simulations-in-R/)
 - [Introductory Econometrics with R](https://www.econometrics-with-r.org/)
+- [Applied Econometrics: Mostly Harmless Big Data](https://ocw.mit.edu/courses/14-387-applied-econometrics-mostly-harmless-big-data-fall-2014/)
+- [Data, Models, and Decisions](https://ocw.mit.edu/courses/15-060-data-models-and-decisions-fall-2014/)
 
 ## Statistics & Probability
 
