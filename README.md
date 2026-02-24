@@ -146,6 +146,9 @@
 5. [Judea Pearl](https://bayes.cs.ucla.edu/jp_home.html)
 6. [Nancy Cartwright](https://www.profnancycartwright.com/)
 
+
+## Core Coursework 
+
 1. ECON 186 Mathematical Methods for Economic Analysis
 
 > Presents mathematical methods commonly used in graduate-level economic analysis: basic matrix algebra, real analysis, functions, continuity concepts, differentiation, Taylor expansions, and implicit function theorem and optimization.
