@@ -1,6 +1,4 @@
-# Curriculum
-
-<details><summary><h2><a href="https://en.wikipedia.org/wiki/Category:Economics">Resources</a> for <a href="https://en.wikipedia.org/wiki/Outline_of_economics">Economics</a></h2></summary>
+# [Economics Resources](https://en.wikipedia.org/wiki/Outline_of_economics)
 
 - [The History of Economic Thought Website](https://www.hetwebsite.net/het/)
 - [Research Methods Resources](https://www.youtube.com/@mronkko)
@@ -13,6 +11,10 @@
 - [Mathematical and quantitative methods (economics)](https://en.wikipedia.org/wiki/Category:Mathematical_and_quantitative_methods_(economics))
 - [Rebuilding Macroeconomics](https://www.rebuildingmacroeconomics.ac.uk/)
 - [Oxford - Institute for New Economic Thinking](https://www.inet.ox.ac.uk/research)
+- Philosophy of Economics
+    * [Erik Angner](https://www.erikangner.com/)
+    * [Daniel Hausman](https://philpeople.org/profiles/daniel-hausman)
+    * [Alex Rosenberg](https://philpeople.org/profiles/alex-rosenberg)
 
 ### [People](https://en.wikipedia.org/wiki/List_of_economists)
 - [J Doyne Farmer](http://www.doynefarmer.com/about-me)
@@ -105,7 +107,44 @@
 6. [Economic Systems](https://en.wikipedia.org/wiki/Category:Economic_systems)
 7. [Economic Ideologies](https://en.wikipedia.org/wiki/Category:Economic_ideologies)
 
-</details>
+## Decision Science
+
+### Topics
+
+1. [VUCA](https://en.wikipedia.org/wiki/VUCA)
+2. [Principal Agent Problems](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem)
+3. [Collective_action_problem](https://en.wikipedia.org/wiki/Collective_action_problem)
+4. [Asymmetric Risk](https://asymmetryobservations.com/definitions/asymmetry/asymmetrical-riskreward/)
+5. [Decision theory](https://en.wikipedia.org/wiki/Category:Decision_theory)
+6. [Game Theory](https://en.wikipedia.org/wiki/Category:Game_theory)
+
+### People
+
+1. [Christian List](https://personal.lse.ac.uk/list/)
+2. [Paul Slovic](https://en.wikipedia.org/wiki/Paul_Slovic)
+3. [Richard Gill](https://gill1109.com/?amp=1) [Statistics](https://www.math.leidenuniv.nl/~gill/)
+4. [Philip Tetlock](https://thedecisionlab.com/thinkers/political-science/philip-tetlock)
+
+### Journals, Institutes, Research Labs
+
+1. [Decision Science Institute](https://decisionsciences.org/)
+2. [The Decision Lab](https://thedecisionlab.com/)
+3. [Applied Decision Science](https://www.applieddecisionscience.com/)
+4. [Decision Research](https://www.decisionresearch.org/)
+5. [MIT Institute for Data Systems and Society](https://idss.mit.edu/research/)
+6. [Centre for Brain, Mind and Markets](https://www.unimelb.edu.au/cbmm)
+7. [The Society for Judgment and Decision Making](https://sjdm.org/)
+8. [Judgement and Decision Making Journal](https://www.cambridge.org/core/journals/judgment-and-decision-making)
+9. [Stanford Decision Analysis Group](https://dara.stanford.edu/)
+
+## Causal Inference
+
+1. [Donald Rubin](https://en.wikipedia.org/wiki/Donald_Rubin)
+2. [Guido W. Imbens](https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens)
+3. [marcelo-perraillon](https://clas.ucdenver.edu/marcelo-perraillon/)
+4. [Clark Glymour](https://philpeople.org/profiles/clark-glymour)
+5. [Judea Pearl](https://bayes.cs.ucla.edu/jp_home.html)
+6. [Nancy Cartwright](https://www.profnancycartwright.com/)
 
 1. ECON 186 Mathematical Methods for Economic Analysis
 
