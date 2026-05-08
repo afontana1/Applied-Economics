@@ -2,6 +2,9 @@
 
 ## General Resources
 
+- [Joshua Chan](https://joshuachan.org/code.html)
+- [Gary Koop](https://sites.google.com/site/garykoop/)
+
 - [Cosma Shalizi Statistics](http://bactra.org/)
 	* [Notebooks](http://bactra.org/notebooks/)
 	* [Statistical analysis of Complex systems](https://www.stat.cmu.edu/~cshalizi/stacs/)

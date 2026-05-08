@@ -129,6 +129,8 @@
 
 ## Causal Inference
 
+- [Stanford Causal Inference Center](https://datascience.stanford.edu/causal)
+
 1. [Donald Rubin](https://en.wikipedia.org/wiki/Donald_Rubin)
 2. [Guido W. Imbens](https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens)
 3. [marcelo-perraillon](https://clas.ucdenver.edu/marcelo-perraillon/)
