@@ -23,6 +23,7 @@
 - [Applied Econometrics: Mostly Harmless Big Data](https://ocw.mit.edu/courses/14-387-applied-econometrics-mostly-harmless-big-data-fall-2014/)
 - [Data, Models, and Decisions](https://ocw.mit.edu/courses/15-060-data-models-and-decisions-fall-2014/)
 - [STAT / BIOST 527 Nonparametric Regression and Classification](https://sites.stat.washington.edu/courses/stat527/s13/readings.shtml)
+- [Data Assimilation Tutorials](https://github.com/nansencenter/DA-tutorials)
 
 ## Statistics & Probability
 
