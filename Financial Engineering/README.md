@@ -2,6 +2,7 @@
 
 - [Topics in Mathematics with Applications in Finance](https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/)
 - [Financial Risk Management](https://en.wikipedia.org/wiki/Category:Financial_risk_management)
+- [Advances in Financial Machine Learning](https://www.quantresearch.org/Lectures.htm)
 
 ## Risk Management
 
