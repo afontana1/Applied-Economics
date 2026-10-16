@@ -4,6 +4,7 @@
 
 - [Joshua Chan](https://joshuachan.org/code.html)
 - [Gary Koop](https://sites.google.com/site/garykoop/)
+- [Research Methods](https://www.youtube.com/@mronkko/playlists)
 
 - [Cosma Shalizi Statistics](http://bactra.org/)
 	* [Notebooks](http://bactra.org/notebooks/)
@@ -44,6 +45,48 @@
 6. [FixedEffectModels](https://github.com/FixedEffects/FixedEffectModels.jl)
 7. [Mastering Metrics](https://www.masteringmetrics.com/online-metrics-resources/)
 8. [Applied Econometrics: Mostly Harmless Big Data](https://ocw.mit.edu/courses/14-387-applied-econometrics-mostly-harmless-big-data-fall-2014/)
+
+## Causal Inference
+
+- [Stanford Causal Inference Center](https://datascience.stanford.edu/causal)
+
+1. [Donald Rubin](https://en.wikipedia.org/wiki/Donald_Rubin)
+2. [Guido W. Imbens](https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens)
+3. [marcelo-perraillon](https://clas.ucdenver.edu/marcelo-perraillon/)
+4. [Clark Glymour](https://philpeople.org/profiles/clark-glymour)
+5. [Judea Pearl](https://bayes.cs.ucla.edu/jp_home.html)
+6. [Nancy Cartwright](https://www.profnancycartwright.com/)
+
+## Decision Science
+
+### Topics
+
+1. [VUCA](https://en.wikipedia.org/wiki/VUCA)
+2. [Principal Agent Problems](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem)
+3. [Collective_action_problem](https://en.wikipedia.org/wiki/Collective_action_problem)
+4. [Asymmetric Risk](https://asymmetryobservations.com/definitions/asymmetry/asymmetrical-riskreward/)
+5. [Decision theory](https://en.wikipedia.org/wiki/Category:Decision_theory)
+6. [Game Theory](https://en.wikipedia.org/wiki/Category:Game_theory)
+
+### People
+
+1. [Christian List](https://personal.lse.ac.uk/list/)
+2. [Paul Slovic](https://en.wikipedia.org/wiki/Paul_Slovic)
+3. [Richard Gill](https://gill1109.com/?amp=1) [Statistics](https://www.math.leidenuniv.nl/~gill/)
+4. [Philip Tetlock](https://thedecisionlab.com/thinkers/political-science/philip-tetlock)
+
+### Journals, Institutes, Research Labs
+
+1. [Decision Science Institute](https://decisionsciences.org/)
+2. [The Decision Lab](https://thedecisionlab.com/)
+3. [Applied Decision Science](https://www.applieddecisionscience.com/)
+4. [Decision Research](https://www.decisionresearch.org/)
+5. [MIT Institute for Data Systems and Society](https://idss.mit.edu/research/)
+6. [Centre for Brain, Mind and Markets](https://www.unimelb.edu.au/cbmm)
+7. [The Society for Judgment and Decision Making](https://sjdm.org/)
+8. [Judgement and Decision Making Journal](https://www.cambridge.org/core/journals/judgment-and-decision-making)
+9. [Stanford Decision Analysis Group](https://dara.stanford.edu/)
+
 
 ## Bayesian Analysis
 
