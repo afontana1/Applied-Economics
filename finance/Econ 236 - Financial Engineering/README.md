@@ -6,7 +6,11 @@
 
 **Reading anchor:** John C. Hull, *Options, Futures, and Other Derivatives*, is the named core textbook. The user also studied **financial mathematics** and **interest-rate mathematics** texts (titles and editions not provided). This guide deliberately puts those subjects **at the beginning** and revisits them throughout the pricing and risk-management modules. Its coverage follows the supplied UCSC ECON 236 course description—interest rate, FX, commodity and equity risk; futures, forwards, options, swaps, structured notes and asset-backed securities; pricing/payoffs and corporate cases—plus explicitly named topics including Black–Scholes, Itô's lemma and stochastic processes. **No finance lecture notes, assignments, or exact book chapters were provided.** Therefore this is an advanced *proposed self-study sequence*, not a verified reconstruction of an individual course syllabus. Material marked **[Extension]** goes beyond what the brief course description confirms.
 
-[← Graduate Finance](../README.md) · [Finance I](../ECON-233-Finance-I/README.md) · [Corporate Finance](../ECON-235-Corporate-Finance/README.md)
+[← Graduate Finance](../README.md) · [Finance I](../ECON-233-Finance-I/README.md) · [Corporate Finance](../ECON-235-Corporate-Finance/README.md) · [Risk-management playbook](../risk-management-playbook.md)
+
+**Quarter format:** 12 weeks, approximately 12–16 hours/week. Hull remains the core derivatives reference, with financial mathematics and interest-rate mathematics used throughout. Greek-based hedging, volatility surfaces, model validation, rates exposure and institutional risk are substantial assessed topics.
+
+**Navigation:** [Jump to the 12-week course schedule](#full-twelve-week-financial-engineering-plan) · [Shared risk-management playbook](../risk-management-playbook.md) · [Program knowledge map](../README.md#knowledge-map-concept-dependencies)
 
 ## The intellectual spine
 
@@ -375,6 +379,148 @@ It illustrates mean reversion but permits negative rates. CIR variants have stat
 
 ---
 
+## Advanced options laboratory: the Greeks as a risk-management system
+
+The underlying course already teaches options, Itô calculus and Black–Scholes. To support a **twelve-week financial-engineering quarter**, this extended laboratory makes the Greeks, option portfolio hedging and stress P&L a central assessed skill rather than a single short topic. The formulas in this section use the European Black–Scholes–Merton benchmark with constant $r$, $q$, $\sigma$, spot $S$, strike $K$, and time **remaining** $\tau=T-t>0$; $N$ denotes the standard normal CDF and $\phi$ its PDF. Other products/models require other sensitivities.
+
+### The complete first-order and major second-order sensitivities
+
+For a European call and put with a continuous yield $q$,
+
+$$
+\begin{aligned}
+d_1&=\frac{\ln(S/K)+(r-q+\sigma^2/2)\tau}{\sigma\sqrt\tau},\\
+d_2&=d_1-\sigma\sqrt\tau,\\
+C&=Se^{-q\tau}N(d_1)-Ke^{-r\tau}N(d_2),\\
+P&=Ke^{-r\tau}N(-d_2)-Se^{-q\tau}N(-d_1).
+\end{aligned}
+$$
+
+**Delta ($\Delta$)** measures a local option-price change per unit change in the underlying price, with other model inputs fixed:
+
+$$
+\Delta_C=e^{-q\tau}N(d_1),\qquad \Delta_P=e^{-q\tau}\bigl[N(d_1)-1\bigr].
+$$
+
+**Gamma ($\Gamma$)** measures the rate of change of delta with respect to spot, and is the same for the benchmark call and put with identical $S,K,\tau$:
+
+$$
+\Gamma=\frac{e^{-q\tau}\phi(d_1)}{S\sigma\sqrt\tau}.
+$$
+
+**Vega ($\nu$)** is the price derivative with respect to volatility (volatility measured as a decimal); it is the same for benchmark call and put:
+
+$$
+\nu=Se^{-q\tau}\phi(d_1)\sqrt\tau.
+$$
+
+**Theta ($\Theta$)** here means the derivative with respect to calendar time $t$ *holding maturity $T$ fixed*, not the derivative with respect to time-to-maturity $\tau$. For the benchmark call,
+
+$$
+\Theta_C=-\frac{Se^{-q\tau}\phi(d_1)\sigma}{2\sqrt\tau}-rKe^{-r\tau}N(d_2)+qSe^{-q\tau}N(d_1).
+$$
+
+**Rho ($\rho$)** is the derivative with respect to the continuously compounded risk-free rate $r$, holding $q$ fixed:
+
+$$
+\rho_C=K\tau e^{-r\tau}N(d_2),\qquad\rho_P=-K\tau e^{-r\tau}N(-d_2).
+$$
+
+**Put theta:** derive from put-call parity rather than memorizing blindly; explicitly identify whether the model has dividends. Distinguish **vanna** ($\partial^2V/\partial S\partial\sigma$), **volga/vomma** ($\partial^2V/\partial\sigma^2$), **charm** (delta's time sensitivity), **speed** (gamma's spot sensitivity), and **color** (gamma's time sensitivity) as *higher-order extension concepts*. Use finite differences and automated differentiation as checks where appropriate.
+
+**Interpretation and numerical conventions:** A quoted vega of 20 in $\partial V/\partial\sigma$ units corresponds to approximately 0.20 currency units for a one percentage-point change in implied volatility, not 20. Rho is similarly often re-quoted for a one-basis-point rate change. Theta quoted per year must be converted to a calendar or trading day under a consistent convention. Gamma increases near maturity for near-the-money positions, where small underlying movements can rapidly alter the required delta hedge. Delta neutrality is local; it neither eliminates gamma nor makes a position insensitive to volatility or gaps.
+
+### Risk explain, hedge design and P&L attribution
+
+For a sufficiently small joint shock, with no omitted cross terms at the approximation order chosen,
+
+$$
+\Delta V\approx \Delta\,\Delta S+\frac12\Gamma(\Delta S)^2+\nu\,\Delta\sigma+\Theta\,\Delta t+\rho\,\Delta r.
+$$
+
+Record the units and sign of every shock. In the risk report, compute this approximation **and** fully reprice all contracts under each shock. The discrepancy identifies higher-order, nonlinear, basis, and model effects. A delta-only hedge offsets the linear spot term; it does not eliminate tail losses or nonlinear risk.
+
+For hedging $m$ portfolio sensitivities with $n$ hedge instruments, build the hedge matrix of per-unit sensitivities $G\in\mathbb R^{m\times n}$ and target neutralization
+
+$$
+G\mathbf h=-\mathbf g_{\text{portfolio}}.
+$$
+
+If the system is overdetermined, cannot be solved under position bounds, or contains nearly collinear hedges, use a **constrained weighted least-squares risk minimization** and document residual exposures, hedge cost, bid–ask spread, position limits, and maturity mismatch. A textbook delta–gamma hedge may require a second option because buying underlying stock adjusts delta but not gamma; a delta–gamma–vega hedge may require multiple options with genuinely independent sensitivity profiles.
+
+**Risk lab A — Greeks engine:** implement analytic $\Delta$, $\Gamma$, $\nu$, $\Theta$ and $\rho$ for a call and put; compare with central finite differences, taking care that theta uses calendar time, not remaining time. Test deep ITM, ATM, deep OTM, short maturity, dividend yield, small volatility, and one-day moves. Report absolute and relative errors, not only passing assertions.
+
+**Risk lab B — dynamic hedge P&L:** sell a European call in a simulated market, initialize a delta hedge, rebalance daily versus weekly, add per-trade costs, and measure the distribution of final hedge errors. Repeat under a physical volatility that differs from the implied volatility used to price and hedge. Discuss gamma/theta P&L, discrete gaps, margin and the risks of assuming the diffusion model is true.
+
+**Risk lab C — volatility surface:** calculate implied volatilities for a synthetic or openly sourced option surface; validate no-arbitrage price bounds, compare skew/smile at short and long maturities, interpolate cautiously, and calculate a vega-bucket report across strikes and tenors. Explain **sticky strike versus sticky delta** as alternative stress conventions rather than a universal market law.
+
+### Interest-rate risk is curve risk, not just one duration number
+
+Build on financial mathematics, interest-rate conventions and Hull's fixed-income chapters: zero curves, par and forward rates, bootstrapping, bond and swap cash-flow valuation, key-rate sensitivity, DV01, convexity, basis risk, reset schedules, discounting under collateral conventions, and swap/option exposures.
+
+With a bond price $P(\mathbf z)$ expressed as a function of curve-node zero rates $z_k$, define a signed finite-difference key-rate exposure using a one-basis-point bump $h=10^{-4}$:
+
+$$
+KRDV01_k\approx-\frac{P(\mathbf z+h\mathbf e_k)-P(\mathbf z-h\mathbf e_k)}{2}.
+$$
+
+Here this expression measures the approximate **positive price loss** for a one-basis-point upward move when the instrument has ordinary positive duration; be explicit about the bump and interpolation scheme. Alternative industry sign conventions must be reconciled. Sum of key-rate exposures approximates parallel DV01 for small moves if curve construction is compatible; convexity and cross terms matter for large changes.
+
+**Rates lab:** bootstrap one discount curve, construct a portfolio of loans, bonds and swaps, value cash flows, compute parallel DV01 and a vector of key-rate DV01s, and hedge a *steepening* rather than just a parallel shock. Report fixed-versus-floating reset risk, basis between tenors and the additional collateral required by a derivative mark-to-market change. Optional extension: Vasicek/CIR simulation, caplets, swaps, swaptions and calibration of a curve-consistent short-rate model.
+
+### Hedge ratios and residual risk in commodity and FX contracts
+
+Distinguish a perfect maturity-aligned forward hedge from a cross-hedge using correlated futures prices. If the spot-exposure price change is $\Delta S$ and the futures price change is $\Delta F$ over a matched hedging horizon, then the minimum-variance **price-change** hedge ratio for similarly scaled units is
+
+$$
+h^*=\frac{\operatorname{Cov}(\Delta S,\Delta F)}{\operatorname{Var}(\Delta F)}=\rho_{SF}\frac{\sigma_{\Delta S}}{\sigma_{\Delta F}}.
+$$
+
+Translate the ratio into a number of contracts **after** matching contract size, exposure size, direction and units. Check that spot and futures price movements are defined in the same units, and do not confuse the hedge's statistical minimum variance with lowest expected procurement cost or best worst-case result. Hedge horizon, index basis and volume uncertainty can dominate the residual risk.
+
+For an FX purchase, compare a forward, option and zero-cost collar while explicitly including premium financing, exercise and physical/cash settlement. For an interest-rate borrower, compare a pay-fixed swap and purchased cap. Document cases where forwards lock a cost but give up favorable price moves, and options preserve upside but require premium and can have basis/exercise effects.
+
+### Risk methodology, model governance and institutional controls
+
+Develop an instrument-to-risk-factor exposure cube across spot, curve nodes, implied-volatility nodes, credit spreads, issuer/counterparty, horizon and currency. For each hedge distinguish **market-value protection**, **cash-flow protection**, **earnings protection**, and **funding liquidity**. Risk models are useful only if the decision-maker understands their blind spots.
+
+Run a full stress suite: equity gap, simultaneous spot-volatility shock, interest-rate curve twist, commodity squeeze, FX devaluation, credit-spread widening, counterparty deterioration, funding withdrawal and increase in margin requirements. Compute **full revaluation** stressed P&L, expected shortfall (with documented data/model), hedge turnover, daily/peak collateral, and residual basis risk. Add an independent reconciliation of front-office position marks with risk and accounting systems as a model governance check.
+
+For credit and securitization, survey probability of default, exposure at default, loss given default, netting/collateral, wrong-way risk, ABS cash-flow waterfalls and embedded prepayment options. A simple expected credit loss approximation under a clearly defined horizon is
+
+$$
+EL\approx PD\times LGD\times EAD.
+$$
+
+It is *not* an option-pricing formula and does not replace state-dependent discounting, default timing or dependence modeling. For a structured note, decompose contractual bond-like and optional payoffs, disclose credit and liquidity exposure, and explain why a headline coupon understates downside possibilities. Advanced XVA, intensity models and stochastic-rate derivatives remain optional depth beyond the confirmed course brief.
+
+## Full twelve-week Financial Engineering plan
+
+**Target workload:** 12–16 hours/week: Hull study, financial-math derivations, a coding/problem lab, and a risk memo. Suggested assessments: mathematical problem sets 25%; implementation labs 35%; Week-7 derivations/midterm 15%; Week-12 pricing-and-hedging defense 25%. All examples use documented conventions and explicit quote dates; do not represent toy simulation outputs as tradable prices.
+
+| Week | Core concepts (existing module crosswalk) | Mathematical / programming requirement | Risk and application submission |
+|---|---|---|---|
+| **1** | Financial mathematics, cash-flow equivalence, contract mechanics (Modules 1, 3) | Write discount-factor and payment-schedule engine; unit-test APR/EAR, accrual, day count and bond-price identities. | Contract specification and convention risk audit. |
+| **2** | Zero/forward curves, bootstrapping, YTM, term-structure instruments (Modules 2, 6) | Bootstrap curve, price coupon bond, compute DV01, convexity and key-rate exposures. | Curve-shock and curve-model risk report. |
+| **3** | Forwards, futures, cost of carry, FX and commodities, basis (Module 4) | Price equity/FX forwards; model futures margin; estimate optimal cross-hedge ratio. | Three-way comparison: unhedged, forward and futures hedge. |
+| **4** | FRAs, swaps, fixed/floating funding, asset–liability mismatch (Modules 5–6) | Construct swap cash flows and a par swap rate; value after curve shift; design hedge for nonparallel shocks. | Rates desk DV01/curve exposure sheet. |
+| **5** | Option contract mechanics, arbitrage bounds, put–call parity, vertical spreads/straddles (Module 7) | Code expiry-payoff and dated profit charts; price one option portfolio by parity and bounds. | Protect/collar a corporate FX or equity exposure. |
+| **6** | Binomial trees, replication, risk-neutral probabilities, American exercise (Module 8) | Derive a one-step hedge; implement a multi-step European/American tree and test convergence. | Early-exercise and discrete-model risk memo. |
+| **7** | Brownian motion, conditional expectations, Itô's lemma, GBM; **midterm** (Module 9) | Derive $d\log S$, compute a diffusion solution and simulate physical versus risk-neutral paths. | Drift-versus-pricing-model conceptual examination. |
+| **8** | BSM replication/PDE, closed-form prices and **full Greeks** (Modules 10–11) | Derive the PDE; implement call/put, analytic Delta/Gamma/Vega/Theta/Rho with finite-difference tests. | Option book local sensitivity risk explain. |
+| **9** | Dynamic delta–gamma–vega hedging; volatility smile/skew, calibration (Module 11) | Solve a constrained multi-Greek hedge and simulate rebalancing P&L under model mismatch. | Hedge residuals, transaction cost and implied-volatility risk. |
+| **10** | Trees, Monte Carlo, finite differences, American/path-dependent options, model validation (Module 12) | Cross-check a European call by three methods; implement Asian payoff MC and test convergence/SE. | Pricing-model validation and confidence/error report. |
+| **11** | Multi-market hedging, credit, structured notes, ABS, VaR/ES, liquidity and counterparty risk (Modules 13–15; 16 optional) | Full-revaluation stress portfolio; structured-note payoff decomposition; hedge ratio and collateral schedule. | Bank/corporate risk committee packet with worst-case scenario. |
+| **12** | Integrated pricing, hedging and governance (all modules) | Submit audited pricing library, fixed-income curve, Greeks, hedging simulation, stress engine and benchmarks. | Defend hedge recommendation against model, funding and liquidity challenges. |
+
+**Week-7 threshold:** derive replication/tree logic, construct a correct forward, and explain the difference between physical and risk-neutral probabilities. **Week-12 threshold:** a price, hedge or VaR number is not accepted without instrument conventions, model assumptions, independent numerical checks and an explicit residual-risk statement.
+
+### Expanded final toolkit acceptance tests
+
+Extend the original toolkit project so that the repository includes: (1) term structure cash flows and bootstrapped curve; (2) equity, FX and commodity forwards; (3) interest-rate swap; (4) European BSM call/put with **five major Greeks** and finite-difference tests; (5) American put via binomial tree; (6) Monte Carlo of at least one path-dependent claim; (7) delta/gamma/vega hedge ratios under trade constraints; (8) parallel and nonparallel rate risk; (9) stress full-revaluation versus Greek approximation; (10) daily hedging P&L with transaction costs; (11) liquidity/collateral and counterparty register; and (12) written model limitations.
+
+**Evaluation:** mathematical derivation 20%, correct pricing and convergence tests 25%, sensitivity/hedging mechanics 25%, stress and institutional risk 20%, documentation and clarity 10%. Hull remains the primary derivatives reference; the unnamed financial mathematics and interest-rate mathematics texts supply the foundational rate conventions and curve methods. Use subject headings rather than unverified chapter numbers.
+
 ## Hull-centered reading strategy (edition independent)
 
 **Use Hull as the central spine, not as a disconnected encyclopedia.** Because no edition was supplied, the mapping below is by subject rather than invented chapter or page number. Locate the corresponding subject headings in your copy.
@@ -513,22 +659,6 @@ Design and document a toolkit covering a bond/discount curve, forward, fixed–f
 5. A 3–5 page case recommendation explaining cost-versus-protection tradeoffs and the risks that remain after hedging.
 
 **Assessment rubric:** interest/cash-flow mathematics 20%; economic no-arbitrage reasoning 20%; stochastic/option derivations 20%; validation and numerics 15%; real-world hedge analysis 15%; clear reporting 10%.
-
-## Suggested ten-week route, plus optional advanced work
-
-| Week | Topic | Deliverable |
-|---|---|---|
-| 1 | Modules 1–2: financial math, interest rates | Discount-curve workbook |
-| 2 | Modules 3–4: arbitrage, forwards, futures | Contract/payoff and hedge tables |
-| 3 | Modules 5–6: swaps and bond risk | Swap and duration notebook |
-| 4 | Module 7: options | Static payoffs and parity checks |
-| 5 | Module 8: binomial valuation | Tree pricer and American exercise |
-| 6 | Module 9: Brownian motion and Itô | GBM derivation and simulation |
-| 7 | Module 10: BSM | PDE derivation, closed form and tests |
-| 8 | Modules 11–12: Greeks and numerics | Hedging P&L and convergence report |
-| 9 | Modules 13–15: hedging, structured claims, risk | Firm/bank scenario memo |
-| 10 | Capstone integration | Validated toolkit and recommendation |
-| Optional +2–4 | Module 16: stochastic interest rates | Term structure research notebook |
 
 ## Reading boundaries and future course-file integration
 

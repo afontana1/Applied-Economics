@@ -23,6 +23,8 @@ The unifying principles are **time value of money, opportunity cost, risk and re
 | **ECON 235 — Corporate Finance** | How should firms invest and finance? | Free cash flow, capital budgeting, valuation, NPV, IRR, WACC, dividends, capital structure, leverage, governance, term structure and duration | [Read the Corporate Finance guide](ECON-235-Corporate-Finance/README.md) |
 | **ECON 236 — Financial Engineering** | How are financial exposures priced, decomposed and hedged? | Interest-rate mathematics, forwards/futures, options, swaps, stochastic processes, Itô's lemma, Black–Scholes–Merton, Greeks, numerical methods, institutional risk management | [Read the Financial Engineering guide](ECON-236-Financial-Engineering/README.md) |
 
+**Course format:** Each guide is now a **12-week graduate quarter**, with weekly outcomes, mathematical exercises, coding/valuation labs, recurring risk-management work, a checkpoint and a final assessed capstone. Sequential self-study is **36 weeks**; concurrent study is possible with the indicated prerequisites. [Use the shared risk-management playbook](risk-management-playbook.md) for definitions, controls and a cross-course case.
+
 **Study order:** Begin with shared prerequisites, complete the foundations and portfolio sections of ECON 233, then choose either Corporate Finance or Financial Engineering. Many learners benefit from **233 → 235 → 236**. Mathematically strong readers may pursue **235 and 236 in parallel** once comfortable with discounting, risk, market instruments, and no-arbitrage reasoning. Not every concept in 235 is a prerequisite for 236.
 
 ## Knowledge map: concept dependencies
@@ -31,29 +33,34 @@ The arrows mean **builds on / provides tools for**, not necessarily course prere
 
 ```mermaid
 flowchart TD
-    M[Microeconomics: choice, optimization, uncertainty] --> T[Time value of money & state-contingent cash flows]
-    P[Probability, statistics, linear algebra, calculus] --> R[Return & risk measurement]
-    T --> R
-    R --> V[Covariance, diversification, Markowitz]
-    V --> A[CAPM / required returns / risk premia]
-    A --> W[Cost of equity and WACC]
-    T --> C[Cash flows, discount rates, bond math]
-    C --> N[NPV, capital budgeting, valuation]
-    W --> N
-    N --> F[Financing, payout, governance]
-    T --> NA[No-arbitrage and replication]
-    P --> S[Stochastic processes & Itô calculus]
-    NA --> D[Forwards, futures, swaps]
-    S --> B[Binomial & Black–Scholes–Merton]
-    NA --> B
-    D --> H[Exposure identification & hedging]
-    B --> H
-    F --> H
-    A --> PM[Portfolio design & performance]
-    H --> I[Integrated investment and risk decision]
-    PM --> I
-    N --> I
-    Q[Data, model risk, stress testing] --> I
+  P[Microeconomics, probability, calculus and optimization] --> TVM[Cash-flow mathematics and no-arbitrage]
+  P --> R[Returns, distributions, preferences and risk measurement]
+  R --> MV[Covariance, efficient frontier and portfolio optimization]
+  MV --> RA[Risk parity, robust and CVaR allocation]
+  MV --> CAPM[CAPM, factors and required returns]
+  CAPM --> IPS[IPS, implementation, performance and portfolio risk]
+  CAPM --> WACC[Project beta and cost of capital]
+  TVM --> FCF[Statements, incremental FCF and operating economics]
+  FCF --> DCF[NPV, DCF, capital budgeting and real options]
+  WACC --> DCF
+  DCF --> GOV[Capital structure, payout, governance and treasury]
+  GOV --> ERM[Debt capacity, liquidity, corporate risk limits]
+  TVM --> IR[Yield curve, duration and swaps]
+  TVM --> NA[No-arbitrage, forward prices and payoff replication]
+  NA --> LI[Forwards, futures and swaps]
+  P --> ITO[Stochastic processes and Ito calculus]
+  NA --> BIN[Binomial and risk-neutral valuation]
+  BIN --> BSM[Black-Scholes-Merton and option valuation]
+  ITO --> BSM
+  BSM --> GREEKS[Greeks, volatility and dynamic hedging]
+  IR --> HEDGE[Curve and cross-market hedges]
+  LI --> HEDGE
+  GREEKS --> HEDGE
+  ERM --> HEDGE
+  IPS --> RISK[Joint scenarios, tail losses and model validation]
+  HEDGE --> RISK
+  DCF --> RISK
+  RISK --> DECISION[Integrated investment, funding and risk decision]
 ```
 
 [Open the standalone Mermaid source](knowledge-map.mmd) if your Markdown viewer does not render Mermaid.
@@ -89,16 +96,29 @@ A learner arriving from economics, engineering, mathematics, physics, operations
 
 **Suggested toolchain:** a spreadsheet for cash-flow schedules and checks, and Python (NumPy, pandas, SciPy, matplotlib) or R/MATLAB for portfolio matrices, simulations and numerical pricing. Use reproducible data sources, document observation dates and units, and independently verify formulas by limiting cases or alternative methods.
 
-## Suggested three-stage self-study program
+## Three full graduate quarters: a 36-week self-study sequence
 
-| Stage | Approximate effort | Main output | What you should be able to explain |
-|---|---|---|---|
-| **I. Markets and portfolios (ECON 233)** | 5–7 weeks | Portfolio analysis notebook and investment memo | Difference between realized and required returns; the purpose and limitations of CAPM; diversification and Sharpe ratios |
-| **II. Business valuation (ECON 235)** | 5–7 weeks | Three-statement-lite forecast and investment/valuation memo | How FCFF becomes enterprise value; why WACC and cash flows must be consistent; the tradeoffs in financing and payout |
-| **III. Derivatives and risk (ECON 236)** | 8–12 weeks | Pricing/hedging notebook and enterprise risk memo | Replication and risk-neutral valuation; derivation and limits of Black–Scholes; hedge sensitivities and scenario losses |
-| **Integration** | 2–3 weeks | [Integrated capstone](#integrated-capstone--a-company-making-a-cross-border-investment) | How financial, corporate and market risk decisions fit into one defensible recommendation |
+Each course is a complete **twelve-week quarter**, not a compact six-week survey. The time budgets below are recommendations for independent study, not official UCSC meeting hours. A learner following all three consecutively should budget **36 instructional weeks**, with additional catch-up time if prerequisite mathematics or accounting is rusty. A realistic weekly pattern is: theory and textbook study (3–4 hours), derivations/problems (2–3 hours), reproducible computational or statement-modeling lab (3–5 hours), and a short risk/decision memo (1–2 hours). ECON 236 may require extra stochastic-calculus practice.
 
-These ranges are recommendations, not the university's official course calendars.
+| Quarter | Weeks 1–4: foundation | Weeks 5–8: methods and models | Weeks 9–12: implementation and risk | End product |
+|---|---|---|---|---|
+| **ECON 233 Finance I** | Markets, rates, risk, covariance, Markowitz | Robust allocation methods, CAPM/factors, efficiency, cross-asset instruments | Performance, investment policy, portfolio-level tail risk, project | Research-grade portfolio optimizer, IPS and portfolio risk pack |
+| **ECON 235 Corporate Finance** | Statements, bonds, FCFF, NPV | WACC, debt coverage, capital structure, payout | Real options, treasury hedging, ERM, investment committee | Integrated valuation/financing model and stress-tested board memo |
+| **ECON 236 Financial Engineering** | Interest mathematics, curves, forwards, futures, swaps | Options, trees, Itô, BSM, full Greeks | Volatility, numerical valuation, cross-market hedging and institutional risk | Tested pricing library, dynamic hedge simulation and risk committee memo |
+
+**Suggested midterms and capstones:** Hold an independently graded theory-and-calculation checkpoint in Week 6 for Finance I/Corporate Finance and Week 7 for Financial Engineering; reserve Week 12 for capstone defense in each course. Each course README specifies outcomes, numerical assignments, risk checkpoints, model checks and a proposed weighting rubric.
+
+**CFA-style breadth:** Finance I now includes professionally oriented asset allocation, investment policy statements, factor exposure, security analysis, performance attribution, ethics, and downside-risk assessment. These are selected educational overlaps, **not an official CFA curriculum, accreditation or certification**. Corporate Finance adds lender/treasury and enterprise-risk methods; Financial Engineering adds a full Greeks-and-hedging lab. Proposals beyond the known UCSC descriptions remain labeled as additions.
+
+### Risk management is the connecting thread—not a final chapter
+
+Risk is treated differently in the three courses, while sharing one discipline:
+
+- **233:** what could an investor lose or fail to earn relative to goals, liabilities, benchmark and risk budget? Study volatility, factor exposures, VaR/ES, drawdowns, turnover, liquidity and concentration.
+- **235:** what could impair the firm's value, liquidity, ability to service debt, or strategic survival? Study downside FCFF, cash-flow-at-risk, debt capacity, refinancing, covenant stress, treasury and governance.
+- **236:** which shocks move derivative values and hedge cash flows, and can the institution fund a hedge when it matters? Study Greeks, curve DV01, nonlinear stress repricing, basis, counterparty risk, margin and model limits.
+
+The [shared risk-management playbook](risk-management-playbook.md) contains a taxonomy, common metrics, measurement limits, a unified 12-week risk progression and a cross-course corporate FX/rate case. **Every capstone should include a risk register and a written explanation of residual risk.**
 
 ## Common study protocol
 
@@ -125,7 +145,7 @@ Use this evidence of mastery, rather than memorizing formulas, to decide when to
 4. **Scenario and model testing (all):** compare no hedge / forward / option / partial hedge cases for adverse exchange rates, interest-rate changes and demand shocks. Incorporate hedge costs, collateral/margin, liquidity, basis risk and counterparty assumptions.
 5. **Recommendation:** provide a board-style memo: proceed/defer/reject investment; finance using which structure; hedge which exposures; report the range of outcomes, tradeoffs and key missing evidence.
 
-**Minimum deliverables:** assumptions and units sheet; reproducible cash-flow model; portfolio/risk calculations; at least two independent derivative-pricing checks; scenario table; one-page executive memo. A compelling answer should reconcile the *economic exposure*, *contractual exposure* and *accounting/valuation treatment* rather than mixing them.
+**Minimum deliverables:** a cross-referenced risk register and risk limits (see [playbook](risk-management-playbook.md)); assumptions and units sheet; reproducible cash-flow model; portfolio/risk calculations; at least two independent derivative-pricing checks; scenario table; one-page executive memo. A compelling answer should reconcile the *economic exposure*, *contractual exposure* and *accounting/valuation treatment* rather than mixing them.
 
 ## Selected formulas as navigation anchors
 
@@ -183,6 +203,20 @@ $$
 ### Boundary between specified course content and additions
 
 The guides distinguish **core topics supported by course descriptions** from **proposed study components**, and mark substantial optional additions **[Extension]**. Several essential prerequisites (including accounting mechanics in 235, numerical finance foundations in 236, and estimation diagnostics in 233) appear as preparatory instruction even when not listed in the brief descriptions. Once actual course materials are provided, replace tentative reading and problem anchors with verified references and adjust scope.
+
+## Files and learning outputs
+
+```text
+Graduate-Finance/
+  README.md                       # Program guide: 3 x 12-week quarters
+  knowledge-map.mmd              # Editable cross-course Mermaid diagram
+  risk-management-playbook.md    # Shared risk management and model controls
+  ECON-233-Finance-I/README.md   # 12-week markets, portfolios and investments
+  ECON-235-Corporate-Finance/README.md # 12-week finance and enterprise risk
+  ECON-236-Financial-Engineering/README.md # 12-week derivatives and Greeks
+```
+
+All displayed standalone mathematics uses `$$ ... $$`; inline mathematical expressions use `$ ... $`. Each course provides detailed weekly deliverables and explicit boundaries between original described coverage and recommended curricular extensions.
 
 ## How to extend this repository later
 
