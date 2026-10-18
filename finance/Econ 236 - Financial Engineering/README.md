@@ -222,16 +222,16 @@ $$
 **One-step benchmark:** In a one-step tree, the underlying moves from $S$ to $Su$ or $Sd$ over $\Delta t$. When $d<e^{r\Delta t}<u$, the risk-neutral pricing weight is
 
 $$
-p^*=\frac{e^{r\Delta t}-d}{u-d}.
+p^{\ast}=\frac{e^{r\Delta t}-d}{u-d}.
 $$
 
 The corresponding contingent payoff has price, under the usual complete frictionless model assumptions,
 
 $$
-V_0=e^{-r\Delta t}\left[p^{*}V_u+(1-p^{*})V_d\right]
+V_0=e^{-r\Delta t}\left[p^{\ast}V_u+(1-p^{\ast})V_d\right]
 $$
 
-**The risk-neutral weight $p^*$ is not necessarily the physical probability.**
+**The risk-neutral weight $p^{\ast}$ is not necessarily the physical probability.**
 
 **Application:** implement 1-, 2-, 50-, 100- and 500-step trees; compare prices with the Black–Scholes benchmark as the step count increases, and include early-exercise comparison for an American put.
 
@@ -473,7 +473,7 @@ Here this expression measures the approximate **positive price loss** for a one-
 Distinguish a perfect maturity-aligned forward hedge from a cross-hedge using correlated futures prices. If the spot-exposure price change is $\Delta S$ and the futures price change is $\Delta F$ over a matched hedging horizon, then the minimum-variance **price-change** hedge ratio for similarly scaled units is
 
 $$
-h^*=\frac{\operatorname{Cov}(\Delta S,\Delta F)}{\operatorname{Var}(\Delta F)}=\rho_{SF}\frac{\sigma_{\Delta S}}{\sigma_{\Delta F}}.
+h^{\ast}=\frac{\mathrm{Cov}(\Delta S,\Delta F)}{\mathrm{Var}(\Delta F)}=\rho_{SF}\frac{\sigma_{\Delta S}}{\sigma_{\Delta F}}.
 $$
 
 Translate the ratio into a number of contracts **after** matching contract size, exposure size, direction and units. Check that spot and futures price movements are defined in the same units, and do not confuse the hedge's statistical minimum variance with lowest expected procurement cost or best worst-case result. Hedge horizon, index basis and volume uncertainty can dominate the residual risk.
@@ -568,7 +568,7 @@ $$
 **One-step binomial risk-neutral pricing weight** — under the stated model conditions:
 
 $$
-p^*=\frac{e^{r\Delta t}-d}{u-d}.
+p^{\ast}=\frac{e^{r\Delta t}-d}{u-d}.
 $$
 
 **Geometric Brownian motion** — positive diffusion-model prices:
@@ -610,7 +610,7 @@ $$
 | Contract valuation | Replicate simple payoff using cash and underlying | Compare cash-flow tables across states |
 | Term structure | Derive forward from discount factors | Reprice input bonds with bootstrapped curve |
 | Option parity | Reproduce identical terminal payoffs | Verify call/put parity numerically |
-| Binomial | Derive delta and $p^*$ | Convergence of multi-step tree |
+| Binomial | Derive delta and $p^{\ast}$ | Convergence of multi-step tree |
 | Itô | Derive $d\ln S$ for GBM | Simulated log-price moments |
 | BSM | Derive delta-hedged PDE and its assumptions | BSM versus tree/Monte Carlo |
 | Greeks | Differentiate analytic price as appropriate | Central finite-difference bump checks |
