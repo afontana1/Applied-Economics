@@ -228,7 +228,7 @@ $$
 The corresponding contingent payoff has price, under the usual complete frictionless model assumptions,
 
 $$
-V_0=e^{-r\Delta t}\left[p^*V_u+(1-p^*)V_d\right].
+V_0=e^{-r\Delta t}\left[p^{*}V_u+(1-p^{*})V_d\right]
 $$
 
 **The risk-neutral weight $p^*$ is not necessarily the physical probability.**
