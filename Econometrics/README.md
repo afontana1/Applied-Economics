@@ -1,275 +1,253 @@
-# [Resources](https://en.wikipedia.org/wiki/Category:Econometric_models) for [Econometrics](https://en.wikipedia.org/wiki/Category:Econometrics)
+# Statistics, Data Analysis & Applied Topics
 
-## General Resources
+A subject-based library of statistical foundations, modeling methods, data analysis resources, and applied fields. Original link names and URLs are preserved, including repeated entries.
 
+## Core Statistical Concepts & Foundations
+
+### Introductions & General Statistical Theory
+
+- [Statistical Thinking for the 21st Century](https://statsthinking21.github.io/statsthinking21-core-site/)
+- [Some Practical Stats](https://ocw.mit.edu/courses/mathematics/18-650-statistics-for-applications-fall-2016/)
+- [Some Statistical Theory](https://ocw.mit.edu/courses/economics/14-381-statistical-method-in-economics-fall-2018/)
+- [Mathematical Stats](https://ocw.mit.edu/courses/mathematics/18-655-mathematical-statistics-spring-2016/)
+- [Statistical Methods: Likelihood, Bayes and Regression](https://strimmerlab.github.io/publications/lecture-notes/MATH20802/)
+- [Principles of Statistical Analysis: R Companion](https://bookdown.org/eariascastro/principles_of_statistical_analysis/)
+- [Stat 500: Applied Statistics](https://online.stat.psu.edu/stat500/)
+- [STAT 800: Introduction to Applied Statistics](https://online.stat.psu.edu/stat800/)
+- [Applied Statistics](https://en.wikipedia.org/wiki/Category:Applied_statistics)
+
+### Probability, Stochastic Processes & Distributions
+
+- [Probability](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/)
+- [Distribution Theory](https://bookdown.org/pkaldunn/DistTheory/)
+- [List_of_probability_topics](https://en.wikipedia.org/wiki/List_of_probability_topics)
+- [Probability Distributions](https://en.wikipedia.org/wiki/Category:Probability_distributions)
+- [Extreme Value Theory](https://en.wikipedia.org/wiki/Extreme_value_theory)
+- [Stochastic Process](https://en.wikipedia.org/wiki/Category:Stochastic_processes)
+- [Sampling](https://en.wikipedia.org/wiki/Category:Sampling_(statistics)) and [Probability](https://en.wikipedia.org/wiki/Category:Probability_distributions) [Distributions](https://en.wikipedia.org/wiki/List_of_probability_distributions)
+- [Continuous Distributions](https://en.wikipedia.org/wiki/Category:Continuous_distributions)
+- [Discrete Distributions](https://en.wikipedia.org/wiki/Category:Discrete_distributions)
+- [Conjugate Prior Distributions](https://en.wikipedia.org/wiki/Category:Conjugate_prior_distributions)
+- [Exponential Distributions](https://en.wikipedia.org/wiki/Category:Exponential_family_distributions)
+
+### Statistical Inference, Estimation & Hypothesis Testing
+
+- [Statistical_hypothesis_testing](https://en.wikipedia.org/wiki/Category:Statistical_hypothesis_testing)
+- [Statistical Tests](https://en.wikipedia.org/wiki/Category:Statistical_tests)
+- [Non Parametric Tests](https://en.wikipedia.org/wiki/Category:Nonparametric_statistics)
+- [Parametric Statistics](https://en.wikipedia.org/wiki/Category:Parametric_statistics)
+- [Statistical Inference](https://en.wikipedia.org/wiki/Category:Statistical_inference)
+- [Statistical_hypothesis_testing](https://en.wikipedia.org/wiki/Category:Statistical_hypothesis_testing)
+- [Maximum_likelihood_estimation](https://en.wikipedia.org/wiki/Category:Maximum_likelihood_estimation)
+
+### Sampling, Surveys & Experimental Design
+
+- [Survey_methodology](https://en.wikipedia.org/wiki/Category:Survey_methodology)
+- [Stat 502: Analysis of Variance and Design of Experiments](https://online.stat.psu.edu/statprogram/stat502)
+- [Stat 503: Design of Experiments](https://online.stat.psu.edu/stat503/)
+- [STAT 506: Sampling Theory and Methods](https://online.stat.psu.edu/stat506/)
+- [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
+- [Experiments](https://en.wikipedia.org/wiki/Category:Experiments)
+- [Natural_experiment](https://en.wikipedia.org/wiki/Natural_experiment)
+- [Randomized_controlled_trial](https://en.wikipedia.org/wiki/Randomized_controlled_trial)
+- [Design of Experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
+- [Observational Study](https://en.wikipedia.org/wiki/Category:Observational_study)
+- [Sampling Techniques](https://en.wikipedia.org/wiki/Category:Sampling_techniques)
+
+### Data Types, Descriptive Statistics & Measurement
+
+- [Statistical_data_types](https://en.wikipedia.org/wiki/Category:Statistical_data_types)
+- [Indicators](https://en.wikipedia.org/wiki/Category:Indicators)
+- [Measurement](https://en.wikipedia.org/wiki/Category:Measurement)
+- [Metrology](https://en.wikipedia.org/wiki/Category:Metrology)
+- [Telemetry](https://en.wikipedia.org/wiki/Category:Telemetry)
+- [Summary_statistics](https://en.wikipedia.org/wiki/Category:Summary_statistics)
+
+## Statistical Modeling & Methods
+
+### Regression & Statistical Models
+
+- [Regression](http://www.stat.cmu.edu/~cshalizi/mreg/15/)
+- [Stat 501: Regression Methods](https://online.stat.psu.edu/stat501/)
+- [Statistical Models](https://en.wikipedia.org/wiki/Category:Statistical_models)
+- [Regression Analysis](https://en.wikipedia.org/wiki/Category:Regression_analysis)
+- [Regression Models](https://en.wikipedia.org/wiki/Category:Regression_models)
+
+### Categorical Data & Analysis of Variance
+
+- [Chris Bilder: Analysis of Categorical Data](http://www.chrisbilder.com/)
+- [Stat 504: Analysis of Discrete Data](https://online.stat.psu.edu/statprogram/stat504)
+- [ANOVA](https://en.wikipedia.org/wiki/Category:Analysis_of_variance)
+- [List_of_analyses_of_categorical_data](https://en.wikipedia.org/wiki/List_of_analyses_of_categorical_data)
+
+### Multivariate, Factor & Latent-Variable Methods
+
+- [Factor Analysis](https://github.com/EducationalTestingService/factor_analyzer)
+- [Multivariate Statistical Analysis - Course](https://youtube.com/playlist?list=PLw3gXq8rdVU6BAh8ZA8Gfd030CMY5tztu&si=HHejEG7DbE3kacgE)
+- [Multivariate statistics - a full course](https://youtube.com/playlist?list=PLLTSM0eKjC2fZqeVFWBBBr8KSqnBIPMQD&si=Ulf6kgFfYn2pRRGB)
+- [Applied Multivariate Analysis (Alan Dabney, STAT 636, Texas A&M)](https://youtube.com/playlist?list=PL91cR71aKpekIDFYIUkc2xdFxLu9LAYTg&si=_tudzWXNA1grCZkY)
+- [STAT 505: Applied Multivariate Statistical Analysis](https://online.stat.psu.edu/stat505/)
+  - [Course Website](https://sites.psu.edu/djmallinson/padm-576/)
+- [Latent Variable Models](https://en.wikipedia.org/wiki/Category:Latent_variable_models)
+- [Structural Equation Models](https://en.wikipedia.org/wiki/Category:Structural_equation_models)
+- [Multivariate statistics](https://en.wikipedia.org/wiki/Category:Multivariate_statistics)
+- [Cluster Analysis](https://en.wikipedia.org/wiki/Category:Cluster_analysis)
+- [Multilevel Modeling](https://en.wikipedia.org/wiki/Multilevel_model)
+- [Mixture Modeling](https://en.wikipedia.org/wiki/Mixture_model)
+
+### Bayesian, Nonparametric & Hierarchical Methods
+
+- [STAT / BIOST 527 Nonparametric Regression and Classification](https://sites.stat.washington.edu/courses/stat527/s13/readings.shtml)
+- [Bayesian_statistics](https://en.wikipedia.org/wiki/Category:Bayesian_statistics)
+- [Bayesian Hierarchical Modeling](https://en.wikipedia.org/wiki/Bayesian_hierarchical_modeling)
+
+### Survival & Time-Series Methods
+
+- [lifelines: Survival Analysis](https://github.com/CamDavidsonPilon/lifelines)
+- [Survival Modeling](https://github.com/autonlab/auton-survival)
+- [Survival_analysis](https://en.wikipedia.org/wiki/Category:Survival_analysis)
+- [Time Series](https://en.wikipedia.org/wiki/Category:Time_series)
+
+### High-Dimensional Analysis & Classification
+
+- [High Dimensional Stats with R](https://carpentries-incubator.github.io/high-dimensional-stats-r/)
+- [Classification Algorithm](https://en.wikipedia.org/wiki/Category:Classification_algorithms)
+
+### Model Selection, Validation & Sensitivity
+
+- [Sensitivity Analysis Lib](https://github.com/SALib/SALib)
+- [Model_selection](https://en.wikipedia.org/wiki/Category:Model_selection)
+- [Sensitivity_analysis](https://en.wikipedia.org/wiki/Category:Sensitivity_analysis)
+- [Cross Validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics))
+- [Statistical_model_validation](https://en.wikipedia.org/wiki/Statistical_model_validation)
+
+## Data Analysis & Statistical Computing
+
+### Analysis Workflows, Guides & Communication
+
+- [Storytelling With Data](https://www.storytellingwithdata.com/)
+- [A Guide on Data Analysis](https://bookdown.org/mike/data_analysis/)
+- [Introduction to Data Analysis](https://michael-franke.github.io/intro-data-analysis/)
+- [Data Analysis for Social Scientists](https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/)
+- [A Guide on Data Analysis](https://bookdown.org/mike/data_analysis/)
+- [Data_analysis](https://en.wikipedia.org/wiki/Category:Data_analysis)
+
+### Advanced Data Analysis & Reading Groups
+
+- [Advanced Data Analysis](https://www.stat.cmu.edu/~cshalizi/uADA/)
+- [ADA Reading Group](https://www.youtube.com/playlist?list=PLob0yCmJjJ3XT9DfcQ63ly79ICmgGU5bt)
+- [Advanced Data Analysis From an Elementary View Point](https://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/)
+
+### Missing Data & Imputation
+
+- [Flexible Imputation of Missing Data](https://stefvanbuuren.name/fimd/)
+
+### Statistical Computing, Simulations & Resampling
+
+- [Designing Simulations in R](https://jepusto.github.io/Designing-Simulations-in-R/)
+- [Advanced Statistical Computing](https://bookdown.org/rdpeng/advstatcomp/)
+- [Computational Statistics](https://en.wikipedia.org/wiki/Category:Computational_statistics)
+- [Monte Carlo Methods](https://en.wikipedia.org/wiki/Category:Monte_Carlo_methods)
+- [Resampling](https://en.wikipedia.org/wiki/Category:Resampling_(statistics))
+- [Randomized Algorithms](https://en.wikipedia.org/wiki/Category:Randomized_algorithms)
+- [Statistical Algorithms](https://en.wikipedia.org/wiki/Category:Statistical_algorithms)
+- [Bootstrapping](https://en.wikipedia.org/wiki/Bootstrapping_(statistics))
+
+### Linear Algebra & Matrix Methods
+
+- [Matrix Methods](https://ocw.mit.edu/courses/mathematics/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/index.htm)
+- [learn-linalg](https://github.com/kevinzakka/learn-linalg)
+
+## Topics & Applied Fields
+
+### Econometrics, Causal Inference & Economic Indicators
+
+- [Introductory Econometrics with R](https://www.econometrics-with-r.org/)
+- [Applied Econometrics: Mostly Harmless Big Data](https://ocw.mit.edu/courses/14-387-applied-econometrics-mostly-harmless-big-data-fall-2014/)
 - [Joshua Chan](https://joshuachan.org/code.html)
 - [Gary Koop](https://sites.google.com/site/garykoop/)
 - [Research Methods](https://www.youtube.com/@mronkko/playlists)
+- [Econometrics Academy](https://sites.google.com/site/econometricsacademy/home)
+- [Discrete Choice Modeling](http://www.econ.ucla.edu/rmatzkin/researchdiscretechoiceapr11.html)
+- [MicroEconometrics](http://people.stern.nyu.edu/wgreene/Microeconometrics-UAM.htm)
+- [Applied Econometrics](http://people.stern.nyu.edu/wgreene/Econometrics/Econometrics.htm)
+- [Panel Data Econometrics](http://people.stern.nyu.edu/wgreene/Econometrics/PanelDataEconometrics.htm)
+- [Linear Models](https://github.com/bashtage/linearmodels)
+- [FixedEffectModels](https://github.com/FixedEffects/FixedEffectModels.jl)
+- [Mastering Metrics](https://www.masteringmetrics.com/online-metrics-resources/)
+- [Applied Econometrics: Mostly Harmless Big Data](https://ocw.mit.edu/courses/14-387-applied-econometrics-mostly-harmless-big-data-fall-2014/)
+- [Nonlinear Econometric Estimates](https://ocw.mit.edu/courses/14-385-nonlinear-econometric-analysis-fall-2007/)
+- [Economic_indicators](https://en.wikipedia.org/wiki/Category:Economic_indicators)
+- [Granger_causality](https://en.wikipedia.org/wiki/Granger_causality)
+- [Heckman Correction](https://en.wikipedia.org/wiki/Heckman_correction)
+- [Propensity Score](https://en.wikipedia.org/wiki/Propensity_score_matching)
+- [Econometric Modeling](https://en.wikipedia.org/wiki/Category:Econometric_modeling)
+
+### Biostatistics, Epidemiology, Clinical Trials & Genomics
+
+- [Epidemiologist R Handbook](https://epirhandbook.com/en/index.html#)
+- [STAT 507: Epidemiological Research Methods](https://online.stat.psu.edu/stat507/)
+- [STAT 509: Design and Analysis of Clinical Trials](https://online.stat.psu.edu/stat509/)
+- [STAT 555: Statistical Analysis of Genomics Data](https://online.stat.psu.edu/stat555/)
+
+### Machine Learning & Data Mining
+
+- [Interpretable ML](https://christophm.github.io/interpretable-ml-book/)
+- [STAT 508: Applied Data Mining & Statistical Learning](https://online.stat.psu.edu/statprogram/stat508)
+- [Machine Learning](https://en.wikipedia.org/wiki/Category:Machine_learning)
+- [Machine Learning Algorithms](https://en.wikipedia.org/wiki/Category:Machine_learning_algorithms)
+- [Applied Machine Learning](https://en.wikipedia.org/wiki/Category:Applied_machine_learning)
+- [Data Mining](https://en.wikipedia.org/wiki/Category:Data_mining)
+
+### Psychometrics & Behavioral Measurement
+
+- [Psychometrics Python](https://github.com/inuyasha2012/pypsy)
+
+### Spatial, Temporal & Environmental Data
+
+- [Data Over space and Time](https://www.stat.cmu.edu/~cshalizi/dst/18/)
+- [Data Assimilation Tutorials](https://github.com/nansencenter/DA-tutorials)
+- [Spatial Data Science](https://r-spatial.org/book/)
+- [STAT 510: Applied Time Series Analysis](https://online.stat.psu.edu/stat510/)
+
+### Decision Science, Social Science & Complex Systems
+
+- [Statistical analysis of Complex systems](https://www.stat.cmu.edu/~cshalizi/stacs/)
+- [Data, Models, and Decisions](https://ocw.mit.edu/courses/15-060-data-models-and-decisions-fall-2014/)
+- [Game Theory](https://en.wikipedia.org/wiki/Category:Game_theory)
+- [Decision Theory](https://en.wikipedia.org/wiki/Category:Decision_theory)
+- [Selective_exposure_theory](https://en.wikipedia.org/wiki/Selective_exposure_theory)
+- [cake_eating_problem](https://python.quantecon.org/cake_eating_problem.html)
+- [cake_eating_numerical](https://python.quantecon.org/cake_eating_numerical.html)
+- [Mechanism_design](https://en.wikipedia.org/wiki/Category:Mechanism_design)
+- [Rational_choice_theory](https://en.wikipedia.org/wiki/Rational_choice_theory)
+- [Multi agent_system](https://en.wikipedia.org/wiki/Multi-agent_system)
+- [Agent Based Models](https://en.wikipedia.org/wiki/Agent-based_model)
+
+### Risk Analysis
+
+- [Risk_analysis](https://en.wikipedia.org/wiki/Category:Risk_analysis)
+  - [Risk_analysis_methodologies](https://en.wikipedia.org/wiki/Category:Risk_analysis_methodologies)
+  - [Risk](https://en.wikipedia.org/wiki/Category:Risk)
+
+## Concepts, Indexes & Resource Collections
+
+### Statistical Concepts & Method Taxonomies
+
+- [Statistical_methods](https://en.wikipedia.org/wiki/Category:Statistical_methods)
+- [Statistical_analysis](https://en.wikipedia.org/wiki/Category:Statistical_analysis)
+- [Statistical_methods](https://en.wikipedia.org/wiki/Category:Statistical_methods)
+
+### Reference Lists, Glossaries & History
+
+- [List_of_important_publications_in_statistics](https://en.wikipedia.org/wiki/List_of_important_publications_in_statistics)
+- [Statistics-related_lists](https://en.wikipedia.org/wiki/Category:Statistics-related_lists)
+- [List_of_statistics_articles](https://en.wikipedia.org/wiki/List_of_statistics_articles)
+- [Outline_of_statistics](https://en.wikipedia.org/wiki/Outline_of_statistics)
+- [Glossary_of_probability_and_statistics](https://en.wikipedia.org/wiki/Glossary_of_probability_and_statistics)
+- [History_of_statistics](https://en.wikipedia.org/wiki/History_of_statistics)
+
+### General Statistics Collections
 
 - [Cosma Shalizi Statistics](http://bactra.org/)
-	* [Notebooks](http://bactra.org/notebooks/)
-	* [Statistical analysis of Complex systems](https://www.stat.cmu.edu/~cshalizi/stacs/)
-	* [Data Over space and Time](https://www.stat.cmu.edu/~cshalizi/dst/18/)
-	* [Advanced Data Analysis](https://www.stat.cmu.edu/~cshalizi/uADA/)
-	* [ADA Reading Group](https://www.youtube.com/playlist?list=PLob0yCmJjJ3XT9DfcQ63ly79ICmgGU5bt)
-	* [Advanced Data Analysis From an Elementary View Point](https://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/)
-- [Storytelling With Data](https://www.storytellingwithdata.com/)
-- [A Guide on Data Analysis](https://bookdown.org/mike/data_analysis/)
-- [Statistical Thinking for the 21st Century](https://statsthinking21.github.io/statsthinking21-core-site/)
-- [Econometrics Academy](https://sites.google.com/site/econometricsacademy/home)
-- [Introduction to Data Analysis](https://michael-franke.github.io/intro-data-analysis/)
-- [Data Analysis for Social Scientists](https://ocw.mit.edu/courses/14-310x-data-analysis-for-social-scientists-spring-2023/)
-- [Designing Simulations in R](https://jepusto.github.io/Designing-Simulations-in-R/)
-- [Introductory Econometrics with R](https://www.econometrics-with-r.org/)
-- [Applied Econometrics: Mostly Harmless Big Data](https://ocw.mit.edu/courses/14-387-applied-econometrics-mostly-harmless-big-data-fall-2014/)
-- [Data, Models, and Decisions](https://ocw.mit.edu/courses/15-060-data-models-and-decisions-fall-2014/)
-- [STAT / BIOST 527 Nonparametric Regression and Classification](https://sites.stat.washington.edu/courses/stat527/s13/readings.shtml)
-- [Data Assimilation Tutorials](https://github.com/nansencenter/DA-tutorials)
-
-## Statistics & Probability
-
-1. [Some Practical Stats](https://ocw.mit.edu/courses/mathematics/18-650-statistics-for-applications-fall-2016/)
-2. [Some Statistical Theory](https://ocw.mit.edu/courses/economics/14-381-statistical-method-in-economics-fall-2018/)
-3. [Probability](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/)
-4. [Mathematical Stats](https://ocw.mit.edu/courses/mathematics/18-655-mathematical-statistics-spring-2016/)
-5. [Matrix Methods](https://ocw.mit.edu/courses/mathematics/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/index.htm)
-6. [Statistical Methods: Likelihood, Bayes and Regression](https://strimmerlab.github.io/publications/lecture-notes/MATH20802/)
-
-## Microeconometrics
-
-1. [Discrete Choice Modeling](http://www.econ.ucla.edu/rmatzkin/researchdiscretechoiceapr11.html)
-2. [MicroEconometrics](http://people.stern.nyu.edu/wgreene/Microeconometrics-UAM.htm)
-3. [Applied Econometrics](http://people.stern.nyu.edu/wgreene/Econometrics/Econometrics.htm)
-4. [Panel Data Econometrics](http://people.stern.nyu.edu/wgreene/Econometrics/PanelDataEconometrics.htm)
-5. [Linear Models](https://github.com/bashtage/linearmodels)
-6. [FixedEffectModels](https://github.com/FixedEffects/FixedEffectModels.jl)
-7. [Mastering Metrics](https://www.masteringmetrics.com/online-metrics-resources/)
-8. [Applied Econometrics: Mostly Harmless Big Data](https://ocw.mit.edu/courses/14-387-applied-econometrics-mostly-harmless-big-data-fall-2014/)
-
-## Causal Inference
-
-- [Stanford Causal Inference Center](https://datascience.stanford.edu/causal)
-
-1. [Donald Rubin](https://en.wikipedia.org/wiki/Donald_Rubin)
-2. [Guido W. Imbens](https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens)
-3. [marcelo-perraillon](https://clas.ucdenver.edu/marcelo-perraillon/)
-4. [Clark Glymour](https://philpeople.org/profiles/clark-glymour)
-5. [Judea Pearl](https://bayes.cs.ucla.edu/jp_home.html)
-6. [Nancy Cartwright](https://www.profnancycartwright.com/)
-
-## Decision Science
-
-### Topics
-
-1. [VUCA](https://en.wikipedia.org/wiki/VUCA)
-2. [Principal Agent Problems](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem)
-3. [Collective_action_problem](https://en.wikipedia.org/wiki/Collective_action_problem)
-4. [Asymmetric Risk](https://asymmetryobservations.com/definitions/asymmetry/asymmetrical-riskreward/)
-5. [Decision theory](https://en.wikipedia.org/wiki/Category:Decision_theory)
-6. [Game Theory](https://en.wikipedia.org/wiki/Category:Game_theory)
-
-### People
-
-1. [Christian List](https://personal.lse.ac.uk/list/)
-2. [Paul Slovic](https://en.wikipedia.org/wiki/Paul_Slovic)
-3. [Richard Gill](https://gill1109.com/?amp=1) [Statistics](https://www.math.leidenuniv.nl/~gill/)
-4. [Philip Tetlock](https://thedecisionlab.com/thinkers/political-science/philip-tetlock)
-
-### Journals, Institutes, Research Labs
-
-1. [Decision Science Institute](https://decisionsciences.org/)
-2. [The Decision Lab](https://thedecisionlab.com/)
-3. [Applied Decision Science](https://www.applieddecisionscience.com/)
-4. [Decision Research](https://www.decisionresearch.org/)
-5. [MIT Institute for Data Systems and Society](https://idss.mit.edu/research/)
-6. [Centre for Brain, Mind and Markets](https://www.unimelb.edu.au/cbmm)
-7. [The Society for Judgment and Decision Making](https://sjdm.org/)
-8. [Judgement and Decision Making Journal](https://www.cambridge.org/core/journals/judgment-and-decision-making)
-9. [Stanford Decision Analysis Group](https://dara.stanford.edu/)
-
-
-## Bayesian Analysis
-
-1. [Bayesloop](https://github.com/christophmark/bayesloop)
-2. [Pomegranate](https://github.com/jmschrei/pomegranate)
-3. [Computational Bayesian Statistics](https://sjster.github.io/introduction_to_computational_statistics/docs/index.html)
-4. [Bayesian Networks](https://github.com/MaxHalford/sorobn)
-5. [bayesian-network-learning](https://github.com/navreeetkaur/bayesian-network-learning)
-6. [Kalman-and-Bayesian-Filters-in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)
-7. [PYMC3 Resources](https://github.com/pymc-devs/resources)
-8. [Bayesian Data Analysis for Cognitive Science](https://vasishth.github.io/bayescogsci/book/)
-9. [Computational Statistics in Python](https://people.duke.edu/~ccc14/sta-663/index.html)
-	* [Computational Statistics for Bayesian Inference with PyMC3](https://sjster.github.io/introduction_to_computational_statistics/docs/index.html)
-10. [Bayesian Data Analysis Python Demos](https://github.com/avehtari/BDA_py_demos)
-11. [Bayesian Analysis with Python (Second edition)](https://github.com/aloctavodia/BAP)
-12. [bayesian-stats-modelling-tutorial](https://github.com/ericmjl/bayesian-stats-modelling-tutorial)
-13. [Advanced Bayesian Modeling](https://github.com/junpenglao/advance-bayesian-modelling-with-PyMC3)
-14. [Bayesian analysis with Python](https://github.com/PacktPublishing/Bayesian-Analysis-with-Python-Second-Edition)
-15. [Doing Bayesian Data Analysis - Python/PyMC3](https://github.com/JWarmenhoven/DBDA-python)
-16. [Statistical Rethinking with Python and PyMC3](https://github.com/aloctavodia/Statistical-Rethinking-with-Python-and-PyMC3)
-17. [Probabilistic Graphical Models](https://github.com/pgmpy/pgmpy)
-18. [Bayesian Modeling and computation in Python](https://bayesiancomputationbook.com/welcome.html)
-	* [Code](https://github.com/BayesianModelingandComputationInPython/BookCode_Edition1)
-19. [Stan Hierarchical Modelling](https://github.com/widdowquinn/Teaching-Stan-Hierarchical-Modelling)
-20. [Statistical Rethinking (2023 Edition)](https://github.com/rmcelreath/stat_rethinking_2023)
-21. [Bayes_Computing_Course](https://github.com/fonnesbeck/Bayes_Computing_Course)
-22. [Bayesian Data Analysis Course](https://avehtari.github.io/BDA_course_Aalto/)
-23. [An Introduction to Bayesian Reasoning and Methods](https://bookdown.org/kevin_davisross/bayesian-reasoning-and-methods/)
-24. [Bayesian inference with INLA](https://becarioprecario.bitbucket.io/inla-gitbook/index.html)
-25. [Bayesian Statistics course](https://bayesf22.classes.andrewheiss.com/schedule/)
-
-## Time Series
-
-1. [Principles of Forecasting](https://otexts.com/fpp2/)
-2. [awesome_time_series_in_python](https://github.com/MaxBenChrist/awesome_time_series_in_python)
-3. [NowCasting](https://github.com/MajesticKhan/Nowcasting-Python)
-4. [Probabilistic-Programming-and-Bayesian-Methods-for-Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
-5. [SEM](https://m-clark.github.io/sem/)
-6. [Inferential Statistics and Complex Surveys](https://bookdown.org/cristobalmoya/iscs_materials/)
-7. [bmbstats-book](https://mladenjovanovic.github.io/bmbstats-book/)
-8. [SEM](https://jslefche.github.io/sem_book/index.html)
-8. [BVAR](https://sites.google.com/site/dimitriskorobilis/)
-9. [Darts Time Series Forecasting](https://github.com/unit8co/darts)
-10. [STAT 243: Stochastic Process](https://bookdown.org/jkang37/stochastic-process-lecture-notes/)
-11. [Applied Stochastic Processes](https://bookdown.org/kevin_davisross/applied-stochastic-processes/)
-12. [Mathematics of Financial Derivatives](https://bookdown.org/S_hubbert/mathematics_of_financial_derivatives/introduction.html)
-13. [Stochastic Processes: An Interactive Introduction](https://bookdown.org/probability/bookdown-demo/)
-14. [Introduction to Computational Finance and Financial Econometrics with R](https://bookdown.org/compfinezbook/introFinRbook/)
-15. [MATH2750 Introduction to Markov Processes](https://mpaldridge.github.io/math2750/)
-
-## Statistical Modeling Methods
-
-1. [lifelines: Survival Analysis](https://github.com/CamDavidsonPilon/lifelines)
-2. [Survey_methodology](https://en.wikipedia.org/wiki/Category:Survey_methodology)
-3. [Regression](http://www.stat.cmu.edu/~cshalizi/mreg/15/)
-4. [Survival Modeling](https://github.com/autonlab/auton-survival)
-5. [learn-linalg](https://github.com/kevinzakka/learn-linalg)
-6. [Chris Bilder: Analysis of Categorical Data](http://www.chrisbilder.com/)
-7. [tidyverse](https://www.tidyverse.org/)
-8. [Factor Analysis](https://github.com/EducationalTestingService/factor_analyzer)
-9. [Psychometrics Python](https://github.com/inuyasha2012/pypsy)
-10. [Sensitivity Analysis Lib](https://github.com/SALib/SALib)
-11. [Principles of Statistical Analysis: R Companion](https://bookdown.org/eariascastro/principles_of_statistical_analysis/)
-12. [High Dimensional Stats with R](https://carpentries-incubator.github.io/high-dimensional-stats-r/)
-13. [A Guide on Data Analysis](https://bookdown.org/mike/data_analysis/)
-14. [Distribution Theory](https://bookdown.org/pkaldunn/DistTheory/)
-15. [Advanced Statistical Computing](https://bookdown.org/rdpeng/advstatcomp/)
-16. [Multivariate Statistical Analysis - Course](https://youtube.com/playlist?list=PLw3gXq8rdVU6BAh8ZA8Gfd030CMY5tztu&si=HHejEG7DbE3kacgE)
-17. [Multivariate statistics - a full course](https://youtube.com/playlist?list=PLLTSM0eKjC2fZqeVFWBBBr8KSqnBIPMQD&si=Ulf6kgFfYn2pRRGB)
-18. [Applied Multivariate Analysis (Alan Dabney, STAT 636, Texas A&M)](https://youtube.com/playlist?list=PL91cR71aKpekIDFYIUkc2xdFxLu9LAYTg&si=_tudzWXNA1grCZkY)
-19. [Flexible Imputation of Missing Data](https://stefvanbuuren.name/fimd/)
-20. [Interpretable ML](https://christophm.github.io/interpretable-ml-book/)
-21. [Epidemiologist R Handbook](https://epirhandbook.com/en/index.html#)
-22. [Spatial Data Science](https://r-spatial.org/book/)
-23. [Nonlinear Econometric Estimates](https://ocw.mit.edu/courses/14-385-nonlinear-econometric-analysis-fall-2007/)
-
-
-## Penn State Online Stats
-
-1. [Stat 500: Applied Statistics](https://online.stat.psu.edu/stat500/)
-2. [Stat 501: Regression Methods](https://online.stat.psu.edu/stat501/)
-3. [Stat 502: Analysis of Variance and Design of Experiments](https://online.stat.psu.edu/statprogram/stat502)
-4. [Stat 503: Design of Experiments](https://online.stat.psu.edu/stat503/)
-5. [Stat 504: Analysis of Discrete Data](https://online.stat.psu.edu/statprogram/stat504)
-6. [STAT 505: Applied Multivariate Statistical Analysis](https://online.stat.psu.edu/stat505/)
-	* [Course Website](https://sites.psu.edu/djmallinson/padm-576/)
-7. [STAT 506: Sampling Theory and Methods](https://online.stat.psu.edu/stat506/)
-8. [STAT 507: Epidemiological Research Methods](https://online.stat.psu.edu/stat507/)
-9. [STAT 508: Applied Data Mining & Statistical Learning](https://online.stat.psu.edu/statprogram/stat508)
-10. [STAT 509: Design and Analysis of Clinical Trials](https://online.stat.psu.edu/stat509/)
-11. [STAT 510: Applied Time Series Analysis](https://online.stat.psu.edu/stat510/)
-12. [STAT 555: Statistical Analysis of Genomics Data](https://online.stat.psu.edu/stat555/)
-13. [STAT 800: Introduction to Applied Statistics](https://online.stat.psu.edu/stat800/)
-
-## Concepts
-
-1. [Design_of_experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
-2. [Experiments](https://en.wikipedia.org/wiki/Category:Experiments)
-3. [List_of_important_publications_in_statistics](https://en.wikipedia.org/wiki/List_of_important_publications_in_statistics)
-4. [Statistics-related_lists](https://en.wikipedia.org/wiki/Category:Statistics-related_lists)
-5. [List_of_statistics_articles](https://en.wikipedia.org/wiki/List_of_statistics_articles)
-6. [Outline_of_statistics](https://en.wikipedia.org/wiki/Outline_of_statistics)
-7. [List_of_probability_topics](https://en.wikipedia.org/wiki/List_of_probability_topics)
-8. [Glossary_of_probability_and_statistics](https://en.wikipedia.org/wiki/Glossary_of_probability_and_statistics)
-9. [History_of_statistics](https://en.wikipedia.org/wiki/History_of_statistics)
-10. [Natural_experiment](https://en.wikipedia.org/wiki/Natural_experiment)
-11. [Randomized_controlled_trial](https://en.wikipedia.org/wiki/Randomized_controlled_trial)
-12. [Statistical_data_types](https://en.wikipedia.org/wiki/Category:Statistical_data_types)
-13. [Survival_analysis](https://en.wikipedia.org/wiki/Category:Survival_analysis)
-14. [Computational Statistics](https://en.wikipedia.org/wiki/Category:Computational_statistics)
-15. [Statistical_methods](https://en.wikipedia.org/wiki/Category:Statistical_methods)
-16. [Economic_indicators](https://en.wikipedia.org/wiki/Category:Economic_indicators)
-17. [Indicators](https://en.wikipedia.org/wiki/Category:Indicators)
-18. [Statistical_hypothesis_testing](https://en.wikipedia.org/wiki/Category:Statistical_hypothesis_testing)
-19. [Applied Statistics](https://en.wikipedia.org/wiki/Category:Applied_statistics)
-20. [Measurement](https://en.wikipedia.org/wiki/Category:Measurement)
-21. [Probability Distributions](https://en.wikipedia.org/wiki/Category:Probability_distributions)
-22. [Game Theory](https://en.wikipedia.org/wiki/Category:Game_theory)
-23. [Extreme Value Theory](https://en.wikipedia.org/wiki/Extreme_value_theory)
-24. [Latent Variable Models](https://en.wikipedia.org/wiki/Category:Latent_variable_models)
-25. [Structural Equation Models](https://en.wikipedia.org/wiki/Category:Structural_equation_models)
-26. [Statistical Models](https://en.wikipedia.org/wiki/Category:Statistical_models)
-27. [Statistical Tests](https://en.wikipedia.org/wiki/Category:Statistical_tests)
-28. [Non Parametric Tests](https://en.wikipedia.org/wiki/Category:Nonparametric_statistics)
-29. [Parametric Statistics](https://en.wikipedia.org/wiki/Category:Parametric_statistics)
-30. [Statistical Inference](https://en.wikipedia.org/wiki/Category:Statistical_inference)
-31. [Time Series](https://en.wikipedia.org/wiki/Category:Time_series)
-32. [Decision Theory](https://en.wikipedia.org/wiki/Category:Decision_theory)
-33. [Stochastic Process](https://en.wikipedia.org/wiki/Category:Stochastic_processes)
-34. [Selective_exposure_theory](https://en.wikipedia.org/wiki/Selective_exposure_theory)
-35. [cake_eating_problem](https://python.quantecon.org/cake_eating_problem.html)
-36. [cake_eating_numerical](https://python.quantecon.org/cake_eating_numerical.html)
-37. [Granger_causality](https://en.wikipedia.org/wiki/Granger_causality)
-38. [Mechanism_design](https://en.wikipedia.org/wiki/Category:Mechanism_design)
-39. [Rational_choice_theory](https://en.wikipedia.org/wiki/Rational_choice_theory)
-40. [Multi agent_system](https://en.wikipedia.org/wiki/Multi-agent_system)
-41. [Agent Based Models](https://en.wikipedia.org/wiki/Agent-based_model)
-42. [Heckman Correction](https://en.wikipedia.org/wiki/Heckman_correction)
-43. [Propensity Score](https://en.wikipedia.org/wiki/Propensity_score_matching)
-44. [Regression Analysis](https://en.wikipedia.org/wiki/Category:Regression_analysis)
-45. [Multivariate statistics](https://en.wikipedia.org/wiki/Category:Multivariate_statistics)
-46. [Regression Models](https://en.wikipedia.org/wiki/Category:Regression_models)
-47. [ANOVA](https://en.wikipedia.org/wiki/Category:Analysis_of_variance)
-48. [Machine Learning](https://en.wikipedia.org/wiki/Category:Machine_learning)
-49. [Machine Learning Algorithms](https://en.wikipedia.org/wiki/Category:Machine_learning_algorithms)
-50. [Applied Machine Learning](https://en.wikipedia.org/wiki/Category:Applied_machine_learning)
-51. [Metrology](https://en.wikipedia.org/wiki/Category:Metrology)
-52. [Telemetry](https://en.wikipedia.org/wiki/Category:Telemetry)
-53. [Bayesian_statistics](https://en.wikipedia.org/wiki/Category:Bayesian_statistics)
-54. [Model_selection](https://en.wikipedia.org/wiki/Category:Model_selection)
-55. [Statistical_hypothesis_testing](https://en.wikipedia.org/wiki/Category:Statistical_hypothesis_testing)
-56. [Sensitivity_analysis](https://en.wikipedia.org/wiki/Category:Sensitivity_analysis)
-57. [Statistical_analysis](https://en.wikipedia.org/wiki/Category:Statistical_analysis)
-58. [Statistical_methods](https://en.wikipedia.org/wiki/Category:Statistical_methods)
-59. [Data_analysis](https://en.wikipedia.org/wiki/Category:Data_analysis)
-60. [Summary_statistics](https://en.wikipedia.org/wiki/Category:Summary_statistics)
-61. [List_of_analyses_of_categorical_data](https://en.wikipedia.org/wiki/List_of_analyses_of_categorical_data)
-62. [Regression Analysis](https://en.wikipedia.org/wiki/Category:Regression_analysis) and [Regression Models](https://en.wikipedia.org/wiki/Category:Regression_models)
-63. [Design of Experiments](https://en.wikipedia.org/wiki/Category:Design_of_experiments)
-64. [Observational Study](https://en.wikipedia.org/wiki/Category:Observational_study)
-65. [Econometric Modeling](https://en.wikipedia.org/wiki/Category:Econometric_modeling)
-66. [Cluster Analysis](https://en.wikipedia.org/wiki/Category:Cluster_analysis)
-67. [Data Mining](https://en.wikipedia.org/wiki/Category:Data_mining)
-68. [Bayesian Hierarchical Modeling](https://en.wikipedia.org/wiki/Bayesian_hierarchical_modeling)
-69. [Multilevel Modeling](https://en.wikipedia.org/wiki/Multilevel_model)
-70. [Mixture Modeling](https://en.wikipedia.org/wiki/Mixture_model)
-71. [Risk_analysis](https://en.wikipedia.org/wiki/Category:Risk_analysis)
-	* [Risk_analysis_methodologies](https://en.wikipedia.org/wiki/Category:Risk_analysis_methodologies)
-	* [Risk](https://en.wikipedia.org/wiki/Category:Risk)
-
-## [Sampling](https://en.wikipedia.org/wiki/Category:Sampling_(statistics)) and [Probability](https://en.wikipedia.org/wiki/Category:Probability_distributions) [Distributions](https://en.wikipedia.org/wiki/List_of_probability_distributions)
-
-1. [Monte Carlo Methods](https://en.wikipedia.org/wiki/Category:Monte_Carlo_methods)
-2. [Resampling](https://en.wikipedia.org/wiki/Category:Resampling_(statistics))
-3. [Randomized Algorithms](https://en.wikipedia.org/wiki/Category:Randomized_algorithms)
-4. [Statistical Algorithms](https://en.wikipedia.org/wiki/Category:Statistical_algorithms)
-5. [Sampling Techniques](https://en.wikipedia.org/wiki/Category:Sampling_techniques)
-6. [Bootstrapping](https://en.wikipedia.org/wiki/Bootstrapping_(statistics))
-7. [Continuous Distributions](https://en.wikipedia.org/wiki/Category:Continuous_distributions)
-8. [Discrete Distributions](https://en.wikipedia.org/wiki/Category:Discrete_distributions)
-9. [Conjugate Prior Distributions](https://en.wikipedia.org/wiki/Category:Conjugate_prior_distributions)
-10. [Exponential Distributions](https://en.wikipedia.org/wiki/Category:Exponential_family_distributions)
-11. [Cross Validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics))
-12. [Classification Algorithm](https://en.wikipedia.org/wiki/Category:Classification_algorithms)
-13. [Maximum_likelihood_estimation](https://en.wikipedia.org/wiki/Category:Maximum_likelihood_estimation)
-14. [Statistical_model_validation](https://en.wikipedia.org/wiki/Statistical_model_validation)
+  - [Notebooks](http://bactra.org/notebooks/)

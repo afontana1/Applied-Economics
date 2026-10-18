@@ -1,0 +1,18 @@
+## Time Series
+
+1. [Principles of Forecasting](https://otexts.com/fpp2/)
+2. [awesome_time_series_in_python](https://github.com/MaxBenChrist/awesome_time_series_in_python)
+3. [NowCasting](https://github.com/MajesticKhan/Nowcasting-Python)
+4. [Probabilistic-Programming-and-Bayesian-Methods-for-Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
+5. [SEM](https://m-clark.github.io/sem/)
+6. [Inferential Statistics and Complex Surveys](https://bookdown.org/cristobalmoya/iscs_materials/)
+7. [bmbstats-book](https://mladenjovanovic.github.io/bmbstats-book/)
+8. [SEM](https://jslefche.github.io/sem_book/index.html)
+8. [BVAR](https://sites.google.com/site/dimitriskorobilis/)
+9. [Darts Time Series Forecasting](https://github.com/unit8co/darts)
+10. [STAT 243: Stochastic Process](https://bookdown.org/jkang37/stochastic-process-lecture-notes/)
+11. [Applied Stochastic Processes](https://bookdown.org/kevin_davisross/applied-stochastic-processes/)
+12. [Mathematics of Financial Derivatives](https://bookdown.org/S_hubbert/mathematics_of_financial_derivatives/introduction.html)
+13. [Stochastic Processes: An Interactive Introduction](https://bookdown.org/probability/bookdown-demo/)
+14. [Introduction to Computational Finance and Financial Econometrics with R](https://bookdown.org/compfinezbook/introFinRbook/)
+15. [MATH2750 Introduction to Markov Processes](https://mpaldridge.github.io/math2750/)

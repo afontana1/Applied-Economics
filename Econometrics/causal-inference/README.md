@@ -2,8 +2,6 @@
 
 ## Concepts
 
-- [Philosophical Treatment of Causaility](https://github.com/afontana1/critical-thinking/tree/master/course_outline/course5-Causation)
-
 1. [Causal Model Philosophy](https://plato.stanford.edu/entries/causal-models/)
 2. [Causal Inference](https://en.wikipedia.org/wiki/Category:Causal_inference)
 3. [Experiments](https://en.wikipedia.org/wiki/Category:Experiments)
@@ -44,6 +42,14 @@
 
 ## Labs, People,  Blogs
 
+- [Stanford Causal Inference Center](https://datascience.stanford.edu/causal)
+- [Donald Rubin](https://en.wikipedia.org/wiki/Donald_Rubin)
+- [Guido W. Imbens](https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens)
+- [marcelo-perraillon](https://clas.ucdenver.edu/marcelo-perraillon/)
+- [Clark Glymour](https://philpeople.org/profiles/clark-glymour)
+- [Judea Pearl](https://bayes.cs.ucla.edu/jp_home.html)
+- [Nancy Cartwright](https://www.profnancycartwright.com/)
+
 1. [Causal Analysis in Theory and Practice](http://causality.cs.ucla.edu/blog/)
 2. [Causal Inference Lab](https://projects.illc.uva.nl/cil/)
 3. [CMU Causal Learning and Reasoning](https://www.cmu.edu/dietrich/causality/)
@@ -63,6 +69,7 @@
 13. [Causal Inference Blog](https://solomonkurz.netlify.app/blog/)
 14. [Causal Analysis in Theory and Practice](http://causality.cs.ucla.edu/blog/)
 15. [Causalab](https://causalab.hsph.harvard.edu/)
+
 
 ## Videos
 
