@@ -1,0 +1,33 @@
+flowchart TB
+  Q[Substantive question & target population] --> E[Specify intervention, outcomes, timing]
+  E --> PO[Potential outcomes & estimand: ATE, ATT, ITT, LATE, CATE]
+  E --> SC[SCM / DAG: causes, colliders, mediators, selection]
+  PO --> ID{What source of identifying variation?}
+  SC --> ID
+  ID --> R[Randomized assignment]
+  ID --> O[Measured confounding, observational treatment]
+  ID --> P[Policy or quasi-experimental variation]
+  ID --> T[Sequential treatment over time]
+  R --> RI[Randomization inference / covariate adjustment]
+  O --> CA[Conditional exchangeability, positivity, consistency]
+  CA --> EST[Regression / matching / IPW / AIPW]
+  P --> DID[Parallel trends: DiD, event study]
+  P --> SYN[Donor trends: synthetic control]
+  P --> IV[Instrument: exclusion & relevance]
+  P --> RD[Continuity at cutoff: RD]
+  T --> LONG[Sequential exchangeability: g-methods, MSM]
+  RI --> INF[Sampling & assignment-aware inference]
+  EST --> INF
+  DID --> INF
+  SYN --> INF
+  IV --> INF
+  RD --> INF
+  LONG --> INF
+  INF --> VAL[Diagnostics: balance, overlap, pre-trends, placebo, weak IV, sorting]
+  VAL --> SEN[Sensitivity, hidden bias, spillovers, missingness]
+  SEN --> H[Heterogeneity, generalization, policy value]
+  H --> REP[Replicable causal research report & decisions]
+  SC --> GRAPH[Back-door, front-door & causal discovery]
+  GRAPH --> CA
+  H --> ML[Optional meta-learners, orthogonality, DML]
+  ML --> REP
