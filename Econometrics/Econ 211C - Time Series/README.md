@@ -76,7 +76,7 @@ $$
 For a covariance-stationary process:
 
 $$
-E[y_t]=\mu,\qquad \gamma(h)=\operatorname{Cov}(y_t,y_{t-h}),\qquad \rho(h)=\frac{\gamma(h)}{\gamma(0)}.
+E[y_t]=\mu,\qquad \gamma(h)=\mathrm{Cov}(y_t,y_{t-h}),\qquad \rho(h)=\frac{\gamma(h)}{\gamma(0)}.
 $$
 
 For a dynamic conditional expectation:
@@ -312,8 +312,8 @@ A log return aggregates by addition over time, but **cross-asset portfolio retur
 
 $$
 E[\varepsilon_t]=0,\qquad
-\operatorname{Var}(\varepsilon_t)=\sigma_\varepsilon^2,\qquad
-\operatorname{Cov}(\varepsilon_t,\varepsilon_s)=0 \quad(t\ne s).
+\mathrm{Var}(\varepsilon_t)=\sigma_\varepsilon^2,\qquad
+\mathrm{Cov}(\varepsilon_t,\varepsilon_s)=0 \quad(t\ne s).
 $$
 
 White noise is **uncorrelated**, not necessarily independent or Gaussian. Weak stationarity is a restriction on first and second moments; strict stationarity concerns all finite-dimensional distributions. Economic data can also feature regime changes and time-varying variance, so specify precisely which form is assumed.
@@ -340,7 +340,7 @@ $$
 
 $$
 \mu=\frac{c}{1-\phi},\qquad
-\operatorname{Var}(y_t)=\frac{\sigma_\varepsilon^2}{1-\phi^2},\qquad
+\mathrm{Var}(y_t)=\frac{\sigma_\varepsilon^2}{1-\phi^2},\qquad
 \rho(h)=\phi^{|h|}.
 $$
 
@@ -351,7 +351,7 @@ $$
 $$
 
 $$
-\operatorname{Var}(y_{T+h}-\widehat y_{T+h\mid T}\mid\mathcal F_T)
+\mathrm{Var}(y_{T+h}-\widehat y_{T+h\mid T}\mid\mathcal F_T)
 =\sigma_\varepsilon^2\sum_{j=0}^{h-1}\phi^{2j}
 =\sigma_\varepsilon^2\frac{1-\phi^{2h}}{1-\phi^2}.
 $$
@@ -403,7 +403,7 @@ $$
 With $Y$ the target and $X$ a vector of predictors, the mean-square optimal **linear** forecast of $Y$ takes the form $a+b'X$ with:
 
 $$
-b=\operatorname{Var}(X)^{-1}\operatorname{Cov}(X,Y),\qquad
+b=\mathrm{Var}(X)^{-1}\mathrm{Cov}(X,Y),\qquad
 a=E[Y]-b'E[X],
 $$
 
@@ -412,8 +412,8 @@ assuming an invertible covariance matrix. The full conditional mean $E[Y\mid X]$
 A rolling or expanding-origin experiment with forecast errors $e_{t+h\mid t}$ can compare:
 
 $$
-\operatorname{RMSE}=\sqrt{\frac{1}{N}\sum_{t=1}^{N}e_{t+h\mid t}^2},\qquad
-\operatorname{MAE}=\frac{1}{N}\sum_{t=1}^{N}|e_{t+h\mid t}|.
+\mathrm{RMSE}=\sqrt{\frac{1}{N}\sum_{t=1}^{N}e_{t+h\mid t}^2},\qquad
+\mathrm{MAE}=\frac{1}{N}\sum_{t=1}^{N}|e_{t+h\mid t}|.
 $$
 
 **Required safeguards:** same holdout observations, same horizons, data known as of forecast origin, declared loss function, no look-ahead optimization, and honest interval coverage.
@@ -541,7 +541,7 @@ $$
 With $\mathcal F_t$-measurable instruments $Z_t$, unconditional moments are
 
 $$
-E\!\left[Z_t\left\{\beta\left(\frac{C_{t+1}}{C_t}\right)^{-\gamma}R_{t+1}-1\right\}\right]=0.
+E\!\left[Z_t\left\lbrace\beta\left(\frac{C_{t+1}}{C_t}\right)^{-\gamma}R_{t+1}-1\right\rbrace\right]=0.
 $$
 
 **Derive:** why valid instruments must belong to the decision-maker's relevant time-$t$ information set and why overidentification tests are useful but cannot, on their own, validate all modeling assumptions. Confirm timing carefully when translating between simple and gross returns.

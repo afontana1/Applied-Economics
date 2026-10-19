@@ -131,14 +131,14 @@ The graph is also available as [`knowledge-map.mmd`](knowledge-map.mmd). **Inter
 The modern exponential-family representation is
 
 $$
-f(y_i;\theta_i,\phi)=\exp\left\{\frac{y_i\theta_i-b(\theta_i)}{a(\phi)}+c(y_i,\phi)\right\}.
+f(y_i;\theta_i,\phi)=\exp\left\lbrace\frac{y_i\theta_i-b(\theta_i)}{a(\phi)}+c(y_i,\phi)\right\rbrace.
 $$
 
 Its principal moment relationships, under the usual regularity conditions, are
 
 $$
 E[Y_i\mid X_i]=b'(\theta_i)=\mu_i,\qquad
-\operatorname{Var}(Y_i\mid X_i)=a(\phi)b''(\theta_i).
+\mathrm{Var}(Y_i\mid X_i)=a(\phi)b''(\theta_i).
 $$
 
 A generalized linear model separates the **random component**, the **systematic predictor**, and the **link**:
@@ -209,9 +209,9 @@ $$
 For a Poisson regression with exposure $e_i$,
 
 $$
-Y_i\mid X_i\sim\operatorname{Poisson}(\mu_i),\quad
+Y_i\mid X_i\sim\mathrm{Poisson}(\mu_i),\quad
 \log\mu_i=\log e_i+X_i^\top\beta,\quad
-E[Y_i\mid X_i]=\operatorname{Var}(Y_i\mid X_i)=\mu_i.
+E[Y_i\mid X_i]=\mathrm{Var}(Y_i\mid X_i)=\mu_i.
 $$
 
 **Mastery exercises.** (1) Fit logit/probit/linear-probability models on identical simulated binary outcomes; compare AMEs and feasible predictions. (2) For counts, fit Poisson with and without an offset; interpret rate ratios; inspect residual deviance and variance-to-mean patterns. (3) Simulate overdispersed counts, determine which inferential and predictive claims become unreliable under a plain Poisson specification. (4) Explain why a large odds ratio does not itself imply a large probability effect.
@@ -334,7 +334,7 @@ $$
 For bootstrap replications $\widehat\theta^{*(1)},\ldots,\widehat\theta^{*(B)}$,
 
 $$
-\widehat{\operatorname{SE}}_{\mathrm{boot}}(\widehat\theta)
+\widehat{\mathrm{SE}}_{\mathrm{boot}}(\widehat\theta)
 =\sqrt{\frac{1}{B-1}\sum_{b=1}^B\left(\widehat\theta^{*(b)}-\overline\theta^*\right)^2}.
 $$
 
@@ -362,9 +362,9 @@ This is **one particular implementation**, not a universal guarantee of valid in
 For LASSO regression (intercept left unpenalized),
 
 $$
-\widehat\beta(\lambda)=\arg\min_{\beta}\left\{
+\widehat\beta(\lambda)=\arg\min_{\beta}\left\lbrace
 \frac{1}{2n}\sum_{i=1}^n\big(Y_i-\beta_0-X_i^\top\beta\big)^2
-+\lambda\sum_{j=1}^p|\beta_j|\right\}.
++\lambda\sum_{j=1}^p|\beta_j|\right\rbrace.
 $$
 
 **Mastery exercises.** (1) Build kNN classifier and regression tree benchmarks against logit/GLM and a flexible GAM; compare held-out losses. (2) Change $k$, tree complexity, and data scaling; quantify sensitivity. (3) Implement $k$-fold CV without leakage (including preprocessing inside folds). (4) Fit LASSO on a high-dimensional simulated design and contrast prediction error, variable selection, and coefficient interpretation. (5) For lagged predictors, replace random CV with rolling-origin or blocked validation and explain the difference.
@@ -385,7 +385,7 @@ For a stationary AR(1) process,
 
 $$
 Y_t=\alpha+\phi Y_{t-1}+\varepsilon_t,\qquad |\phi|<1,\qquad
-\operatorname{Var}(Y_t)=\frac{\sigma_\varepsilon^2}{1-\phi^2}
+\mathrm{Var}(Y_t)=\frac{\sigma_\varepsilon^2}{1-\phi^2}
 $$
 
 when innovations are serially uncorrelated with constant variance $\sigma_\varepsilon^2$. A GARCH(1,1) specification is
@@ -449,7 +449,7 @@ with a stable adjustment often requiring $\gamma<0$ under this sign convention a
 | Outcome / problem | Starting model | Key mean or dependence relationship | Diagnostic / alternative |
 |---|---|---|---|
 | Unbounded approximately symmetric continuous $Y$ | Gaussian linear regression | $E[Y\mid X]=X^\top\beta$ | Residuals, nonlinear shape, heteroskedasticity |
-| Binary event $Y\in\{0,1\}$ | Binomial logit / probit | $P(Y=1\mid X)=F(X^\top\beta)$ | Calibration; AMEs; separation and rare events |
+| Binary event $Y\in\lbrace0,1\rbrace$ | Binomial logit / probit | $P(Y=1\mid X)=F(X^\top\beta)$ | Calibration; AMEs; separation and rare events |
 | Nonnegative count | Poisson log-link | $\log E[Y\mid X]=X^\top\beta$ | Exposure; overdispersion; excess zeros |
 | One of $J$ categories | Multinomial logit | normalized category probabilities | IIA, availability, heterogeneous tastes |
 | Right-censored event time | Kaplan–Meier and survival regression | $S(t),h(t)$ | Censoring mechanism, proportional hazards |

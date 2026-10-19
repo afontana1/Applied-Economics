@@ -188,9 +188,9 @@ Do not use a high $R^2$, a small $p$-value, or an elaborate estimator as proof o
 **Mathematical focus:** For an estimator $\hat\theta$, write its bias, mean squared error, and large-sample target:
 
 $$
-\operatorname{Bias}(\hat\theta)=E[\hat\theta]-\theta_0,
+\mathrm{Bias}(\hat\theta)=E[\hat\theta]-\theta_0,
 \qquad
-\operatorname{MSE}(\hat\theta)=\operatorname{Var}(\hat\theta)+\operatorname{Bias}(\hat\theta)^2.
+\mathrm{MSE}(\hat\theta)=\mathrm{Var}(\hat\theta)+\mathrm{Bias}(\hat\theta)^2.
 $$
 
 **Lab:** Create an analysis-ready dataset with an auditable dictionary. Simulate two unbiased estimators with different variances and a third biased estimator with small variance. Compare Monte Carlo bias and MSE. Reproduce a descriptive plot relevant to wages, housing, demand, or labor markets.
@@ -237,13 +237,13 @@ $$
 **Mathematical focus:** Under homoskedastic uncorrelated errors conditional on $X$,
 
 $$
-\operatorname{Var}(\widehat\beta\mid X)=\sigma^2(X'X)^{-1}.
+\mathrm{Var}(\widehat\beta\mid X)=\sigma^2(X'X)^{-1}.
 $$
 
 For a single restriction,
 
 $$
-t=\frac{\widehat\beta_j-\beta_{j,0}}{\widehat{\operatorname{SE}}(\widehat\beta_j)}.
+t=\frac{\widehat\beta_j-\beta_{j,0}}{\widehat{\mathrm{SE}}(\widehat\beta_j)}.
 $$
 
 **Lab:** Simulate near-collinear regressors; vary correlations and sample size; plot standard errors against collinearity. Estimate a model with a categorical group, reference level, interactions, and a multi-parameter Wald/F test.
@@ -292,13 +292,13 @@ Finite-sample corrections and validity conditions depend on the estimator and de
 **Mathematical focus:** If the true model is $y=\beta x+\gamma z+u$ (after centering) but $z$ is omitted, the population short-regression slope is:
 
 $$
-\beta_{short}=\beta+\gamma\frac{\operatorname{Cov}(x,z)}{\operatorname{Var}(x)}
+\beta_{short}=\beta+\gamma\frac{\mathrm{Cov}(x,z)}{\mathrm{Var}(x)}
 $$
 
-under $\operatorname{Cov}(x,u)=0$. With classical additive measurement error $x=x^*+v$, independent of the true regressor and structural error, the simple-regression probability limit is:
+under $\mathrm{Cov}(x,u)=0$. With classical additive measurement error $x=x^*+v$, independent of the true regressor and structural error, the simple-regression probability limit is:
 
 $$
-\operatorname{plim}\hat\beta=\beta\frac{\operatorname{Var}(x^*)}{\operatorname{Var}(x^*)+\operatorname{Var}(v)}.
+\mathrm{plim}\hat\beta=\beta\frac{\mathrm{Var}(x^*)}{\mathrm{Var}(x^*)+\mathrm{Var}(v)}.
 $$
 
 **Lab:** Simulate confounding, classical measurement error, and simultaneous causality separately. Diagnose differences in how naive regression behaves. Re-estimate a substantive model with three plausibly motivated specifications rather than stepwise significance filtering.
@@ -318,7 +318,7 @@ $$
 **Mathematical focus:** For binary $y_i$ with success probability $p_i(\beta)$,
 
 $$
-\ell(\beta)=\sum_{i=1}^{n}\left[y_i\log p_i(\beta)+(1-y_i)\log\{1-p_i(\beta)\}\right].
+\ell(\beta)=\sum_{i=1}^{n}\left[y_i\log p_i(\beta)+(1-y_i)\log\lbrace1-p_i(\beta)\rbrace\right].
 $$
 
 For logit, $p_i(\beta)=\Lambda(x_i'\beta)$, where $\Lambda(z)=1/(1+e^{-z})$, and
@@ -406,7 +406,7 @@ and subtracting individual means removes $\alpha_i$ (with appropriate adjustment
 **Mathematical focus:** In the just-identified scalar case,
 
 $$
-\beta_{IV}=\frac{\operatorname{Cov}(Z,Y)}{\operatorname{Cov}(Z,X)},
+\beta_{IV}=\frac{\mathrm{Cov}(Z,Y)}{\mathrm{Cov}(Z,X)},
 $$
 
 and the matrix 2SLS estimator (when identified) is:
@@ -464,14 +464,14 @@ For a fuzzy RD, the local Wald ratio is the **jump in outcome divided by the jum
 
 $$
 \widehat\beta_\lambda=\arg\min_\beta
-\left\{\frac{1}{2n}\lVert y-X\beta\rVert_2^2+\lambda\lVert\beta\rVert_1\right\}.
+\left\lbrace\frac{1}{2n}\lVert y-X\beta\rVert_2^2+\lambda\lVert\beta\rVert_1\right\rbrace.
 $$
 
 The first-order delta-method approximation for $g(\widehat\theta)$ is:
 
 $$
-\operatorname{Var}\big(g(\widehat\theta)\big)
-\approx \nabla g(\theta_0)'\operatorname{Var}(\widehat\theta)\nabla g(\theta_0).
+\mathrm{Var}\big(g(\widehat\theta)\big)
+\approx \nabla g(\theta_0)'\mathrm{Var}(\widehat\theta)\nabla g(\theta_0).
 $$
 
 **Lab:** Use a held-out set to compare a linear model, flexible spline/nonparametric model, ridge, and lasso for a predictive question. Estimate uncertainty for a nonlinear function using the delta method and bootstrap; resample at the **cluster** rather than individual level if clusters are the sampling units.
@@ -523,7 +523,7 @@ The equation is not a claim that the world is literally linear. It is a working 
 
 **Exogeneity:** $E[u\mid X]=0$ is stronger than unconditional orthogonality $E[x_i u_i]=0$. The relevant assumption should be stated for the estimator and target parameter. Conditional zero mean supports finite-sample unbiasedness of OLS under standard sampling conditions; orthogonality and regularity may suffice for consistency.
 
-**Homoskedasticity:** $\operatorname{Var}(u_i\mid X)=\sigma^2$ is not needed for the OLS coefficient formula and generally not needed for consistency. It underlies the familiar homoskedastic OLS variance formula and OLS efficiency claims under Gauss–Markov conditions.
+**Homoskedasticity:** $\mathrm{Var}(u_i\mid X)=\sigma^2$ is not needed for the OLS coefficient formula and generally not needed for consistency. It underlies the familiar homoskedastic OLS variance formula and OLS efficiency claims under Gauss–Markov conditions.
 
 **Dependence:** Cross-sectional observations, observations within panels or clusters, and successive time-series outcomes have different dependence structures. A standard-error formula that treats correlated observations as independent may be misleading.
 
@@ -540,10 +540,10 @@ $$
 
 Setting the gradient to zero gives $X'X\widehat\beta=X'y$. Note that OLS residuals are orthogonal **in sample** to all included regressors; this algebraic property does not imply that the structural errors are exogenous.
 
-**Coefficient uncertainty.** Conditional on $X$, if $\operatorname{Var}(u\mid X)=\Omega$,
+**Coefficient uncertainty.** Conditional on $X$, if $\mathrm{Var}(u\mid X)=\Omega$,
 
 $$
-\operatorname{Var}(\widehat\beta\mid X)
+\mathrm{Var}(\widehat\beta\mid X)
 =(X'X)^{-1}X'\Omega X(X'X)^{-1}.
 $$
 
@@ -560,7 +560,7 @@ This explains how fixed effects absorb systematic mean differences and why the r
 **Confidence intervals.** A conventional large-sample two-sided interval for a scalar parameter is:
 
 $$
-\widehat\theta\ \pm\ z_{1-\alpha/2}\widehat{\operatorname{SE}}(\widehat\theta).
+\widehat\theta\ \pm\ z_{1-\alpha/2}\widehat{\mathrm{SE}}(\widehat\theta).
 $$
 
 Use the appropriate finite-sample reference distribution or improved methods when asymptotic approximations are unreliable (e.g., very few clusters, weak instruments, selected models).

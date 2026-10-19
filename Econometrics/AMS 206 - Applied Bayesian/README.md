@@ -104,10 +104,10 @@ $$
 For a binomial outcome with a Beta prior, use the exact posterior instead of numerical integration:
 
 $$
-Y\mid\theta\sim\operatorname{Binomial}(n,\theta),\quad
-\theta\sim\operatorname{Beta}(a,b)
+Y\mid\theta\sim\mathrm{Binomial}(n,\theta),\quad
+\theta\sim\mathrm{Beta}(a,b)
 \quad\Longrightarrow\quad
-\theta\mid Y=y\sim\operatorname{Beta}(a+y,b+n-y).
+\theta\mid Y=y\sim\mathrm{Beta}(a+y,b+n-y).
 $$
 
 **Core reading:** [course material/bayes/lecture1-introToBayes.pdf](<course material/bayes/lecture1-introToBayes.pdf>), [lecture2-introToBayes.pdf](<course material/bayes/lecture2-introToBayes.pdf>), [notes/intro/bayes.pdf](<notes/intro/bayes.pdf>), [notes/intro/commonDistributions.pdf](<notes/intro/commonDistributions.pdf>). **Code:** [Code 1.R](<course material/code/Code 1.R>).
@@ -121,10 +121,10 @@ $$
 **Concepts.** Sufficient statistics, exponential families, conjugate analysis, posterior predictive integration, Gamma–Poisson and Dirichlet–multinomial models, Normal updating, and the relationship between exchangeability and latent mixing distributions. De Finetti's theorem requires the appropriate infinite-exchangeability setting; it does not imply that every finite exchangeable process is iid.
 
 $$
-Y_i\mid\lambda\overset{\mathrm{iid}}\sim\operatorname{Poisson}(\lambda),\qquad
-\lambda\sim\operatorname{Gamma}(a,b)\ \text{(shape–rate)}
+Y_i\mid\lambda\overset{\mathrm{iid}}\sim\mathrm{Poisson}(\lambda),\qquad
+\lambda\sim\mathrm{Gamma}(a,b)\ \text{(shape–rate)}
 \quad\Longrightarrow\quad
-\lambda\mid\boldsymbol y\sim\operatorname{Gamma}\left(a+\sum_i y_i,b+n\right).
+\lambda\mid\boldsymbol y\sim\mathrm{Gamma}\left(a+\sum_i y_i,b+n\right).
 $$
 
 $$
@@ -142,7 +142,7 @@ $$
 **Concepts.** Utility/loss, Bayes actions, predictive decision rules, posterior odds vs. prior odds, marginal likelihood, Bayes factors, the dependence of Bayes factors on prior dispersion, proper/improper priors, Jeffreys-type constructions, and model uncertainty. Link directly to microeconomic expected utility without treating a loss function as a causal identification strategy.
 
 $$
-a^*(y)=\operatorname*{arg\,min}_{a\in\mathcal A}
+a^*(y)=\underset{a\in\mathcal A}{\mathrm{arg\,min}}
 \mathbb E[L(a,\theta)\mid y].
 $$
 
@@ -210,9 +210,9 @@ $$
 **Concepts.** Transition kernels, irreducibility, aperiodicity, invariant distributions, burn-in, Markov chain dependence, detailed balance, Metropolis–Hastings, random-walk proposal scaling, acceptance rate as a diagnostic rather than sole objective, multimodal and badly scaled posteriors.
 
 $$
-\alpha(\theta,\theta')=\min\left\{1,
+\alpha(\theta,\theta')=\min\left\lbrace1,
 \frac{p(y\mid\theta')p(\theta')q(\theta\mid\theta')}
-{p(y\mid\theta)p(\theta)q(\theta'\mid\theta)}\right\}.
+{p(y\mid\theta)p(\theta)q(\theta'\mid\theta)}\right\rbrace.
 $$
 
 **Core reading:** [markov-chain-monte-carlo.pdf](<course material/bayes/markov-chain-monte-carlo.pdf>), [metropolis.pdf](<course material/bayes/metropolis.pdf>), [notes/MCMC/Lesson 4_ Metropolis-Hastings.pdf](<notes/MCMC/Lesson 4_ Metropolis-Hastings.pdf>), [notes/Basic Analysis/markov chains.pdf](<notes/Basic Analysis/markov chains.pdf>). **Code:** [Code 7.R](<course material/code/Code 7.R>).
@@ -259,13 +259,13 @@ with the infinite sum **estimated using a stable truncation rule**, rather than 
 **Concepts.** Gaussian ANOVA as a regression with contrasts; Bernoulli likelihood with logit link; Poisson log link and exposure offsets; nonconjugate coefficient posteriors; separation, sparsity, weakly informative priors, posterior predictive group comparisons, and interpretation on the original outcome scale. Mixed-effect GLMs are introduced here and developed in Week 10.
 
 $$
-\operatorname{logit}\{P(Y_i=1\mid x_i,\beta)\}=x_i^\top\beta,
+\mathrm{logit}\lbrace P(Y_i=1\mid x_i,\beta)\rbrace=x_i^\top\beta,
 \qquad
-Y_i\mid x_i,\beta\sim\operatorname{Bernoulli}(p_i),
+Y_i\mid x_i,\beta\sim\mathrm{Bernoulli}(p_i),
 $$
 
 $$
-Y_i\mid x_i,\beta\sim\operatorname{Poisson}(\lambda_i),
+Y_i\mid x_i,\beta\sim\mathrm{Poisson}(\lambda_i),
 \qquad\log\lambda_i=\log E_i+x_i^\top\beta,
 $$
 
@@ -308,7 +308,7 @@ p(\tilde y\mid y,M)=\int p(\tilde y\mid\theta,M)p(\theta\mid y,M)\,d\theta.
 $$
 
 $$
-\operatorname{elpd}_{\mathrm{LOO}}=\sum_{i=1}^n\log p(y_i\mid y_{-i}),
+\mathrm{elpd}_{\mathrm{LOO}}=\sum_{i=1}^n\log p(y_i\mid y_{-i}),
 $$
 
 where $y_{-i}$ means fitting or approximating a fit that excludes observation $i$. (Grouped and time-dependent data require an appropriate cross-validation unit and split.)
@@ -388,9 +388,9 @@ $$
 For a Dirichlet prior over $K$ category probabilities, with observed counts $n_1,\ldots,n_K$,
 
 $$
-\boldsymbol p\sim\operatorname{Dirichlet}(\alpha_1,\ldots,\alpha_K)
+\boldsymbol p\sim\mathrm{Dirichlet}(\alpha_1,\ldots,\alpha_K)
 \quad\Rightarrow\quad
-\boldsymbol p\mid\boldsymbol n\sim\operatorname{Dirichlet}(\alpha_1+n_1,\ldots,\alpha_K+n_K).
+\boldsymbol p\mid\boldsymbol n\sim\mathrm{Dirichlet}(\alpha_1+n_1,\ldots,\alpha_K+n_K).
 $$
 
 ### Gaussian conjugacy

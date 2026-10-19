@@ -72,7 +72,7 @@ flowchart TD
 
 ### 3.1 Units, treatments, potential outcomes, estimands
 
-Let $W_i\in\{0,1\}$ denote treatment assignment, $Y_i(1)$ and $Y_i(0)$ potential outcomes, and $Y_i$ the observed outcome. With consistency under the specified intervention and no interference between units in the simplest setup:
+Let $W_i\in\lbrace0,1\rbrace$ denote treatment assignment, $Y_i(1)$ and $Y_i(0)$ potential outcomes, and $Y_i$ the observed outcome. With consistency under the specified intervention and no interference between units in the simplest setup:
 
 $$
 Y_i=W_iY_i(1)+(1-W_i)Y_i(0).
@@ -95,7 +95,7 @@ Define the population, treatment versions, time horizon, and outcome scale befor
 Conditional identification by adjustment requires, among other things, **conditional exchangeability** and **positivity** on the target population:
 
 $$
-\{Y(0),Y(1)\}\perp W\mid X,\qquad 0<P(W=1\mid X=x)<1.
+\lbrace Y(0),Y(1)\rbrace\perp W\mid X,\qquad 0<P(W=1\mid X=x)<1.
 $$
 
 Then the standardization (g-formula) for binary treatment identifies:
@@ -116,7 +116,7 @@ $$
 X_j=f_j(\mathrm{Pa}_j,U_j), \qquad j=1,\ldots,p.
 $$
 
-Intervening with $\operatorname{do}(W=w)$ replaces the structural assignment for $W$. Read the [DAG exercises](lessons/Directed_Acyclical_Graphs.ipynb), [graphical modeling notebook](lessons/causal-inference-2-causal-graphical-models.ipynb), and [front-door adjustment notebook](lessons/causal-inference-3-frontdoor-adjustment.ipynb) together; reproduce each graph and defend every arrow.
+Intervening with $\mathrm{do}(W=w)$ replaces the structural assignment for $W$. Read the [DAG exercises](lessons/Directed_Acyclical_Graphs.ipynb), [graphical modeling notebook](lessons/causal-inference-2-causal-graphical-models.ipynb), and [front-door adjustment notebook](lessons/causal-inference-3-frontdoor-adjustment.ipynb) together; reproduce each graph and defend every arrow.
 
 ### 3.4 Identification versus an estimator
 
@@ -195,14 +195,14 @@ $$
 
 **Read (archive):** [Pearl *Causality*](<books/Causality Models, Reasoning and Inference.pdf>); [*Elements of Causal Inference*](<books/Elements of Causal Inference Foundations and Learning Algorithms.pdf>); [DAG exercises](lessons/Directed_Acyclical_Graphs.ipynb); [graphical models](lessons/causal-inference-2-causal-graphical-models.ipynb); [front-door notebook](lessons/causal-inference-3-frontdoor-adjustment.ipynb); [Python graphical models](<causal-inference-in-python-code/causal-inference-in-python/03-Graphical-Models.ipynb>).
 
-**Concepts:** Causal sufficiency versus latent variables, DAGs, d-separation, back-door paths, adjustment sets, post-treatment bias, collider stratification, mediators, selection into samples, measurement timing, structural equations, $\operatorname{do}$ operator, transportability assumptions. Distinguish a hypothesized causal graph from a dependency graph fitted to observational data.
+**Concepts:** Causal sufficiency versus latent variables, DAGs, d-separation, back-door paths, adjustment sets, post-treatment bias, collider stratification, mediators, selection into samples, measurement timing, structural equations, $\mathrm{do}$ operator, transportability assumptions. Distinguish a hypothesized causal graph from a dependency graph fitted to observational data.
 
 **Theory exercise:** For each of at least six DAGs (fork, chain, collider, confounding with selection, mediated path, unmeasured confounder), enumerate open paths and valid/invalid adjustment sets. Under a simple assumed front-door graph, write the identifying functional and list its assumptions. Compare its answer to a regression conditioning directly on the mediator.
 
 **Front-door functional in a standard discrete-variable setting, when its identifying conditions hold:**
 
 $$
-P(y\mid \operatorname{do}(x))=\sum_m P(m\mid x)\sum_{x'}P(y\mid m,x')P(x').
+P(y\mid \mathrm{do}(x))=\sum_m P(m\mid x)\sum_{x'}P(y\mid m,x')P(x').
 $$
 
 **Lab:** Reproduce and vary the graphs in the supplied exercises. Simulate collider bias, showing that conditioning on a common effect of two independent causes can introduce association. Build one DAG for a substantive example: education and earnings, marketing exposure and purchases, or health intervention and outcome.
@@ -236,7 +236,7 @@ $$
 **AIPW estimator (binary treatment, iid units):**
 
 $$
-\widehat\tau_{\mathrm{AIPW}}=\frac{1}{n}\sum_{i=1}^{n}\left[\widehat m_1(X_i)-\widehat m_0(X_i)+\frac{W_i\{Y_i-\widehat m_1(X_i)\}}{\widehat e(X_i)}-\frac{(1-W_i)\{Y_i-\widehat m_0(X_i)\}}{1-\widehat e(X_i)}\right].
+\widehat\tau_{\mathrm{AIPW}}=\frac{1}{n}\sum_{i=1}^{n}\left[\widehat m_1(X_i)-\widehat m_0(X_i)+\frac{W_i\lbrace Y_i-\widehat m_1(X_i)\rbrace}{\widehat e(X_i)}-\frac{(1-W_i)\lbrace Y_i-\widehat m_0(X_i)\rbrace}{1-\widehat e(X_i)}\right].
 $$
 
 **Theory exercise:** Derive why, under the identification assumptions, the mean of the augmentation term is zero when its corresponding nuisance model is correct. Explain conditions needed for valid cross-fitted asymptotic inference. Compare three scenarios: correct outcome model only, correct propensity model only, both misspecified.
@@ -321,7 +321,7 @@ $$
 
 **Concepts:** CATE, subgroup versus post-hoc discovery, potential-outcome prediction, treatment-effect versus outcome-risk heterogeneity, S/T/X learners, orthogonalization, double/debiased ML, cross-fitting, causal forests as an optional extension, individual treatment rules, policy value/regret, validation with randomized holdouts. Better outcome prediction is not automatically better treatment-effect estimation.
 
-**CATE and value of a policy $\pi(X)\in\{0,1\}$:**
+**CATE and value of a policy $\pi(X)\in\lbrace0,1\rbrace$:**
 
 $$
 \tau(x)=\mathbb E[Y(1)-Y(0)\mid X=x],\qquad V(\pi)=\mathbb E[Y(\pi(X))].
